@@ -1,6 +1,6 @@
-pid,tid,seq,condition,outcome,duration,solution,q1,q2,q3,q4
-1,sort,2,sig,fail,367917,"return trades.sort((a, b) => a - b);",5,"I got the exact documentation I needed, I just didn't add the '.shareCount' to my variables, otherwise I would've had the correct answer in 30 seconds.",Nope.,
-1,currency,1,sig,fail,366202,"let cur = new Intl.NumberFormat(locale, {
+pid,tid,seq,treatment,outcome,duration,solution,q1,q2,q3,q4
+1,2,2,sig,fail,367917,"return trades.sort((a, b) => a - b);",5,"I got the exact documentation I needed, I just didn't add the '.shareCount' to my variables, otherwise I would've had the correct answer in 30 seconds.",Nope.,
+1,4,1,sig,fail,366202,"let cur = new Intl.NumberFormat(locale, {
 style: 'currency',
 currency: currency,
 // These options are needed to round to whole numbers if that's what you want.
@@ -8,24 +8,24 @@ currency: currency,
 //maximumFractionDigits: 0, // (causes 2500.99 to be printed as $2,501)
 });
 return cur;",5,"It was good, I found the exact answer I needed, just wasnt able to format it correctly in time.",Nope.,I didn't. 
-1,find,4,txt,fail,416869,return array.find(trades => trades.id === id) || [],4,I think I was really on the right track just in a time crunch. The result was right there I just didn't have the right implementation.,No.,
-1,clone,3,txt,pass,57425,return trades.slice(0);,5,"This was super easy, I found the correct answer almost immediately and it was very easy to implement.",No.,
-1,recent,5,txt,pass,162347,"const startDate = moment(endDate).subtract(interval, unit)",5,The first search term I used gave me a great suggestion as the top result and it was easy to implement.,Nope.,
-1,serve,6,sig,fail,424257,"app.use('src/public', express.static(__dirname + '/static'))",5,"I'm pretty sure I was on the right track, just missed out on the path.join part. There was a lot of documentation and my attempt fell short with the time limit.",No.,
-2,sort,1,txt,fail,361356,"const x = trades.sort(function(a, b) {
+1,3,4,txt,fail,416869,return array.find(trades => trades.id === id) || [],4,I think I was really on the right track just in a time crunch. The result was right there I just didn't have the right implementation.,No.,
+1,1,3,txt,pass,57425,return trades.slice(0);,5,"This was super easy, I found the correct answer almost immediately and it was very easy to implement.",No.,
+1,5,5,txt,pass,162347,"const startDate = moment(endDate).subtract(interval, unit)",5,The first search term I used gave me a great suggestion as the top result and it was easy to implement.,Nope.,
+1,6,6,sig,fail,424257,"app.use('src/public', express.static(__dirname + '/static'))",5,"I'm pretty sure I was on the right track, just missed out on the path.join part. There was a lot of documentation and my attempt fell short with the time limit.",No.,
+2,2,1,txt,fail,361356,"const x = trades.sort(function(a, b) {
 return parseFloat(a.shareCount) - parseFloat(b.shareCount);
 }",5,It took some time to find the scout binoculars icon as it was invisible,,
-2,currency,4,sig,pass,310062,"return amount.toLocaleString(locale, { style: 'currency', currency: currency });",5,Scout was really helpful,,
-2,find,3,sig,fail,372991,"let obj = arr.find(o => o.id === trades.id);
+2,4,4,sig,pass,310062,"return amount.toLocaleString(locale, { style: 'currency', currency: currency });",5,Scout was really helpful,,
+2,3,3,sig,fail,372991,"let obj = arr.find(o => o.id === trades.id);
 return obj;",5,Scout really makes it easy to search for solutions and really is accurate,,
-2,clone,2,txt,fail,370447,"for(var i = 0, len = trades.length; i < len; ++i)
+2,1,2,txt,fail,370447,"for(var i = 0, len = trades.length; i < len; ++i)
 dup_array[i] = trades[i];
 return dup_array;",5,none,,
-2,recent,5,sig,fail,484515,const startDate = moment(endDate).,5,It was difficult searching for similar problems and couldn't get the most accurate result to complete this task,,
-2,serve,6,txt,fail,429357,app.use(express.static(__dirname + '/public'));,5,It was very helpful to find the solution and I almost got the solution but  lacked time to complete it ,,
-3,sort,1,txt,pass,383060,"return trades.sort((a, b) => (a.shareCount > b.shareCount) ? -1 : 1);",4,It's good ,,
-3,currency,4,sig,fail,365137,"string = amount + "" "" + locale + "" "" + currency",1,,,
-3,find,3,sig,pass,266065,"var id_check = undefined;
+2,5,5,sig,fail,484515,const startDate = moment(endDate).,5,It was difficult searching for similar problems and couldn't get the most accurate result to complete this task,,
+2,6,6,txt,fail,429357,app.use(express.static(__dirname + '/public'));,5,It was very helpful to find the solution and I almost got the solution but  lacked time to complete it ,,
+3,2,1,txt,pass,383060,"return trades.sort((a, b) => (a.shareCount > b.shareCount) ? -1 : 1);",4,It's good ,,
+3,4,4,sig,fail,365137,"string = amount + "" "" + locale + "" "" + currency",1,,,
+3,3,3,sig,pass,266065,"var id_check = undefined;
 if (trades.length != 0) {
 for (let i = 0; i < trades.length; i++) {
 if (id == trades[i].id) {
@@ -34,12 +34,12 @@ id_check = trades[i];
 }
 }
 return id_check;",3,,,
-3,clone,2,txt,pass,164404,"var trades1 = trades.slice();
+3,1,2,txt,pass,164404,"var trades1 = trades.slice();
 return trades1;",5,,,
-3,recent,5,sig,fail,425261,"startDate = startDate.diff(interval, unit)",2,,,
-3,serve,6,txt,fail,457008,"app.get('/src/public', express.static(process.cwd() + '/static'));",1,Maybe add a feature where if you use a mouse with buttons and use the back page button it doesnt leave the original page but the Scout itself,,
-4,sort,4,txt,pass,117474,"return trades.sort((a, b) => parseFloat(b.shareCount) - parseFloat(a.shareCount));",3,The search result previews helped affirm the titles of the links as describing what I was looking for. I didn't really need them.,No.,N/A.
-4,currency,3,txt,pass,124513,"// Create our number formatter.
+3,5,5,sig,fail,425261,"startDate = startDate.diff(interval, unit)",2,,,
+3,6,6,txt,fail,457008,"app.get('/src/public', express.static(process.cwd() + '/static'));",1,Maybe add a feature where if you use a mouse with buttons and use the back page button it doesnt leave the original page but the Scout itself,,
+4,2,4,txt,pass,117474,"return trades.sort((a, b) => parseFloat(b.shareCount) - parseFloat(a.shareCount));",3,The search result previews helped affirm the titles of the links as describing what I was looking for. I didn't really need them.,No.,N/A.
+4,4,3,txt,pass,124513,"// Create our number formatter.
 const formatter = new Intl.NumberFormat(locale, {
 style: 'currency',
 currency: currency,
@@ -48,9 +48,9 @@ currency: currency,
 //maximumFractionDigits: 0, // (causes 2500.99 to be printed as $2,501)
 });
 return formatter.format(amount);",2,I found the titles of the links to be useful because they contained the question that I was looking for. The descriptions beneath the titles weren't very useful because they were not in context and not necessarily very relevant to what I was interested in.,I don't know if there is. I felt that I needed to view the full webpage.,I did not.
-4,find,2,sig,pass,125976,return trades.find(o => o.id === id);,2,"I did not use the search result previews because I wasn't sure about the usage and result of the code provided in them, and it seemed more reliable and quicker to look through a question and answer containing the code. ",Text describing the code in the previews.,I did not.
-4,clone,1,sig,pass,253495,return trades.slice(0);,2,I didn't find the search result previews to be useful.,"Text describing the code in the previews would have been useful, but I'm not sure if that would be better than simply navigating to the page. ",I searched a bit outside the IDE in order to use a full-size browser window and view results more easily and quickly. 
-4,recent,6,sig,fail,541645,"if (unit == ""months"") {
+4,3,2,sig,pass,125976,return trades.find(o => o.id === id);,2,"I did not use the search result previews because I wasn't sure about the usage and result of the code provided in them, and it seemed more reliable and quicker to look through a question and answer containing the code. ",Text describing the code in the previews.,I did not.
+4,1,1,sig,pass,253495,return trades.slice(0);,2,I didn't find the search result previews to be useful.,"Text describing the code in the previews would have been useful, but I'm not sure if that would be better than simply navigating to the page. ",I searched a bit outside the IDE in order to use a full-size browser window and view results more easily and quickly. 
+4,5,6,sig,fail,541645,"if (unit == ""months"") {
 startDate = subtractMonths(endDate,interval);
 }
 else if (unit == ""years"") {
@@ -69,18 +69,18 @@ function subtractYears(date, years) {
 date.setFullYear(date.getFullYear() - years);
 return date;
 }",2,The search results window was too small.,No.,I searched outside the IDE in order to utilize a full-size browser window.
-4,serve,5,txt,fail,426443,"app.use(express.static(path.join(__dirname, 'src/public')));",2,I mainly viewed the full webpages based on the titles. I didn't find the search result previews to be very useful.,No.,N/A
-5,sort,2,sig,pass,1642703,"return trades.sort((a, b)=> b.shareCount - a.shareCount);",3,"I needed a bit longer documentation, because the case I found with Scout was the opposite. Searching took really long each time I tried to look for something.",,
-5,currency,1,sig,pass,366432,"const x = amount.toLocaleString(locale, { style: 'currency', currency: currency });
+4,6,5,txt,fail,426443,"app.use(express.static(path.join(__dirname, 'src/public')));",2,I mainly viewed the full webpages based on the titles. I didn't find the search result previews to be very useful.,No.,N/A
+5,2,2,sig,pass,1642703,"return trades.sort((a, b)=> b.shareCount - a.shareCount);",3,"I needed a bit longer documentation, because the case I found with Scout was the opposite. Searching took really long each time I tried to look for something.",,
+5,4,1,sig,pass,366432,"const x = amount.toLocaleString(locale, { style: 'currency', currency: currency });
 return x;",5,"So far I think Scout is helpful at finding answers, but I think I need to practise using it a bit more.",,
-5,find,4,txt,pass,91986,"let x = trades.find(o => o.id === id);
+5,3,4,txt,pass,91986,"let x = trades.find(o => o.id === id);
 return x;",5,"This time it worked really well, I quickly found the solution.",,
-5,clone,3,txt,pass,91471,return trades.slice();,4,I tried typing something and realized it typed for me something else. But in the end I found the solution.,,
-5,recent,5,txt,pass,245828,"// const startDate = moment(endDate)
+5,1,3,txt,pass,91471,return trades.slice();,4,I tried typing something and realized it typed for me something else. But in the end I found the solution.,,
+5,5,5,txt,pass,245828,"// const startDate = moment(endDate)
 const startDate = moment(endDate).subtract(interval, unit)",5,"I needed some searching, but it worked very well.",,
-5,serve,6,sig,pass,180096,"app.use('/static', express.static(path.join(__dirname, 'public')))",5,This was a bit harder to find because there were lots of answers different than what I needed.,,
-6,sort,1,txt,pass,114795,"return trades.sort((a, b) => parseFloat(b.shareCount) - parseFloat(a.shareCount));",4,It was quite easy to use. I like the speed of searching in stack overflow in it.,,
-6,currency,4,sig,pass,56449,"const formatter = new Intl.NumberFormat(locale, {
+5,6,6,sig,pass,180096,"app.use('/static', express.static(path.join(__dirname, 'public')))",5,This was a bit harder to find because there were lots of answers different than what I needed.,,
+6,2,1,txt,pass,114795,"return trades.sort((a, b) => parseFloat(b.shareCount) - parseFloat(a.shareCount));",4,It was quite easy to use. I like the speed of searching in stack overflow in it.,,
+6,4,4,sig,pass,56449,"const formatter = new Intl.NumberFormat(locale, {
 style: 'currency',
 currency: currency,
 // These options are needed to round to whole numbers if that's what you want.
@@ -88,13 +88,13 @@ currency: currency,
 //maximumFractionDigits: 0, // (causes 2500.99 to be printed as $2,501)
 });
 return formatter.format(amount);",4,I used the original view from SO so I could understand the topic more,,
-6,find,3,sig,pass,50967,return trades.filter(obj=>obj.id===id);;,4,The code tab was easy to use I quicly found the answer.,,
-6,clone,2,txt,pass,28942,return trades.slice();,4,It didn't show me the quick usages. No signatures available: using Google results. ,,
-6,recent,5,sig,pass,67906,"startDate.subtract(interval, unit)",4,Quite easy to find the solution in usage tab.,,
-6,serve,6,txt,pass,87983,"app.use(""/static"", express.static(""src/public/""));",3,The window was too narrow to efficiently read the code and understand it.,,
-7,sort,3,sig,pass,289693,"console.log(trades);
+6,3,3,sig,pass,50967,return trades.filter(obj=>obj.id===id);;,4,The code tab was easy to use I quicly found the answer.,,
+6,1,2,txt,pass,28942,return trades.slice();,4,It didn't show me the quick usages. No signatures available: using Google results. ,,
+6,5,5,sig,pass,67906,"startDate.subtract(interval, unit)",4,Quite easy to find the solution in usage tab.,,
+6,6,6,txt,pass,87983,"app.use(""/static"", express.static(""src/public/""));",3,The window was too narrow to efficiently read the code and understand it.,,
+7,2,3,sig,pass,289693,"console.log(trades);
 return trades.sort((a, b) => parseFloat(b.shareCount) - parseFloat(a.shareCount));",5,,,
-7,currency,2,txt,pass,316591,"const formatter = new Intl.NumberFormat(locale, {
+7,4,2,txt,pass,316591,"const formatter = new Intl.NumberFormat(locale, {
 style: 'currency',
 currency: currency,
 // These options are needed to round to whole numbers if that's what you want.
@@ -102,45 +102,45 @@ currency: currency,
 //maximumFractionDigits: 0, // (causes 2500.99 to be printed as $2,501)
 });
 return formatter.format(amount);",4,,,
-7,find,1,txt,pass,188796,"let trade = trades.find(o => o.id === id);
+7,3,1,txt,pass,188796,"let trade = trades.find(o => o.id === id);
 return trade;",5,,,
-7,clone,4,sig,pass,221649,trades = [...trades];,4,,,
-7,recent,6,txt,pass,443524,"const startDate = moment(endDate).subtract(interval, unit);",4,,,
-7,serve,5,sig,fail,446467,"app.use('src/public/',express.static(path.join(__dirname,'static')))",2,,,
-8,sort,1,txt,pass,351289,"return trades.sort(function(a, b) {
+7,1,4,sig,pass,221649,trades = [...trades];,4,,,
+7,5,6,txt,pass,443524,"const startDate = moment(endDate).subtract(interval, unit);",4,,,
+7,6,5,sig,fail,446467,"app.use('src/public/',express.static(path.join(__dirname,'static')))",2,,,
+8,2,1,txt,pass,351289,"return trades.sort(function(a, b) {
 return a.shareCount - b.shareCount;
 }).reverse();",4,"I disliked the initial width of the Scout results, but I've now changed the width. It works great.",None,I didn't search outside of the IDE but I stepped back and thought about the problem after failing initially.
-8,currency,4,sig,pass,224932,"return new Intl.NumberFormat(locale, { style: 'currency', currency: currency }).format(amount)",4,None,None,I opened the Mozilla developer documentation for NumberFormat to double-check my answer.
-8,find,3,sig,pass,154109,"const found = trades.find(trade => trade.id === id);
+8,4,4,sig,pass,224932,"return new Intl.NumberFormat(locale, { style: 'currency', currency: currency }).format(amount)",4,None,None,I opened the Mozilla developer documentation for NumberFormat to double-check my answer.
+8,3,3,sig,pass,154109,"const found = trades.find(trade => trade.id === id);
 return found;",5,Could you possibly sort the results by a function of date/relevancy?,,I opened the Mozilla developer page for array.prototype.find to see the current return value (stackoverflow can sometimes be outdated).
-8,clone,2,txt,pass,145452,"let tradesCopy = [...trades];
+8,1,2,txt,pass,145452,"let tradesCopy = [...trades];
 return tradesCopy;",5,"I'd like to know if Scout had an idea ahead-of-time what I would need to search for this problem, because if so, I love it.",None,I didn't
-8,recent,5,sig,fail,512904,"const startDate = moment(endDate).add(interval, unit);",4,Nothing stuck out to me this time.,None,None
-8,serve,6,txt,pass,255634,"app.use(""/static"", express.static(__dirname + '/public'));",4,The searches loaded slowly but it was probably just on my end.,None,None
-9,sort,4,txt,pass,84460,"return trades.sort((a, b) => b.shareCount - a.shareCount);",4,I had to click into one of the threads to. find the sort API. I think the sort API is simple enough that it should be in the preview.,,I didn't search outside the IDE.
-9,currency,3,txt,pass,160448,"const formatter = new Intl.NumberFormat(locale, {
+8,5,5,sig,fail,512904,"const startDate = moment(endDate).add(interval, unit);",4,Nothing stuck out to me this time.,None,None
+8,6,6,txt,pass,255634,"app.use(""/static"", express.static(__dirname + '/public'));",4,The searches loaded slowly but it was probably just on my end.,None,None
+9,2,4,txt,pass,84460,"return trades.sort((a, b) => b.shareCount - a.shareCount);",4,I had to click into one of the threads to. find the sort API. I think the sort API is simple enough that it should be in the preview.,,I didn't search outside the IDE.
+9,4,3,txt,pass,160448,"const formatter = new Intl.NumberFormat(locale, {
 style: 'currency',
 currency: currency,
 });
 return formatter.format(amount);",4,I wish the Intl.NumberFormat usage with currencies was in the preview. I had to click into one of the StackOverFlow links and read the thread for an answer.,,I didn't search outside the IDE.
-9,find,2,sig,pass,60603,return trades.filter(trade=>trade.id === id);,5,"The filter function was the most intuitive way to do this task, and I was happy that it was one of the 1st results.",,I didn't search outside the IDE.
-9,clone,1,sig,pass,98040,return trades.slice();,4,I think the slice method should be above the JSON methods. I don't immediately think of the JSON functions when I want to copy an array.,,I didn't search outside the IDE.
-9,recent,6,sig,pass,487602,"// date.subtract({ hours: hourDelta, minutes: minuteDelta})
+9,3,2,sig,pass,60603,return trades.filter(trade=>trade.id === id);,5,"The filter function was the most intuitive way to do this task, and I was happy that it was one of the 1st results.",,I didn't search outside the IDE.
+9,1,1,sig,pass,98040,return trades.slice();,4,I think the slice method should be above the JSON methods. I don't immediately think of the JSON functions when I want to copy an array.,,I didn't search outside the IDE.
+9,5,6,sig,pass,487602,"// date.subtract({ hours: hourDelta, minutes: minuteDelta})
 // var duration = moment.duration(1422, 'minutes');
 const startDate = moment(endDate).subtract(interval, unit);",5,"I searched ""javascript subtract duration from date"", and one of the usage previews immediately showed me the ""subtract"" API that took a number and a string unit that did the trick.",,I didn't need to search outside the IDE.
-9,serve,5,txt,pass,355546,"app.use(""/static"", express.static('src/public'));",2,"None of the previews in Scout were very helpful here. I had to read through some of the threads, and one of them had another StackOverflow link that had the answer. I had to open the link in an external browser window.",,"I had to open a StackOverflow link in one of the threads in Scout, and that took me to an external browser tab."
-10,sort,4,txt,pass,118340,"return trades.sort(({shareCount:a}, {shareCount:b}) => b-a);",4,"Again, no prepared code snippets, but browsing stackoverflow in full page mode gave me the answer quickly.",,
-10,currency,3,txt,pass,183378,"return amount.toLocaleString(locale, { style: 'currency', currency: currency });",2,"The answers did not have prepared code snippets this time, I had to go onto the full website to find the answer.",,
-10,find,2,sig,pass,66007,"var foundValue = trades.filter(obj=>obj.id===id);
+9,6,5,txt,pass,355546,"app.use(""/static"", express.static('src/public'));",2,"None of the previews in Scout were very helpful here. I had to read through some of the threads, and one of them had another StackOverflow link that had the answer. I had to open the link in an external browser window.",,"I had to open a StackOverflow link in one of the threads in Scout, and that took me to an external browser tab."
+10,2,4,txt,pass,118340,"return trades.sort(({shareCount:a}, {shareCount:b}) => b-a);",4,"Again, no prepared code snippets, but browsing stackoverflow in full page mode gave me the answer quickly.",,
+10,4,3,txt,pass,183378,"return amount.toLocaleString(locale, { style: 'currency', currency: currency });",2,"The answers did not have prepared code snippets this time, I had to go onto the full website to find the answer.",,
+10,3,2,sig,pass,66007,"var foundValue = trades.filter(obj=>obj.id===id);
 return foundValue;",4,"I got familiar with the search, i knew what to do, finding the answer was quick. ",,
-10,clone,1,sig,pass,211228,"const myClonedArray = [];
+10,1,1,sig,pass,211228,"const myClonedArray = [];
 trades.forEach(val => myClonedArray.push(Object.assign({}, val)));
 return Object.assign([], myClonedArray);",4,I liked the integration into the development environment. The search did include answers for languages that were not relevant here.,"maybe a timestamp to show how old the solution is. especially for languages where APIs change frequently, this would be helpful.",
-10,recent,6,sig,pass,235100,"const startDate = moment(endDate).subtract(interval, unit)",4,the second search result had the answer with a code snippet ready to copy,,
-10,serve,5,txt,fail,424834,"app.get('/static/src/public', authApi.user);
+10,5,6,sig,pass,235100,"const startDate = moment(endDate).subtract(interval, unit)",4,the second search result had the answer with a code snippet ready to copy,,
+10,6,5,txt,fail,424834,"app.get('/static/src/public', authApi.user);
 app.use('/static',Express.static(path.join(__dirname,'src/public')));",2,"because of unknown several terms needed for this task, the search was not as helpful",links to explanations for specific terms,
-11,sort,2,sig,pass,163599,"return trades.sort((a,b) => b.shareCount - a.shareCount);",5,loading looked slow but was easy to get the solution,none that I am aware,NA
-11,currency,1,sig,fail,452849,"let c = """";
+11,2,2,sig,pass,163599,"return trades.sort((a,b) => b.shareCount - a.shareCount);",5,loading looked slow but was easy to get the solution,none that I am aware,NA
+11,4,1,sig,fail,452849,"let c = """";
 switch(currency) {
 case 'JPY':
 c = '¥';
@@ -161,66 +161,66 @@ return `${currency}${amount}`;
 default:
 return `${amount} ${currency}`;
 }",3,I didn't try to search the tool with this task. ,NA,NA
-11,find,4,txt,pass,68438,return trades.filter((el) => el.id === id) || [];,3,"Haven't used it in this solution, I knew this solution",NA,NA
-11,clone,3,txt,pass,100199,"let copy = [...trades];
+11,3,4,txt,pass,68438,return trades.filter((el) => el.id === id) || [];,3,"Haven't used it in this solution, I knew this solution",NA,NA
+11,1,3,txt,pass,100199,"let copy = [...trades];
 return copy;",5,quite easy and fast,NA,NA
-11,recent,5,txt,fail,484757,"const startDate = null;
+11,5,5,txt,fail,484757,"const startDate = null;
 if (unit === 'days') {
 startDate = moment().subtract(interval,""days"");
 }
 moment(startDate), moment(endDate), unit, ""[]""",2,"The screen being small and takes a while to load the scout, went with tabs from browser",,"The screen being small and takes a while to load the scout, went with tabs from browser"
-11,serve,6,sig,fail,445436,"let router = require('../src/public');
+11,6,6,sig,fail,445436,"let router = require('../src/public');
 //let router = require('../src/public');
 app.use('/static', __dirname + '../src/public');
 //app.use(express.static(__dirname + router));",2,it's a 50/50 on using it or not,,
-12,sort,3,sig,pass,245207,"return trades.sort((a, b) => parseFloat(b.shareCount) - parseFloat(a.shareCount));",5,Code examples of array sorting.,NA,Again the top result had exactly what I needed.
-12,currency,2,txt,pass,246319,"// Create our number formatter.
+12,2,3,sig,pass,245207,"return trades.sort((a, b) => parseFloat(b.shareCount) - parseFloat(a.shareCount));",5,Code examples of array sorting.,NA,Again the top result had exactly what I needed.
+12,4,2,txt,pass,246319,"// Create our number formatter.
 var formatter = new Intl.NumberFormat(locale, {
 style: 'currency',
 currency: currency,
 });
 return formatter.format(amount);",4,Code examples of automatic currency formatting.,NA,Again this one was pretty simple. Found the relevant code quickly and painlessly.
-12,find,1,txt,pass,255193,"let obj = trades.find(o => o.id === id);
+12,3,1,txt,pass,255193,"let obj = trades.find(o => o.id === id);
 if (obj) {
 return obj;
 }
 return [];",4,Code examples,NA,had no issues on this problem. Search result was exactly what i was looking for.
-12,clone,4,sig,pass,296472,"return Object.assign([], trades);",3,I searched the best way to deep copy an object and went through a few results.,NA,Initial recommendations were for a method that didn't save date formatting. 
-12,recent,6,txt,fail,460180,"const startDate = endDate.subtract(from, unit);",2,Subtract time from date using moment,NA,Had no issues finding the information.
-12,serve,5,sig,pass,135508,"app.use('/static', express.static(__dirname + '/public'))",4,How to add a route in express.,NA,The extracted keywords were not super useful in coming up with the best search term to find an answer.
-13,sort,2,sig,pass,239598,"return trades.sort((a, b) => {
+12,1,4,sig,pass,296472,"return Object.assign([], trades);",3,I searched the best way to deep copy an object and went through a few results.,NA,Initial recommendations were for a method that didn't save date formatting. 
+12,5,6,txt,fail,460180,"const startDate = endDate.subtract(from, unit);",2,Subtract time from date using moment,NA,Had no issues finding the information.
+12,6,5,sig,pass,135508,"app.use('/static', express.static(__dirname + '/public'))",4,How to add a route in express.,NA,The extracted keywords were not super useful in coming up with the best search term to find an answer.
+13,2,2,sig,pass,239598,"return trades.sort((a, b) => {
 if (a.shareCount <= b.shareCount) return 1
 else return -1
 });",4,This one's slightly harder to navigate had I never used sort because the output of the sort callback could be confusing.,"Again, maybe showing the official documentation/W3schools/tutorial could be helpul.",
-13,currency,1,sig,pass,139353,"return amount.toLocaleString(locale, { style: 'currency', currency: currency});",5,It is very helpful and easy to use. I liked the idea of being able to see function signatures of answers and the ability to expand them without clicking into the webpage. Is the default search prompt generated based on question descriptions or hard-coded as a part of the practice?, It would be cool to perhaps include number of upvotes/how many answers suggested the same solution for each option to help us make the decision of which method to use. Maybe also pulling up the official documentation for each function being used could also be useful?,
-13,find,4,txt,pass,69390,return trades.find(t => t.id === id);,4,function signatures preview are gone ,,
-13,clone,3,txt,pass,1146522,return trades.slice(0);,5,,,
-13,recent,5,txt,pass,324214,"const startDate = moment().subtract(interval, unit)",3,"It was a bit harder to come up with the right search terms, and since soo is very particular about looking up an exact functionality (instead of general Date documentation) it was a bit extra difficult.",Intelligently generated search based on problem spec,
-13,serve,6,sig,fail,571036,"app.get(""/static/:filename"", (req, res) =>
+13,4,1,sig,pass,139353,"return amount.toLocaleString(locale, { style: 'currency', currency: currency});",5,It is very helpful and easy to use. I liked the idea of being able to see function signatures of answers and the ability to expand them without clicking into the webpage. Is the default search prompt generated based on question descriptions or hard-coded as a part of the practice?, It would be cool to perhaps include number of upvotes/how many answers suggested the same solution for each option to help us make the decision of which method to use. Maybe also pulling up the official documentation for each function being used could also be useful?,
+13,3,4,txt,pass,69390,return trades.find(t => t.id === id);,4,function signatures preview are gone ,,
+13,1,3,txt,pass,1146522,return trades.slice(0);,5,,,
+13,5,5,txt,pass,324214,"const startDate = moment().subtract(interval, unit)",3,"It was a bit harder to come up with the right search terms, and since soo is very particular about looking up an exact functionality (instead of general Date documentation) it was a bit extra difficult.",Intelligently generated search based on problem spec,
+13,6,6,sig,fail,571036,"app.get(""/static/:filename"", (req, res) =>
 res.sendFile(path.join(""src/public"", filename))
 )",2,Only pulling up information from soo seems to be insufficient for certain tasks.,Suggest documentation pages based on problem spec?,
-14,sort,3,sig,pass,79344,"return trades.sort((a, b) => parseFloat(b.shareCount) - parseFloat(a.shareCount));",5,Very relevant first result,,
-14,currency,2,txt,pass,216013,"const formatter = new Intl.NumberFormat(locale, {
+14,2,3,sig,pass,79344,"return trades.sort((a, b) => parseFloat(b.shareCount) - parseFloat(a.shareCount));",5,Very relevant first result,,
+14,4,2,txt,pass,216013,"const formatter = new Intl.NumberFormat(locale, {
 style: 'currency',
 currency: currency,
 //minimumFractionDigits: 0, // (this suffices for whole numbers, but will print 2500.10 as $2,500.1)
 //maximumFractionDigits: 0, // (causes 2500.99 to be printed as $2,501)
 });
 return formatter.format(amount);",5,"Clear, concise, and relevant.",No,
-14,find,1,txt,pass,179162,"let match;
+14,3,1,txt,pass,179162,"let match;
 trades.forEach(trade => {
 if (trade.id === id) {
 match = trade;
 }
 });
 return match;",3,"No need to use Scout, but results seem very relevant.",N/A,
-14,clone,4,sig,pass,70513,return trades.slice();,5,Very relevant first result,,
-14,recent,6,txt,fail,424843,const startDate = moment(),3,"Issue was finding the right search terms, not the results",No,
-14,serve,5,sig,pass,203800,"app.use(""/static"", express.static(""src/public/""));",5,Perfect first search result,,
-15,sort,4,txt,pass,192194,"return trades.sort(function(a, b) {
+14,1,4,sig,pass,70513,return trades.slice();,5,Very relevant first result,,
+14,5,6,txt,fail,424843,const startDate = moment(),3,"Issue was finding the right search terms, not the results",No,
+14,6,5,sig,pass,203800,"app.use(""/static"", express.static(""src/public/""));",5,Perfect first search result,,
+15,2,4,txt,pass,192194,"return trades.sort(function(a, b) {
 return parseFloat(b.shareCount) - parseFloat(a.shareCount);
 });",4,"It said that it didn't have any results and was just going to show google search results, which ended up being from stack overflow anyway and I was able to just use the first one to find the answer, so I was basically just using Scout as a web browser",n/a,n/a
-15,currency,3,txt,pass,242666,"const formatter = new Intl.NumberFormat(locale, {
+15,4,3,txt,pass,242666,"const formatter = new Intl.NumberFormat(locale, {
 style: 'currency',
 currency: currency,
 // These options are needed to round to whole numbers if that's what you want.
@@ -228,13 +228,13 @@ currency: currency,
 //maximumFractionDigits: 0, // (causes 2500.99 to be printed as $2,501)
 });
 return formatter.format(amount);",3,"For some reason it said that it couldn't find any links and it was going to show google search results, but the first results were for stack overflow...but the first one was helpful and I was able to get the answer that way.",Being able to use the google search results from the IDE seemed fine,n/a
-15,find,2,sig,pass,109882,"return trades.filter(function (obj) {
+15,3,2,sig,pass,109882,"return trades.filter(function (obj) {
 return obj.id === id;
 })",5,"There was only one result with the checkmark by it, so I went with that one and the usage was clear so it seemed easy to use. The first time I opened Scout it said it couldn't find any results, but the second time it worked fine and had the results.",I can't really think of anything,n/a
-15,clone,1,sig,pass,184607,return JSON.parse(JSON.stringify(trades));,4,I liked that I didn't have to leave my IDE and my code to see the results. It was a little tough to know which result was the best to use just based on the initial view.,maybe the exact number of upvotes?? or if there are lots of comments?,n/a
-15,recent,6,sig,pass,182028,"const startDate = moment(endDate).subtract(interval, unit);",5,"It was really easy to find the result, with the checkmark and top answers at the top of the view. The first one I tried was relevant and helpful.",not really,n/a
-15,serve,5,txt,fail,426589,,3,"It didn't show any search result previews as it just showed links from google again, so it wasn't quite as fast as an experience",n/a,n/a
-16,sort,3,sig,pass,224354,"const sort_by = (field, reverse, primer) => {
+15,1,1,sig,pass,184607,return JSON.parse(JSON.stringify(trades));,4,I liked that I didn't have to leave my IDE and my code to see the results. It was a little tough to know which result was the best to use just based on the initial view.,maybe the exact number of upvotes?? or if there are lots of comments?,n/a
+15,5,6,sig,pass,182028,"const startDate = moment(endDate).subtract(interval, unit);",5,"It was really easy to find the result, with the checkmark and top answers at the top of the view. The first one I tried was relevant and helpful.",not really,n/a
+15,6,5,txt,fail,426589,,3,"It didn't show any search result previews as it just showed links from google again, so it wasn't quite as fast as an experience",n/a,n/a
+16,2,3,sig,pass,224354,"const sort_by = (field, reverse, primer) => {
 const key = primer ?
 function(x) {
 return primer(x[field])
@@ -248,7 +248,7 @@ return a = key(a), b = key(b), reverse * ((a > b) - (b > a));
 }
 }
 trades.sort(sort_by('shareCount', true, parseInt))",5,"It gave exactly what I needed at a glance, amazing actually",Not really,
-16,currency,2,txt,fail,369239,"function formatMoney(number) {
+16,4,2,txt,fail,369239,"function formatMoney(number) {
 return number.toLocaleString('en-US', { style: 'currency', currency: 'USD' });
 }
 //this is really tedious, and the help thing isnt helpful at all :(
@@ -263,50 +263,50 @@ currency: 'USD',
 //maximumFractionDigits: 0, // (causes 2500.99 to be printed as $2,501)
 });
 return formatter;",2,"It didnt show me the code either and it was also kind of a smal window, I think the view should be more optimized",the code snippets on the main page,
-16,find,1,txt,pass,272285,"for (var x = 0; x < trades.length; x++){
+16,3,1,txt,pass,272285,"for (var x = 0; x < trades.length; x++){
 if(trades[x].id == id){
 return trades[x];
 }
 }
 return undefined;",1,"The feedback was pretty useless, maybe because it was a simple problem, but I felt that way with the tutorial as well",I didn't get the quick view code snippets that *may* have helped,Did not
-16,clone,4,sig,pass,79526,"var dup_array = JSON.parse(JSON.stringify(trades))
+16,1,4,sig,pass,79526,"var dup_array = JSON.parse(JSON.stringify(trades))
 return dup_array;",5,"Again, gave me the exact code I needed.","Maybe have it highlight or otheriwise say what is a variable and what is a default function, so it is swifter to replace the example on stack overflow",
-16,recent,6,txt,fail,490343,"var startDate = moment(endDate)
+16,5,6,txt,fail,490343,"var startDate = moment(endDate)
 startDate = startDate.subtract(interval, unit);
 startDate = startDate.format(""DD-MM-YYYY"");",4,Code was actually helpful im just dumb,,
-16,serve,5,sig,fail,442926,"// Define `/files` route first
+16,6,5,sig,fail,442926,"// Define `/files` route first
 app.use(""/files"", function (req, res) {
 return res.send(""I will be served instead of a files directory"");
 });
 // Static
 app.use(""/"", express.static('src/public'));
 // My js experience is in webdev and minor so I just dont really know what the question is asking sorry :(",3,I cant really comment the question was very confusing to me,"Not really, maybe if it knew what I was supposed to do hahahaha",
-17,sort,4,txt,pass,166033,"return trades.sort((a,b) => parseFloat(b.shareCount) - parseFloat(a.shareCount));",5,The solution was pretty easy to find with the results,,
-17,currency,3,txt,pass,234499,"return amount.toLocaleString(locale, { style: 'currency', currency: currency});",4,"It gave me stackoverflow search results, I had to find my answer, but it was pretty easy",,
-17,find,2,sig,pass,130370,"var found = trades.filter(obj=>obj.id===id);
+17,2,4,txt,pass,166033,"return trades.sort((a,b) => parseFloat(b.shareCount) - parseFloat(a.shareCount));",5,The solution was pretty easy to find with the results,,
+17,4,3,txt,pass,234499,"return amount.toLocaleString(locale, { style: 'currency', currency: currency});",4,"It gave me stackoverflow search results, I had to find my answer, but it was pretty easy",,
+17,3,2,sig,pass,130370,"var found = trades.filter(obj=>obj.id===id);
 return found;",5,It was very easy to find the solution,,
-17,clone,1,sig,pass,108470,"var dup_array = JSON.parse(JSON.stringify(trades))
+17,1,1,sig,pass,108470,"var dup_array = JSON.parse(JSON.stringify(trades))
 return dup_array;",5,I got the results quickly and it was exactly what I was looking for,no,no
-17,recent,6,sig,pass,462105,"var startDate = moment(endDate);
+17,5,6,sig,pass,462105,"var startDate = moment(endDate);
 startDate = startDate.diff(interval, unit);",2,I got various results but it was hard to find the correct solution,,
-17,serve,5,txt,fail,418288,"app.use('/', 'src/public', express.static(__dirname));",2,I could not find the answer I was looking for,Maybe help with keywords,I did not
-18,sort,3,sig,pass,227618,"return trades.sort((a, b) => parseFloat(b.shareCount) - parseFloat(a.shareCount));",2,same as my previous answers,,same as my previous answer
-18,currency,2,txt,fail,421843,"amount.toLocaleString(locale, {style: 'currency', currency: currency})
+17,6,5,txt,fail,418288,"app.use('/', 'src/public', express.static(__dirname));",2,I could not find the answer I was looking for,Maybe help with keywords,I did not
+18,2,3,sig,pass,227618,"return trades.sort((a, b) => parseFloat(b.shareCount) - parseFloat(a.shareCount));",2,same as my previous answers,,same as my previous answer
+18,4,2,txt,fail,421843,"amount.toLocaleString(locale, {style: 'currency', currency: currency})
 return amount;",2,The solution given above didn't match with the answers provided in Scout,,"When I clicked on the link to view the answers it didn't open, gave an error ""For security reasons, framing is not allowed."""
-18,find,1,txt,fail,408890,"for (var i = 0; i < trades.length; i++) {
+18,3,1,txt,fail,408890,"for (var i = 0; i < trades.length; i++) {
 if (trades[i].id === id) {
 return trades[i].id;
 }else
 return undefined
 }",2,"the solutions or answers were not opening in Safari. The search was working which is cool. It seems like a helpful feature but the space is very limited to view the code, there should be an option to expand the window or open it in a new tab or something.",,
-18,clone,4,sig,pass,323007,"const tradesCopy = JSON.parse(JSON.stringify(trades));
+18,1,4,sig,pass,323007,"const tradesCopy = JSON.parse(JSON.stringify(trades));
 return tradesCopy;",4,Since this was just a one liner code in the answer it was easier to find.,,
-18,recent,6,txt,pass,464377,"const startDate = moment(endDate).subtract(interval, unit).format()",2,The links didn't open after the search,,The links didn't open in Scout after the search
-18,serve,5,sig,pass,290961,"app.use('/static', express.static('src/public'))",2,I had to search outside to find the solution,,The examples in the search results didn't had enough information to proceed
-19,sort,1,txt,pass,145146,"return trades.sort((a, b) =>
+18,5,6,txt,pass,464377,"const startDate = moment(endDate).subtract(interval, unit).format()",2,The links didn't open after the search,,The links didn't open in Scout after the search
+18,6,5,sig,pass,290961,"app.use('/static', express.static('src/public'))",2,I had to search outside to find the solution,,The examples in the search results didn't had enough information to proceed
+19,2,1,txt,pass,145146,"return trades.sort((a, b) =>
 parseFloat(b.shareCount) - parseFloat(a.shareCount)
 );",5,"This very first task, and by using the ""Scout"" hyperlink you provided (with an automatic search that said ""sort array of objects descending""), the tool returned a Google Search filtered by StackOverflow links only, which is very good to have besides in VS, I find it really useful. The ""Code"" and ""Usage"" feature didn't show up this time, but I can see how powerful it still is and will be. Scout will become a must-have.","I found the solution in less than 10 seconds, I think it was still very straight forward. I can see it frustrate some people who might not find very complex solutions (questions with too many layers of problems in them, not just one), but, regarding code snippets and quick solutions it's great.",I did not.
-19,currency,4,sig,fail,366601,"const formatter = new Intl.NumberFormat('en-US', {
+19,4,4,sig,fail,366601,"const formatter = new Intl.NumberFormat('en-US', {
 style: 'currency',
 currency: 'USD',
 // These options are needed to round to whole numbers if that's what you want.
@@ -315,23 +315,23 @@ currency: 'USD',
 });
 formatter.format(2500)
 return formatter;",5,"Felt close, I blame my inexperience with Javascript as I was sending some parameters as strings instead of the variables, but I was close, I just take a little longer to grasp these concepts and slowly find out how the function works, and then I rarely forget or repeat the same mistake.",All good.,I did not.
-19,find,3,sig,pass,120959,"var foundValue = trades.filter(obj => obj.id === id);
+19,3,3,sig,pass,120959,"var foundValue = trades.filter(obj => obj.id === id);
 return foundValue;",5,"Everything was great. I would like to add that (and might mention this again in a last Feedback box if there's any), personally, I really have like 0 experience with Javascript, I am about to graduate as a Software Engineer, I learned C++, SQL, Python, R and a few others; I have used Javascript, but barely scrapped its surface, I have never really built any software project as a hobby or by myself, nor worked in the field properly yet. I was intimitated by this Prolific task, but right now I am dealing with React (Javascript, HTML and CSS) for a project I have with some teammates whoa re actually using pure Javascript, creating APIs, connecting their back-end with front-end with lines of code and words I've never seen before. However, this tool and pretty much this whole study is doing God's work for me, by giving me a brief introduction to some array functions I've seen them use like filter() and the reducer; I feel like this tool would help me so much to learn as much as they do regarding Back-end, the juice of the project. I feel like a god using this tool, I have learned plenty so far and I know this is pretty basic and a very, very brief introduction to the actual language, but I can feel its inmense potential and future spot as a must-have VS extension. Sorry for my english.",It was perfect and smooth.,I did not.
-19,clone,2,txt,pass,102123,"var dup_trades = trades.slice();
+19,1,2,txt,pass,102123,"var dup_trades = trades.slice();
 return dup_trades;",5,"I love that I don't have to switch tabs/windows probably ever again. So far it has been great, probably the best cheat-code sheet ever.","Maybe the ""Usage"" and ""Code"" feature being able to grab the first 3 Stack Overflow solutions and present them as ""Non-Signature Possible Solutions"", only because it could save an extra click. By this I mean there would be 6 of those in total, the original 3 with Signatures Found, and 3 Extra Suggestions of possible answers.",I did not.
-19,recent,5,sig,pass,271693,"const startDate = moment(endDate).subtract(interval, unit);
+19,5,5,sig,pass,271693,"const startDate = moment(endDate).subtract(interval, unit);
 // startDate = startDate.format(""DD-MM-YYYY"");",5,"It was all good, these are the kind of problems I usually get lost badly, but I managed to solve it in time, as a fresh beginner in the language.",All good.,I did not.
-19,serve,6,txt,pass,123687,"app.use('/static', express.static('src/public/'));",5,"I've seen my teammates/coworkers use these routes before, but this one was the first one I have written myself and managed to pass it in the first try without being 100% sure it's correct. I am a little familiarized with routes thanks to HTML and the browser's navigation bar, but personally with JS, no. This tool is great.","All good, maybe suggestions like Google's ""Did you mean...?"" in case inexperienced users like me don't know some of the technical words (e.x. saying ""local variables"" instead of ""cookies"" if clearly talking about web development or the proper context...).",I did not.
-20,sort,4,txt,pass,53757,"return trades.sort((a,b) => b.shareCount-a.shareCount);",4,For sorting I dont think we need to search for results anywhere.,,"Nope, not anywhere."
-20,currency,3,txt,pass,206215,"return amount.toLocaleString(locale, {
+19,6,6,txt,pass,123687,"app.use('/static', express.static('src/public/'));",5,"I've seen my teammates/coworkers use these routes before, but this one was the first one I have written myself and managed to pass it in the first try without being 100% sure it's correct. I am a little familiarized with routes thanks to HTML and the browser's navigation bar, but personally with JS, no. This tool is great.","All good, maybe suggestions like Google's ""Did you mean...?"" in case inexperienced users like me don't know some of the technical words (e.x. saying ""local variables"" instead of ""cookies"" if clearly talking about web development or the proper context...).",I did not.
+20,2,4,txt,pass,53757,"return trades.sort((a,b) => b.shareCount-a.shareCount);",4,For sorting I dont think we need to search for results anywhere.,,"Nope, not anywhere."
+20,4,3,txt,pass,206215,"return amount.toLocaleString(locale, {
 style: 'currency',
 currency: currency
 });",5,"At first I wasnt too sure of the approach, but after searching via scout, i thought to give it a try and it worked. Usually if I had to switch between browser and IDE, my interest would have been lost a bit.","Had to resize the scout window, as it was kinda opening direct stackoverflow links in its designated region, which inturn cramps up entire text. But thats just a css thing.",Nope dint search.
-20,find,2,sig,pass,60810,"return trades.find(trade =>
+20,3,2,sig,pass,60810,"return trades.find(trade =>
 trade.id == id);",5,"All positive feedback, sometimes if I am not aware of correct syntax, checking it in scout really helps.",All is well for this question's answers,"Nope, dint need to search outside of IDE"
-20,clone,1,sig,pass,72048,return [...trades];,5,this is pretty cool. Honestly everytime I am stuck with some logic i tend to switch back to stackoverflow and checkout their answers. But with scout I dont need to leave the IDE.,"in the first few results I wasn't able to find ES6 implementation. Not sure if it was particular to js. Since I knew the logic, I straightaway was able to provide an answer","Nope, the search and code usage example in scout are totally fine."
-20,recent,6,sig,pass,200281,"const startDate = moment(endDate).subtract(unit, interval)",5,"This was easy to find the result, since I knew the exact search phrase. And the first result was sufficient to handle the task",,"Nope, dint search outside IDE."
-20,serve,5,txt,pass,588989,"app.get('/static/:filePath', async (req, res) => {
+20,1,1,sig,pass,72048,return [...trades];,5,this is pretty cool. Honestly everytime I am stuck with some logic i tend to switch back to stackoverflow and checkout their answers. But with scout I dont need to leave the IDE.,"in the first few results I wasn't able to find ES6 implementation. Not sure if it was particular to js. Since I knew the logic, I straightaway was able to provide an answer","Nope, the search and code usage example in scout are totally fine."
+20,5,6,sig,pass,200281,"const startDate = moment(endDate).subtract(unit, interval)",5,"This was easy to find the result, since I knew the exact search phrase. And the first result was sufficient to handle the task",,"Nope, dint search outside IDE."
+20,6,5,txt,pass,588989,"app.get('/static/:filePath', async (req, res) => {
 console.log(__dirname);
 const filePath =
 path.join(__dirname,
@@ -343,88 +343,88 @@ await res.status(200).sendFile(filePath);
 app.get('/static', (req, res) => {
 res.status(200).send(""route exist"");
 })",4,We need to know correct keywords to search for the best possible answer.,,"Nope, everything was available within scout."
-21,sort,4,txt,pass,235098,"return trades.sort((a, b) => parseFloat(b.shareCount) - parseFloat(a.shareCount));",4,,,
-21,currency,3,txt,fail,365997,// of currency formatted according to the locale.,2,,,
-21,find,2,sig,pass,136047,"var foundValue = -1;
+21,2,4,txt,pass,235098,"return trades.sort((a, b) => parseFloat(b.shareCount) - parseFloat(a.shareCount));",4,,,
+21,4,3,txt,fail,365997,// of currency formatted according to the locale.,2,,,
+21,3,2,sig,pass,136047,"var foundValue = -1;
 foundValue = trades.filter(obj=>obj.id==id);
 if (foundValue == -1) foundValue = undefined;
 return foundValue;",5,,,
-21,clone,1,sig,pass,141981,"var dup_array = JSON.parse(JSON.stringify(trades))
+21,1,1,sig,pass,141981,"var dup_array = JSON.parse(JSON.stringify(trades))
 return dup_array;",5,,,
-21,recent,6,sig,pass,264560,"startDate.subtract(interval, unit);",4,,,
-21,serve,5,txt,fail,426331,"function setup(dirname) {
+21,5,6,sig,pass,264560,"startDate.subtract(interval, unit);",4,,,
+21,6,5,txt,fail,426331,"function setup(dirname) {
 app.use(express.static((path.resolve(dirname, 'src/public/'))));",2,,,
-22,sort,3,sig,pass,518723,"trades.sort((a, b) => parseFloat(b.shareCount) - parseFloat(a.shareCount));",3,,,
-22,currency,2,txt,fail,468541,"* @param {number}
+22,2,3,sig,pass,518723,"trades.sort((a, b) => parseFloat(b.shareCount) - parseFloat(a.shareCount));",3,,,
+22,4,2,txt,fail,468541,"* @param {number}
 * amount - The quantity of currency to print
 amount = trades.amount;
 locale = trades.locale;
 return amount.toLocaleString(locale, currency);",,,,
-22,find,1,txt,fail,396939,"var found = ""Undefined"";
+22,3,1,txt,fail,396939,"var found = ""Undefined"";
 for (var i = 0; i < trades.length && !found; i++) {
 if (trades[i] === 1) {
 found = trades.id;
 break;
 }
 }",3,,,
-22,clone,4,sig,pass,163206,var trades = JSON.parse(JSON.stringify(trades)),3,,,
-22,recent,6,txt,fail,1052764,"// of time specified by the ""interval"" and ""unit"" parameters.
+22,1,4,sig,pass,163206,var trades = JSON.parse(JSON.stringify(trades)),3,,,
+22,5,6,txt,fail,1052764,"// of time specified by the ""interval"" and ""unit"" parameters.
 const startDate = moment(startDate).startOf('isoweek').add(4, 'days').startOf('day');
 moment.duration(1, 'd').toISOString()",3,,,
-22,serve,5,sig,fail,475147,"app.use(express.static(path.join(__dirname, 'public')));",3,,,
-23,sort,3,sig,pass,288956,"// This ""b - a"" trick will return a negative number if a>b, positive if b<a,
+22,6,5,sig,fail,475147,"app.use(express.static(path.join(__dirname, 'public')));",3,,,
+23,2,3,sig,pass,288956,"// This ""b - a"" trick will return a negative number if a>b, positive if b<a,
 // which will sort the items in descending order.
 return trades.sort((a,b) => Number(b.shareCount) - Number(a.shareCount));",4,"This one pulled out the code, which made things a little quicker, but still cramped on my screen. Is there a copy feature somewhere that will drop the code into my source file? I can't remember. I just selected and copied.","I don't think so, just hard to read the code when it's in a narrow panel.",I just used the tool.
-23,currency,2,txt,pass,222796,"const formatter = new Intl.NumberFormat(locale, {
+23,4,2,txt,pass,222796,"const formatter = new Intl.NumberFormat(locale, {
 style: 'currency',
 currency: currency,
 });
 console.log(formatter.format(2500)); /* $2,500.00 */
 return formatter.format(amount);",4,"Again, cramped version of a regular Google search, not seeing the point of the tool.","No, it was the first result, found it fast.",I did not.
-23,find,1,txt,pass,191672,return trades.find(i => i.id === id);,4,"For this particular task I searched for ""find item in array by value"" (which was pre-filled for whatever reason), and it just gave me a Google result. So basically the experience for this one was like searching in another tab, except more cramped in a small panel.","Instead of presenting the results as plain Google search results vs. fancy parsing and pulling out code signatures, could you pull out text that ""looks like"" code? Kind of like a mode in between the two modes. That would help me scan the results. But it was pretty quick regardless.",I just used the tool.
-23,clone,4,sig,pass,163611,return trades.slice(),4,"I didn't find a clear result on how to do a shallow copy, seems most people were asking about deep copies, but there were some mentions of using slice() so I went with that and it worked. Again, not really feeling that different from a Google search.",see previous answers,did not
-23,recent,6,txt,fail,425408,"if (unit == ""days"")
+23,3,1,txt,pass,191672,return trades.find(i => i.id === id);,4,"For this particular task I searched for ""find item in array by value"" (which was pre-filled for whatever reason), and it just gave me a Google result. So basically the experience for this one was like searching in another tab, except more cramped in a small panel.","Instead of presenting the results as plain Google search results vs. fancy parsing and pulling out code signatures, could you pull out text that ""looks like"" code? Kind of like a mode in between the two modes. That would help me scan the results. But it was pretty quick regardless.",I just used the tool.
+23,1,4,sig,pass,163611,return trades.slice(),4,"I didn't find a clear result on how to do a shallow copy, seems most people were asking about deep copies, but there were some mentions of using slice() so I went with that and it worked. Again, not really feeling that different from a Google search.",see previous answers,did not
+23,5,6,txt,fail,425408,"if (unit == ""days"")
 var granularity = 1000 * 60 * 60 * 24;
 if (unit == ""months"")
 var granularity = 1000 * 60 * 60 * 24 * 30;
 const startDate = moment(new Date(endDate.getTime() - interval * granularity));",1,"I couldn't find anything that would accept a unit string (""days"", ""months"" etc) to do this properly. I was torn between using Google in another tab, and hacking something together to pass the tests, I went for choice #2 since time was running out. In a real world task, I would spend more time searching for the right way to do it.","Well, I didn't see the answer I needed, so that would be the information I would've liked to see.",not this time
-23,serve,5,sig,pass,399935,"app.use('/static', express.static('src/public'))",2,"I wasn't able to find a solution using the tool, because I didn't know enough about the web server to figure out what I was looking at and how to reduce it to your desired solution.",None of the results seemed to be basic enough. For this one I only needed reference materials for the server code.,"I searched in Google, and the first hit from expressjs.com had the answer. I guess this is too basic of a question for stackexchange ."
-24,sort,4,txt,pass,272247,"return trades.sort((a,b) => b.shareCount - a.shareCount);",4,I believe that this is a simple and common enough problem that it was easy to find multiple solutions that would work. I liked how Scout was smart enough to jump to the best search result in the previews which ended up providing a working solution.,I don't believe that any additional information would have made the search result previews more helpful in this case.,I did not search outside the IDE for this task.
-24,currency,3,txt,pass,325342,"return amount.toLocaleString(locale, { style: 'currency', currency: currency});",3,I had to go through a few results before I found one that matched the problem.,Having a tooltip show and expand with the full text being hovered over within the search result preview would be useful for smaller displays.  Ordering the search results based on date to get the most recent answer and making the date bold or otherwise more prominent would be helpful.,I did not search outside the IDE.
-24,find,2,sig,pass,264846,"var trade = trades.find(x => x.id === id);
+23,6,5,sig,pass,399935,"app.use('/static', express.static('src/public'))",2,"I wasn't able to find a solution using the tool, because I didn't know enough about the web server to figure out what I was looking at and how to reduce it to your desired solution.",None of the results seemed to be basic enough. For this one I only needed reference materials for the server code.,"I searched in Google, and the first hit from expressjs.com had the answer. I guess this is too basic of a question for stackexchange ."
+24,2,4,txt,pass,272247,"return trades.sort((a,b) => b.shareCount - a.shareCount);",4,I believe that this is a simple and common enough problem that it was easy to find multiple solutions that would work. I liked how Scout was smart enough to jump to the best search result in the previews which ended up providing a working solution.,I don't believe that any additional information would have made the search result previews more helpful in this case.,I did not search outside the IDE for this task.
+24,4,3,txt,pass,325342,"return amount.toLocaleString(locale, { style: 'currency', currency: currency});",3,I had to go through a few results before I found one that matched the problem.,Having a tooltip show and expand with the full text being hovered over within the search result preview would be useful for smaller displays.  Ordering the search results based on date to get the most recent answer and making the date bold or otherwise more prominent would be helpful.,I did not search outside the IDE.
+24,3,2,sig,pass,264846,"var trade = trades.find(x => x.id === id);
 return trade;",4,"A good solution was easy to find, however the best answer was a little confusing as it had additional syntax that was unnecessary.",I don't feel that there was any additional information that would have made the result previews more helpful in this instance.,I did not search outside of the IDE for this task.
-24,clone,1,sig,fail,371066,"var copyTrades = [];
+24,1,1,sig,fail,371066,"var copyTrades = [];
 copyTrades.forEach(val => copyTrades.push())",3,Most of the results provided were for performing a deep copy however the task stated that a shallow copy was acceptable.,Seeing the number of votes for the accepted answer in the search result previews might have made finding an answer easier as that might be an indicator of how much visibility the question had.,I did not search outside the IDE.
-24,recent,6,sig,fail,429370,const startDate = startDate.subtract(moment(endDate)),4,I believe that given more time I would have found the solution with the provided search results. I believe that I should have made more use of the USAGE and CODE sections in the search result previews rather than opening the search result directly.,I don't believe any additional information was necessary in the search result previews.,I did not search outside the IDE for the task.
-24,serve,5,txt,fail,432631,app.use(),4,It may have been due to my search query or unfamiliarity with the problem but I believe that I would have been able to find a solution with the help of Scout if given more time.,I don't think having anything else in the search result previews would have been much more helpful.,I did not search outside the IDE.
-25,sort,1,txt,fail,367670,"return trades.sort(function(a,b) {});
+24,5,6,sig,fail,429370,const startDate = startDate.subtract(moment(endDate)),4,I believe that given more time I would have found the solution with the provided search results. I believe that I should have made more use of the USAGE and CODE sections in the search result previews rather than opening the search result directly.,I don't believe any additional information was necessary in the search result previews.,I did not search outside the IDE for the task.
+24,6,5,txt,fail,432631,app.use(),4,It may have been due to my search query or unfamiliarity with the problem but I believe that I would have been able to find a solution with the help of Scout if given more time.,I don't think having anything else in the search result previews would have been much more helpful.,I did not search outside the IDE.
+25,2,1,txt,fail,367670,"return trades.sort(function(a,b) {});
 }",4,"I was looking in the right place for information using StackOverflow via Scout, however I was just mistaken on how to use the answer I found. Had I had an extra minute, I would have wrote the above answer.",No additional Information,I did not.
-25,currency,4,sig,pass,315925,"var formattedString = amount.toLocaleString(locale, {style: 'currency', currency: currency});
+25,4,4,sig,pass,315925,"var formattedString = amount.toLocaleString(locale, {style: 'currency', currency: currency});
 return formattedString;
 }",5,"I was able to find the solution instantly, however me being a neat freak it took longer just finding a way I wanted to present the code. Scout did a great job presenting the information in a manner that allowed me to work efficiently on this problem. I was able to find multiple solutions to this problem that I found helpful.",Everything was fine.,
-25,find,3,sig,pass,130954,"let tradeFromID = trades.find(tr => tr.id === id);
+25,3,3,sig,pass,130954,"let tradeFromID = trades.find(tr => tr.id === id);
 return tradeFromID;",5,"I was able to find what was needed almost instantly, and Perform the task better than the other tasks, because I believe that the search result previews allowed me to find exactly what I needed. It is nice seeing different solutions right in the results page, and being able to look there instead of clicking into every link.",I think this was fine.,
-25,clone,2,txt,pass,238721,trades = trades.slice(0);,4,"I went a different direction of this originally that made it more difficult than it had to be, Scout made finding the information needed much easier.","Maybe having some solutions show in the result section like in the Tutorial, I would like to see multiple in the results page so I don't have to click and find things.",
-25,recent,5,sig,fail,429998,,2,"I found it was difficult to find what I needed applying my own search query into Scout, but perhaps I was looking in the wrong places. I see now looking above at the solution where I went wrong as I was making changes to the wrong area. The links I looked at were also a bit misleading or I interpreted them poorly. Given an extra few minutes I may have come to this solution.",My own judgement should have been better to apply the previews.,
-25,serve,6,txt,fail,448638,"app.use(express.static(path.join(__dirname,'src/public')))",5,"After some time browsing scout, I found the above solution and was on my way to having a similar solution. Had I had an extra minute or two I would have come to this. Scout definitely helped me come to something I have not dealt with before in JS.",No,
-26,sort,3,sig,fail,368785,"let sortBy = (trades, p, o=1) => [...trades].sort((a,b) => a[p].localeCompare(b[p]) * o)
+25,1,2,txt,pass,238721,trades = trades.slice(0);,4,"I went a different direction of this originally that made it more difficult than it had to be, Scout made finding the information needed much easier.","Maybe having some solutions show in the result section like in the Tutorial, I would like to see multiple in the results page so I don't have to click and find things.",
+25,5,5,sig,fail,429998,,2,"I found it was difficult to find what I needed applying my own search query into Scout, but perhaps I was looking in the wrong places. I see now looking above at the solution where I went wrong as I was making changes to the wrong area. The links I looked at were also a bit misleading or I interpreted them poorly. Given an extra few minutes I may have come to this solution.",My own judgement should have been better to apply the previews.,
+25,6,6,txt,fail,448638,"app.use(express.static(path.join(__dirname,'src/public')))",5,"After some time browsing scout, I found the above solution and was on my way to having a similar solution. Had I had an extra minute or two I would have come to this. Scout definitely helped me come to something I have not dealt with before in JS.",No,
+26,2,3,sig,fail,368785,"let sortBy = (trades, p, o=1) => [...trades].sort((a,b) => a[p].localeCompare(b[p]) * o)
 sortBy(trades, shareCount, -1);",3,"I made some typos in the code (i.e. 'traeds' instead of 'trades') and also didn't replace the name of the array in the sample code snippet quickly. This used up most of my time. Finding a relevant code sample seemed straightforward enough using Scout. However, due to time wasted on the above I could not tell for sure if the sample I used would have worked. The sample solution you have provided was the next option which is what I would have tried if I had more time.",It might have been more useful if the simpler code snippets were at the top of the search results.,I did not search outside of the IDE.
-26,currency,2,txt,pass,193807,"const formatter = new Intl.NumberFormat(locale, {
+26,4,2,txt,pass,193807,"const formatter = new Intl.NumberFormat(locale, {
 style: 'currency',
 currency: currency,
 });
 return formatter.format(amount);",5,I was able to find the relevant code snippet easily using the Scout tool. It saved me time compared to not using the tool.,The search results seemed optimum for this particular task,I did not search outside of the IDE.
-26,find,1,txt,pass,157286,return trades.find(x => x.id == id);,5,I was easily able to put in a search term and get a relevant answer with a code sample using the scout tool. ,,
-26,clone,4,sig,pass,155642,"return trades.map(a => Object.assign({}, a));",4,The selection of results using Scout were useful in getting a code snippet. The first one I tried (using JSON.stringify....) did not work. The second (using the map function and Object.Assign) did.  The slice option was quite a bit further done the search results.,"Again, it might have been more useful to list the results on the basis of the simplest code snippet.",I did not search outside the IDE.
-26,recent,6,txt,pass,177185,"var startDate = moment(endDate)
+26,3,1,txt,pass,157286,return trades.find(x => x.id == id);,5,I was easily able to put in a search term and get a relevant answer with a code sample using the scout tool. ,,
+26,1,4,sig,pass,155642,"return trades.map(a => Object.assign({}, a));",4,The selection of results using Scout were useful in getting a code snippet. The first one I tried (using JSON.stringify....) did not work. The second (using the map function and Object.Assign) did.  The slice option was quite a bit further done the search results.,"Again, it might have been more useful to list the results on the basis of the simplest code snippet.",I did not search outside the IDE.
+26,5,6,txt,pass,177185,"var startDate = moment(endDate)
 startDate = startDate.subtract(interval, unit);",4,I got relevant search results using Scout. The first one returned gave me the code snippet I needed so the experience was good.,"In this case, it worked well for me.",I did not search outside of the IDE.
-26,serve,5,sig,fail,426601,"app.use(express.static('/public'));
+26,6,5,sig,fail,426601,"app.use(express.static('/public'));
 app.get('/', (req, res) => {
 res.sendFile(path.resolve(__dirname, '/public', req));
 });
 }",3,"I liked the fact that there were a number of relevant search items returned. However, it seemed difficult to determine exactly what part of the code snippet I needed to use. I think I got close with my attempt, however I would have needed more time.","The search results were good, but I needed more time.",I did not search outside of the IDE
-27,sort,1,txt,pass,147171,"return trades.sort((a, b) => parseFloat(b.shareCount) - parseFloat(a.shareCount));",5,Finding the solution using Scout was easy.,I have no further comments.,I did not search outside the IDE.
-27,currency,4,sig,pass,211449,"// Create our number formatter.
+27,2,1,txt,pass,147171,"return trades.sort((a, b) => parseFloat(b.shareCount) - parseFloat(a.shareCount));",5,Finding the solution using Scout was easy.,I have no further comments.,I did not search outside the IDE.
+27,4,4,sig,pass,211449,"// Create our number formatter.
 const formatter = new Intl.NumberFormat(locale, {
 style: 'currency',
 currency: currency,
@@ -433,59 +433,59 @@ currency: currency,
 //maximumFractionDigits: 0, // (causes 2500.99 to be printed as $2,501)
 });
 return formatter.format(amount);",5,Scout is helping me so much. The results are easy to use.,No,I did not search outside the IDE.
-27,find,3,sig,pass,85763,"let obj = [];
+27,3,3,sig,pass,85763,"let obj = [];
 obj = trades.find(o => o.id === id);
 return obj;",5,The first search result in Scout was very useful.,No.,I did not search outside the IDE.
-27,clone,2,txt,pass,126749,"return trades.slice();
+27,1,2,txt,pass,126749,"return trades.slice();
 ;",5,Scout was helpful.,No.,I did not search outside the IDE.
-27,recent,5,sig,pass,244031,"startDate.subtract(unit,interval);",5,This task was harder than the previous. Still Scout was very helpful!,No,I did not search outside the IDE.
-27,serve,6,txt,fail,428474,"app.use(express.static(path.join(__dirname, 'src/public/')));
+27,5,5,sig,pass,244031,"startDate.subtract(unit,interval);",5,This task was harder than the previous. Still Scout was very helpful!,No,I did not search outside the IDE.
+27,6,6,txt,fail,428474,"app.use(express.static(path.join(__dirname, 'src/public/')));
 // Static
 app.use(""/"", express.static(__dirname));",1,I wasn't so sure what search terms to use to find an answer using Scout.,It would have been helpful to rank the searches based on number of StackOverflow likes.,I did not search outside the IDE.
-28,sort,2,sig,pass,308065,"return trades.sort((a, b) => b.shareCount-a.shareCount);",4,I still think the Scout interface is a bit too busy and I had to refine the original search but it gave me what I needed,adding the type of object type directly in the autogenerated search would have been better,NA
-28,currency,1,sig,fail,358978,"var formattedCurrency = Intl.NumberFormat(locale, {
+28,2,2,sig,pass,308065,"return trades.sort((a, b) => b.shareCount-a.shareCount);",4,I still think the Scout interface is a bit too busy and I had to refine the original search but it gave me what I needed,adding the type of object type directly in the autogenerated search would have been better,NA
+28,4,1,sig,fail,358978,"var formattedCurrency = Intl.NumberFormat(locale, {
 style: 'currency',
 currency
 currencyDisplay: ""code""
 }).format(amount)
 return formattedCurrency;",4,"I liked that it generated a search string automatically and that it gives me several options. I didn't like that the result that I needed was third in line, I would have expected more relevant results to come up earlier. I found the interaction a bit clunky, the interface is a bit too busy",no,NA
-28,find,4,txt,pass,143556,return trades.find(item => item.id === id);;,4,I would have liked to see the embedded search results rather than going directly to google search but it worked,nothing,NA
-28,clone,3,txt,pass,446526,trades = trades.slice(0),2,"the signature wasn't available, it had to go through the normal Google searches. There was a network delay so it took longer than expected to load",having the code view instead of just the google search would have been helpful,NA
-28,recent,5,txt,pass,313300,"const startDate = moment(endDate).subtract(interval, unit);",4,I would have liked not having to come up with my own search terms and getting the signature page rather than the google search. It felt like a more cramped version of just googling stuff myself so not super different from using my browser,"no really, once I got to the solution it was straightforward enough",no
-28,serve,6,sig,pass,405200,"import exp from ""constants"";
+28,3,4,txt,pass,143556,return trades.find(item => item.id === id);;,4,I would have liked to see the embedded search results rather than going directly to google search but it worked,nothing,NA
+28,1,3,txt,pass,446526,trades = trades.slice(0),2,"the signature wasn't available, it had to go through the normal Google searches. There was a network delay so it took longer than expected to load",having the code view instead of just the google search would have been helpful,NA
+28,5,5,txt,pass,313300,"const startDate = moment(endDate).subtract(interval, unit);",4,I would have liked not having to come up with my own search terms and getting the signature page rather than the google search. It felt like a more cramped version of just googling stuff myself so not super different from using my browser,"no really, once I got to the solution it was straightforward enough",no
+28,6,6,sig,pass,405200,"import exp from ""constants"";
 app.use('/static', express.static('src/public/'))",2,"adding path to my search terms wasn't useful, I found it fairly confusing and had to poke at the code by trial and error. However I am not familiar with using express ",a more structured suggested query,NA
-29,sort,2,sig,pass,127963,"return trades.sort((trade1, trade2) => {
+29,2,2,sig,pass,127963,"return trades.sort((trade1, trade2) => {
 return trade2.shareCount - trade1.shareCount;
 });",5,This task was perfect use case for this tool. first suggestion helped me finish the task easily.,,
-29,currency,1,sig,pass,148084,"return amount.toLocaleString(locale, {style: ""currency"", currency: currency});",5,"the ranking of the suggestions could be improved. for example, the solution i was searching for was not the first result in the search.",default to code tab instead of usage in search results.,I did not
-29,find,4,txt,pass,83508,return trades.find(trade => trade.id === id);,2,The screen space is so small that it does not save time than searching outside ide.,,window is small to keep scrolling for the solution.
-29,clone,3,txt,pass,98825,return [...trades];,2,"without code preview, I prefer using the browser with more screen space to quickly search for usage results.",,the search window in ide is so small that I switched to searching same in another tab.
-29,recent,5,txt,pass,286482,"startDate.subtract(interval, unit)",3,The window is small and i cannot read the whole question on stackoverflow. resulting in many unnecessary clicks wasting time.,usage and preview code.,small window size making it hard to eliminate links by reading questions.
-29,serve,6,sig,pass,172801,"app.use(""/static"", express.static(path.join(__dirname, ""public"")));",5,liked the usage and code preview.,some way to view the whole question or adding a horizontal scroll to view the whole question without clicking the link.,I did not
-30,sort,1,txt,pass,171916,"return trades.sort((a, b) => parseFloat(b.shareCount) - parseFloat(a.shareCount));",5,,,
-30,currency,4,sig,pass,175764,"return amount.toLocaleString(locale, { style: 'currency', currency: currency });",4,,,
-30,find,3,sig,pass,156080,return trades.filter(function(arr){return arr.id === id });,4,,,
-30,clone,2,txt,pass,52725,return trades.slice();,5,,,
-30,recent,5,sig,fail,432831,"moment(startDate.subtract({ days: unit, hours: interval})), moment(endDate), undefined, ""[]""",,,,
-30,serve,6,txt,fail,426508,"const path = require('path');
+29,4,1,sig,pass,148084,"return amount.toLocaleString(locale, {style: ""currency"", currency: currency});",5,"the ranking of the suggestions could be improved. for example, the solution i was searching for was not the first result in the search.",default to code tab instead of usage in search results.,I did not
+29,3,4,txt,pass,83508,return trades.find(trade => trade.id === id);,2,The screen space is so small that it does not save time than searching outside ide.,,window is small to keep scrolling for the solution.
+29,1,3,txt,pass,98825,return [...trades];,2,"without code preview, I prefer using the browser with more screen space to quickly search for usage results.",,the search window in ide is so small that I switched to searching same in another tab.
+29,5,5,txt,pass,286482,"startDate.subtract(interval, unit)",3,The window is small and i cannot read the whole question on stackoverflow. resulting in many unnecessary clicks wasting time.,usage and preview code.,small window size making it hard to eliminate links by reading questions.
+29,6,6,sig,pass,172801,"app.use(""/static"", express.static(path.join(__dirname, ""public"")));",5,liked the usage and code preview.,some way to view the whole question or adding a horizontal scroll to view the whole question without clicking the link.,I did not
+30,2,1,txt,pass,171916,"return trades.sort((a, b) => parseFloat(b.shareCount) - parseFloat(a.shareCount));",5,,,
+30,4,4,sig,pass,175764,"return amount.toLocaleString(locale, { style: 'currency', currency: currency });",4,,,
+30,3,3,sig,pass,156080,return trades.filter(function(arr){return arr.id === id });,4,,,
+30,1,2,txt,pass,52725,return trades.slice();,5,,,
+30,5,5,sig,fail,432831,"moment(startDate.subtract({ days: unit, hours: interval})), moment(endDate), undefined, ""[]""",,,,
+30,6,6,txt,fail,426508,"const path = require('path');
 app.use(express.static(path.join(__dirname, '/public')));",1,,,
-31,sort,1,txt,pass,316981,"return trades.sort(function(a,b) { return b.shareCount - a.shareCount});",4,"I couldn't use the actual signature feature because of an error (""For security reasons, framing is not allowed.""), but even the preview (the first three lines shown for the search result) was helpful enough",,
-31,currency,4,sig,pass,183859,"return amount.toLocaleString(locale, { style: 'currency', currency: currency });",4,"It wasn't too hard to find, although the sorting wasn't ideal (the top results were related to other kinds of number formatting)",Translating the example from the search result to the given task could have been easier if the result would e.g. match the parameters from the task.,
-31,find,3,sig,pass,95085,return trades.find(t => t.id == id);,5,"It was really easy to find the answer, even though it wasn't the first one in the list because they were nicely collapsed. The example also helped",,
-31,clone,2,txt,pass,175651,return trades.map(e => e);,5,It was very easy to immediately find the answer in the first line of the preview.,,
-31,recent,5,sig,pass,141230,"const startDate = moment(endDate).subtract(interval, unit)",4,"This one was pretty easy to figure out, although I feel that the moment() call that was already given helped",,
-31,serve,6,txt,pass,337527,"app.use('/static', express.static('src/public'))",2,"This one was very hard to find useful information about with the Scout tool. I think some of the results might have been useful, but because of the ""For security reasons, framing is not allowed."" error I couldn't look at them and had to search externally for answers.",,"I did a Google search (""express web server add static route javascript node js"") and found this website with the answer: https://expressjs.com/en/starter/static-files.html"
-32,sort,3,sig,pass,85263,"return trades.sort((a, b) => Number(b.shareCount) - Number(a.shareCount));",5,"I liked that the first item in the list had the answer I needed, and also that the code snippets are now showing properly.  It would be nice if in answers where there are multiple code snippets, the one that is shortest is chosen to be shown first since that is usually the simpler method. ",No.,
-32,currency,2,txt,pass,124791,"return amount.toLocaleString(locale, {
+31,2,1,txt,pass,316981,"return trades.sort(function(a,b) { return b.shareCount - a.shareCount});",4,"I couldn't use the actual signature feature because of an error (""For security reasons, framing is not allowed.""), but even the preview (the first three lines shown for the search result) was helpful enough",,
+31,4,4,sig,pass,183859,"return amount.toLocaleString(locale, { style: 'currency', currency: currency });",4,"It wasn't too hard to find, although the sorting wasn't ideal (the top results were related to other kinds of number formatting)",Translating the example from the search result to the given task could have been easier if the result would e.g. match the parameters from the task.,
+31,3,3,sig,pass,95085,return trades.find(t => t.id == id);,5,"It was really easy to find the answer, even though it wasn't the first one in the list because they were nicely collapsed. The example also helped",,
+31,1,2,txt,pass,175651,return trades.map(e => e);,5,It was very easy to immediately find the answer in the first line of the preview.,,
+31,5,5,sig,pass,141230,"const startDate = moment(endDate).subtract(interval, unit)",4,"This one was pretty easy to figure out, although I feel that the moment() call that was already given helped",,
+31,6,6,txt,pass,337527,"app.use('/static', express.static('src/public'))",2,"This one was very hard to find useful information about with the Scout tool. I think some of the results might have been useful, but because of the ""For security reasons, framing is not allowed."" error I couldn't look at them and had to search externally for answers.",,"I did a Google search (""express web server add static route javascript node js"") and found this website with the answer: https://expressjs.com/en/starter/static-files.html"
+32,2,3,sig,pass,85263,"return trades.sort((a, b) => Number(b.shareCount) - Number(a.shareCount));",5,"I liked that the first item in the list had the answer I needed, and also that the code snippets are now showing properly.  It would be nice if in answers where there are multiple code snippets, the one that is shortest is chosen to be shown first since that is usually the simpler method. ",No.,
+32,4,2,txt,pass,124791,"return amount.toLocaleString(locale, {
 style: 'currency',
 currency,
 });",5,I liked that the first result of the search had the answer that I needed. ,"The code snippets being visible from outside would have helped, I don't know why that is no longer working.",
-32,find,1,txt,pass,103684,"const tradeList = trades.find(o => o.id === id);
+32,3,1,txt,pass,103684,"const tradeList = trades.find(o => o.id === id);
 return tradeList ?? [];",4,The code snippets didn't show up this time and it only showed me the stack overflow search results which was less intuitive.,Code snippets as part of the preview.,
-32,clone,4,sig,pass,29246,return trades.slice();,5,"I like that the first solution had the answer I needed, but it showed multiple different function signatures, and only one of them was relevant for the code that I was trying to implement. It showed json.parse, json.stringify, and .slice() but for this problem .slice() was the only relevant one. ",No.,
-32,recent,6,txt,pass,147074,"const startDate = moment(endDate).subtract(interval, unit);",4,"Although the answer was quickly findable in the first question, the code snippets once again did not show up, and I can't figure out how to add javascript manually to that search.",Code snippets., 
-32,serve,5,sig,pass,144098,"app.use('/static',express.static('src/public/'))",3,"The first question was not what I was looking for, and there were no code snippets so I skipped over it. The second question had a few code snippets, but only one of them was relevant to serving static files on a specific route, and it took some trial and error before I could figure it out.",Highlight/direct to the answer that is most relevant to my case.,
-33,sort,2,sig,pass,275172,"return trades.sort(sort_by('shareCount', true, parseInt));
+32,1,4,sig,pass,29246,return trades.slice();,5,"I like that the first solution had the answer I needed, but it showed multiple different function signatures, and only one of them was relevant for the code that I was trying to implement. It showed json.parse, json.stringify, and .slice() but for this problem .slice() was the only relevant one. ",No.,
+32,5,6,txt,pass,147074,"const startDate = moment(endDate).subtract(interval, unit);",4,"Although the answer was quickly findable in the first question, the code snippets once again did not show up, and I can't figure out how to add javascript manually to that search.",Code snippets., 
+32,6,5,sig,pass,144098,"app.use('/static',express.static('src/public/'))",3,"The first question was not what I was looking for, and there were no code snippets so I skipped over it. The second question had a few code snippets, but only one of them was relevant to serving static files on a specific route, and it took some trial and error before I could figure it out.",Highlight/direct to the answer that is most relevant to my case.,
+33,2,2,sig,pass,275172,"return trades.sort(sort_by('shareCount', true, parseInt));
 }
 const sort_by = (field, reverse, primer) => {
 const key = primer ?
@@ -499,13 +499,13 @@ reverse = !reverse ? 1 : -1;
 return function(a, b) {
 return a = key(a), b = key(b), reverse * ((a > b) - (b > a))
 }",5,it's hard to copy and paste from scout,No,I didn't.
-33,currency,1,sig,fail,365064,"return amount.toLocaleString(locale, { style: 'currencty', currency:  currency});",4,"I should have searched sooner, but I wanted to see what I could do on y own.","No, not really",I did not.
-33,find,4,txt,pass,87737,return trades.find(v => v.id === id);,5,Nothing beyond what I've already said,No,
-33,clone,3,txt,pass,76157,return trades.map(function(e){return e;});,4,"It was a bit weird having it go to google results, but probably easier for me to understand",No,
-33,recent,5,txt,pass,150197,"const startDate = moment(endDate).subtract(unit, interval)",4,It's just google in the sidebar. It would be easier for me to use actual google because then i could copy/paste,,
-33,serve,6,sig,fail,424812,,3,I could not type in the IDE on this task.,Honestly I didn't understand any of it really because I couldn't actually try things.,
-34,sort,3,sig,pass,343337,"return trades.sort((a, b) => -(parseFloat(a.shareCount) - parseFloat(b.shareCount)));",2,I found code that sorts ascending and other unknown code using sortBy,,
-34,currency,2,txt,pass,144284,"// Create our number formatter.
+33,4,1,sig,fail,365064,"return amount.toLocaleString(locale, { style: 'currencty', currency:  currency});",4,"I should have searched sooner, but I wanted to see what I could do on y own.","No, not really",I did not.
+33,3,4,txt,pass,87737,return trades.find(v => v.id === id);,5,Nothing beyond what I've already said,No,
+33,1,3,txt,pass,76157,return trades.map(function(e){return e;});,4,"It was a bit weird having it go to google results, but probably easier for me to understand",No,
+33,5,5,txt,pass,150197,"const startDate = moment(endDate).subtract(unit, interval)",4,It's just google in the sidebar. It would be easier for me to use actual google because then i could copy/paste,,
+33,6,6,sig,fail,424812,,3,I could not type in the IDE on this task.,Honestly I didn't understand any of it really because I couldn't actually try things.,
+34,2,3,sig,pass,343337,"return trades.sort((a, b) => -(parseFloat(a.shareCount) - parseFloat(b.shareCount)));",2,I found code that sorts ascending and other unknown code using sortBy,,
+34,4,2,txt,pass,144284,"// Create our number formatter.
 const formatter = new Intl.NumberFormat(locale, {
 style: 'currency',
 currency: currency,
@@ -514,40 +514,40 @@ currency: currency,
 //maximumFractionDigits: 0, // (causes 2500.99 to be printed as $2,501)
 });
 return formatter.format(amount,);",4,It didn't show me the signatures. It said cannot find signatures using google results.,,
-34,find,1,txt,pass,105678,return trades.find(o => o.id === id);,4,It's nice to have stack overflow browser in IDE but for such a easy task I don't think it's more efficient to use it.,,
-34,clone,4,sig,pass,50497,return JSON.parse(JSON.stringify(trades));,4,The Usage tab shows only one step like JSON.parse which is hard to copy. ,,
-34,recent,6,txt,pass,183946,"const startDate = moment(endDate).subtract(interval, unit);",5,It didn't show me any search suggestions but overall it was pretty easy to find the solution.,,
-34,serve,5,sig,pass,332391,"async function setup() {
+34,3,1,txt,pass,105678,return trades.find(o => o.id === id);,4,It's nice to have stack overflow browser in IDE but for such a easy task I don't think it's more efficient to use it.,,
+34,1,4,sig,pass,50497,return JSON.parse(JSON.stringify(trades));,4,The Usage tab shows only one step like JSON.parse which is hard to copy. ,,
+34,5,6,txt,pass,183946,"const startDate = moment(endDate).subtract(interval, unit);",5,It didn't show me any search suggestions but overall it was pretty easy to find the solution.,,
+34,6,5,sig,pass,332391,"async function setup() {
 app.use(""/static"",express.static('src/public'))",3,,,
-35,sort,2,sig,pass,222067,"return trades.sort((a,b) => b.shareCount - a.shareCount);",3,Seems to include some useless results amongst the helpful ones,,
-35,currency,1,sig,pass,362816,"let result = amount.toLocaleString(locale, { style: 'currency', currency: currency })
+35,2,2,sig,pass,222067,"return trades.sort((a,b) => b.shareCount - a.shareCount);",3,Seems to include some useless results amongst the helpful ones,,
+35,4,1,sig,pass,362816,"let result = amount.toLocaleString(locale, { style: 'currency', currency: currency })
 return result;",2,"The extension seems to work well, but the help needed was quite far down.",Less clutter,
-35,find,4,txt,pass,85311,"let result = trades.find(o => o.id === id);
+35,3,4,txt,pass,85311,"let result = trades.find(o => o.id === id);
 return result;",5,Didn't see the comment about undefined or [] until I clicked submit sorry,,
-35,clone,3,txt,pass,43244,"let clone = trades.slice(0);
+35,1,3,txt,pass,43244,"let clone = trades.slice(0);
 return clone;",5,Very helpful that time!,,
-35,recent,5,txt,pass,298918,const startDate = moment(interval),4,"Once I understood the task, then it was quick and easier to find my answer.",,
-35,serve,6,sig,pass,147415,"app.use(""/static"", express.static('src/public'))}",5,"Again another easy one, extension works fantastic and really helped",,
-36,sort,4,txt,pass,,"return trades.sort((a,b) =>  b.shareCount - a.shareCount);",,,,
-36,currency,3,txt,pass,,"const formatter = new Intl.NumberFormat(locale, {
+35,5,5,txt,pass,298918,const startDate = moment(interval),4,"Once I understood the task, then it was quick and easier to find my answer.",,
+35,6,6,sig,pass,147415,"app.use(""/static"", express.static('src/public'))}",5,"Again another easy one, extension works fantastic and really helped",,
+36,2,4,txt,pass,174427,"return trades.sort((a,b) =>  b.shareCount - a.shareCount);",3,It was pretty straightforward and didn't need to use scout.,an explanation between sorting words and numbers as that is something i dont fully understand,
+36,4,3,txt,pass,266818,"const formatter = new Intl.NumberFormat(locale, {
 style: 'currency',
 currency,
 });
-return formatter.format(amount);",,,,
-36,find,2,sig,pass,,return trades.filter(obj => obj.id === id);,,,,
-36,clone,1,sig,pass,,return [...trades];,,,,
-36,recent,6,sig,pass,327241,"const startDate = moment(Date.now()).subtract(interval, unit)
+return formatter.format(amount);",5,the first result pretty much had the answer - just didnt like the stackoverflow webpage being shown. the width is way too small and would prefer to search for this on its own web page  ,i think giving links to mdn docs on how to use the methods would be useful,the side panel was too small and hard to navigate and read the comments on stack overflow
+36,3,2,sig,pass,138747,return trades.filter(obj => obj.id === id);,5,it was easy to find the answers with the keywords and even using random words  helped to come with a solution.I wish there was an explanation on the different methods that can be used vs feeling like it can only be done one way,explanation on the differences between each solution and if it returns a new array or not for example. i think understand how the methods work is useful when learning ,
+36,1,1,sig,pass,34618,return [...trades];,4,It was clear and easy to get a solution ,no adding in the keywords make it easy to find a solution,n/a
+36,5,6,sig,pass,327241,"const startDate = moment(Date.now()).subtract(interval, unit)
 console.log(interval, unit)",5,"within the first search, i managed to find exactly what i was looking for and through practice it was easy to find what i was looking for ",nope very easy to find a solution!,
-36,serve,5,txt,fail,,"// app.use(express.static(__dirname + '/src/public/receipt.pdf'));
+36,6,5,txt,fail,,"// app.use(express.static(__dirname + '/src/public/receipt.pdf'));
 app.use(""/"", express.static(__dirname + ""/public""));
 app.listen(3000);",2,with minimal experience with express it was hard to understand the solution from the articles. i wish there had been small summaries to explain the basics but looking at the solution it looks like i wasnt too far off ,maybe include documentation from express to make it a little easier to understand the framework being used,
-37,sort,2,sig,pass,450135,"return trades.sort((a,b) =>  b.shareCount - a.shareCount);",4,,,
-37,currency,1,sig,pass,80720,"return amount.toLocaleString(locale, { style: 'currency', currency: currency });",4,horizontal scroll bar to see long line solutions is not really ideal,no,
-37,find,4,txt,pass,20966,return trades.filter((e) => e.id === id);,,,,
-37,clone,3,txt,pass,31717,return trades.slice();,,,,
-37,recent,5,txt,pass,134322,"const startDate = moment(endDate);
+37,2,2,sig,pass,450135,"return trades.sort((a,b) =>  b.shareCount - a.shareCount);",4,,,
+37,4,1,sig,pass,80720,"return amount.toLocaleString(locale, { style: 'currency', currency: currency });",4,horizontal scroll bar to see long line solutions is not really ideal,no,
+37,3,4,txt,pass,20966,return trades.filter((e) => e.id === id);,,,,
+37,1,3,txt,pass,31717,return trades.slice();,,,,
+37,5,5,txt,pass,134322,"const startDate = moment(endDate);
 startDate.subtract(interval, unit);",,,,
-37,serve,6,sig,fail,812669,"app.get(""/static/:f"", (req, res) => {
+37,6,6,sig,fail,812669,"app.get(""/static/:f"", (req, res) => {
 fs.readFile(""src/public/"" + req.params.f + "".pdf"", (err, data) => {
 if (err) {
 res.status(400);
@@ -558,31 +558,31 @@ res.end(data);
 }
 })
 });",3,,,
-38,sort,4,txt,pass,49116,"return trades.sort((a,b) => b.shareCount - a.shareCount);",3,,,
-38,currency,3,txt,pass,190256,"return new Intl.NumberFormat(locale, {
+38,2,4,txt,pass,49116,"return trades.sort((a,b) => b.shareCount - a.shareCount);",3,,,
+38,4,3,txt,pass,190256,"return new Intl.NumberFormat(locale, {
 style: 'currency',
 currency,
 // minimumFractionDigits: 2
 }).format(amount);",4,,,
-38,find,2,sig,pass,102747,return trades.filter(e => e.id == id).pop();,3,,,
-38,clone,1,sig,pass,65681,return JSON.parse(JSON.stringify(trades));,3,,,
-38,recent,6,sig,pass,303379,"const startDate = moment(endDate).subtract({
+38,3,2,sig,pass,102747,return trades.filter(e => e.id == id).pop();,3,,,
+38,1,1,sig,pass,65681,return JSON.parse(JSON.stringify(trades));,3,,,
+38,5,6,sig,pass,303379,"const startDate = moment(endDate).subtract({
 days: unit == ""days"" ? interval : 0,
 months: unit == ""months"" ? interval : 0,
 years: unit == ""years"" ? interval : 0,
 });",2,"I dislike how the red ""submit"" button has a fixed position in this pane, I didn't realize that this was scrollable and there were more questions below.","If the first result showed that subtract() can accept more than one parameter, like the second result does.",
-38,serve,5,txt,fail,427701,"app.use(express.static(path.join(__dirname, '/../scr/public')));",2,,,
-39,sort,2,sig,pass,184308,"return trades.sort(function(a,b) {
+38,6,5,txt,fail,427701,"app.use(express.static(path.join(__dirname, '/../scr/public')));",2,,,
+39,2,2,sig,pass,184308,"return trades.sort(function(a,b) {
 return b.shareCount - a.shareCount
 });",5,"Again, the ""most upvoted"" icon was very helpful to decide which answer to click first. ","In this case, comments in the code would have been useful to determine how to sort descending vs. ascending. It was easy though to view the full answer with comments.",
-39,currency,1,sig,pass,222767,"var formatter = new Intl.NumberFormat(locale, {
+39,4,1,sig,pass,222767,"var formatter = new Intl.NumberFormat(locale, {
 style: 'currency',
 currency
 });
 return formatter.format(amount);",5,I like the icons displaying which was the correct or most-upvoted answer. The icons helped decide where to click first. I am curious how the answers are ranked - is that Google? I may have missed that information in the introduction to the tool.,,
-39,find,4,txt,pass,125379,return trades.find(trade => trade.id === id);,5,"From the titles shown by the google search, I am able to quickly determine which link to click. ","I couldn't see the function signatures from Scout, so had a list of Google search results. I was able to click the links to be directed to the original Stack Overflow site. ",
-39,clone,3,txt,pass,123087,return trades.slice(0);,5,Scout was missing the organized function call signatures like the previous tasks. I liked those! My results looked like Google. ,,
-39,recent,5,txt,pass,417754,"const startDate = moment(endDate).toDate();
+39,3,4,txt,pass,125379,return trades.find(trade => trade.id === id);,5,"From the titles shown by the google search, I am able to quickly determine which link to click. ","I couldn't see the function signatures from Scout, so had a list of Google search results. I was able to click the links to be directed to the original Stack Overflow site. ",
+39,1,3,txt,pass,123087,return trades.slice(0);,5,Scout was missing the organized function call signatures like the previous tasks. I liked those! My results looked like Google. ,,
+39,5,5,txt,pass,417754,"const startDate = moment(endDate).toDate();
 if (unit === ""days"") {
 startDate.setDate(startDate.getDate() - interval);
 } else if (unit === ""months"") {
@@ -590,12 +590,12 @@ startDate.setMonth(startDate.getMonth() - interval)
 } else if (unit === ""years"") {
 startDate.setFullYear(startDate.getFullYear() - interval)
 }",5,"Again, the search results didn't have the method signatures/function summaries. Instead the results looked like Google. Still helpful to have that information in the IDE. ",,
-39,serve,6,sig,pass,298901,"app.use('/static', express.static('src/public'));",4,"In this case, I needed information about the question being asked, not just the answer's code. There were two functions, static() and use(), and I was unsure how they were used. I opened the full answer to see what question they were answering. ",,
-40,sort,1,txt,pass,178069,"return trades.sort(function(a,b){
+39,6,6,sig,pass,298901,"app.use('/static', express.static('src/public'));",4,"In this case, I needed information about the question being asked, not just the answer's code. There were two functions, static() and use(), and I was unsure how they were used. I opened the full answer to see what question they were answering. ",,
+40,2,1,txt,pass,178069,"return trades.sort(function(a,b){
 return b.shareCount - a.shareCount;
 });",4,For this task it was just stackoverflow in a window in the IDE.,No it was good,
-40,currency,4,sig,pass,132730,"return amount.toLocaleString(locale, { style: 'currency', currency: currency });",5,,,
-40,find,3,sig,pass,113471,return trades.filter(obj=>obj.id===id);,5,"Good that it extracts the code out, that's very handy. Confused on what the Usage vs Code does...",,
-40,clone,2,txt,pass,205973,return [...trades];,5,,,
-40,recent,5,sig,pass,428219,"const startDate = moment(endDate).subtract(unit, interval)",5,The search bar deletes some of my text the first time I use it.,,
-40,serve,6,txt,fail,424305,"app.use('/static/*', express.static(__dirname + '/src/public/'));",2,Didn't get any search previews,,
+40,4,4,sig,pass,132730,"return amount.toLocaleString(locale, { style: 'currency', currency: currency });",5,,,
+40,3,3,sig,pass,113471,return trades.filter(obj=>obj.id===id);,5,"Good that it extracts the code out, that's very handy. Confused on what the Usage vs Code does...",,
+40,1,2,txt,pass,205973,return [...trades];,5,,,
+40,5,5,sig,pass,428219,"const startDate = moment(endDate).subtract(unit, interval)",5,The search bar deletes some of my text the first time I use it.,,
+40,6,6,txt,fail,424305,"app.use('/static/*', express.static(__dirname + '/src/public/'));",2,Didn't get any search previews,,

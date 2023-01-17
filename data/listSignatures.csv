@@ -1,0 +1,1511 @@
+pid,tid,searchSeq,rank,text
+1,2,0,0,T[].sort(function): this
+1,2,0,1,sort(function)
+1,2,0,2,ObjectConstructor.keys(object): string[]
+1,2,0,3,"sortBy(unknown, string)"
+1,2,0,4,T[].sort(): this
+1,2,0,5,T[].reverse(): T[]
+1,2,0,6,"object[].sortBy(string, string)"
+1,2,0,7,T[].forEach(function): void
+1,2,0,8,sort(typeof compare)
+1,2,0,9,reverse()
+1,2,1,0,"T[].reduce(function, U): U"
+1,2,1,1,T[].sort(function): this
+1,2,1,2,sort(function)
+1,2,1,3,T[].sort(): this
+1,2,1,4,T[].forEach(function): void
+1,2,1,5,reverse()
+1,2,1,6,function.(): void
+1,2,1,7,T[].map(function): U[]
+1,2,1,8,Document.write(string[]): void
+1,2,1,9,"sortBy(unknown, string)"
+1,4,0,0,Intl.NumberFormat.format(number | bigint): string
+1,4,0,1,Number.toFixed(number): string
+1,4,0,2,"String.replace(object, string): string"
+1,4,0,3,"Number.toLocaleString(Intl.LocalesArgument, Intl.NumberFormatOptions): string"
+1,4,0,4,toFixed(number)
+1,4,0,5,"String.replace(string | RegExp, string): string"
+1,4,0,6,"replace(regex, string)"
+1,4,0,7,formatMoney(number)
+1,4,0,8,format(string)
+1,4,0,9,Number.toLocaleString(): string
+1,6,0,0,static(unknown)
+1,6,0,1,static(string)
+1,6,0,2,use(unknown)
+1,6,0,3,"use(string, unknown)"
+1,6,0,4,"join(unknown, string)"
+1,6,0,5,use(function)
+1,6,0,6,"get(string, function)"
+1,6,0,7,"use(string, function, unknown)"
+1,6,0,8,"get(string, unknown)"
+1,6,0,9,"use(string, function)"
+1,6,1,0,static(string)
+1,6,1,1,"use(string, unknown)"
+1,6,1,2,use(unknown)
+1,6,1,3,express()
+1,6,1,4,"get(string, function)"
+1,6,1,5,"join(unknown, string)"
+1,6,1,6,static(unknown)
+1,6,1,7,"listen(number, function)"
+1,6,1,8,"use(string, function)"
+1,6,1,9,listen(number)
+2,4,0,0,Intl.NumberFormat.format(number | bigint): string
+2,4,0,1,Number.toFixed(number): string
+2,4,0,2,"String.replace(object, string): string"
+2,4,0,3,"Number.toLocaleString(Intl.LocalesArgument, Intl.NumberFormatOptions): string"
+2,4,0,4,toFixed(number)
+2,4,0,5,"String.replace(string | RegExp, string): string"
+2,4,0,6,"replace(regex, string)"
+2,4,0,7,formatMoney(number)
+2,4,0,8,format(string)
+2,4,0,9,Number.toLocaleString(): string
+2,3,0,0,"T[].reduce(function, U): U"
+2,3,0,1,T[].filter(function): T[]
+2,3,0,2,T[].find(function): T
+2,3,0,3,T[].includes(T): boolean
+2,3,0,4,filter(function)
+2,3,0,5,T[].indexOf(T): number
+2,3,0,6,T[].findIndex(function): number
+2,3,0,7,T[].some(function): boolean
+2,3,0,8,find(function)
+2,3,0,9,T[].map(function): U[]
+2,5,0,0,moment()
+2,5,0,1,format(string)
+2,5,0,2,"subtract(number, string)"
+2,5,0,3,endOf(string)
+2,5,0,4,moment(unknown)
+2,5,0,5,Date.getDate(): number
+2,5,0,6,startOf(string)
+2,5,0,7,Date.setDate(number): number
+2,5,0,8,"add(number, string)"
+2,5,0,9,moment(string)
+3,4,0,0,Intl.NumberFormat.format(number | bigint): string
+3,4,0,1,Number.toFixed(number): string
+3,4,0,2,"String.replace(object, string): string"
+3,4,0,3,"Number.toLocaleString(Intl.LocalesArgument, Intl.NumberFormatOptions): string"
+3,4,0,4,toFixed(number)
+3,4,0,5,"String.replace(string | RegExp, string): string"
+3,4,0,6,"replace(regex, string)"
+3,4,0,7,formatMoney(number)
+3,4,0,8,format(string)
+3,4,0,9,Number.toLocaleString(): string
+3,5,0,0,"subtract(number, string)"
+3,5,0,1,format(string)
+3,5,0,2,moment()
+3,5,0,3,moment(number)
+3,5,0,4,diff(unknown)
+3,5,0,5,moment(string)
+3,5,0,6,"add(number, string)"
+3,5,0,7,subtract(object)
+3,5,0,8,duration(unknown)
+3,5,0,9,"tz(Date, string, string)"
+4,3,0,0,"T[].reduce(function, U): U"
+4,3,0,1,T[].filter(function): T[]
+4,3,0,2,T[].find(function): T
+4,3,0,3,T[].includes(T): boolean
+4,3,0,4,filter(function)
+4,3,0,5,T[].indexOf(T): number
+4,3,0,6,T[].findIndex(function): number
+4,3,0,7,T[].some(function): boolean
+4,3,0,8,find(function)
+4,3,0,9,T[].map(function): U[]
+4,1,0,0,JSON.parse(string)
+4,1,0,1,JSON.stringify(unknown): string
+4,1,0,2,map(function)
+4,1,0,3,T[].map(function): U[]
+4,1,0,4,T[].slice(): T[]
+4,1,0,5,JSON.stringify(function): string
+4,1,0,6,slice()
+4,1,0,7,slice(number)
+4,1,0,8,T[].push(T[]): number
+4,1,0,9,T[].forEach(function): void
+4,5,0,0,"subtract(number, string)"
+4,5,0,1,format(string)
+4,5,0,2,moment()
+4,5,0,3,"add(number, string)"
+4,5,0,4,diff(unknown)
+4,5,0,5,moment(number)
+4,5,0,6,"tz(Date, string, string)"
+4,5,0,7,local()
+4,5,0,8,"subtract(string, number)"
+4,5,0,9,duration(unknown)
+4,5,1,0,format(string)
+4,5,1,1,diff(unknown)
+4,5,1,2,moment()
+4,5,1,3,duration(unknown)
+4,5,1,4,"subtract(number, string)"
+4,5,1,5,moment(string)
+4,5,1,6,"diff(unknown, string)"
+4,5,1,7,asHours()
+4,5,1,8,"moment(string, string)"
+4,5,1,9,moment(number)
+5,2,0,0,T[].sort(function): this
+5,2,0,1,sort(function)
+5,2,0,2,ObjectConstructor.keys(object): string[]
+5,2,0,3,"sortBy(unknown, string)"
+5,2,0,4,T[].sort(): this
+5,2,0,5,T[].reverse(): T[]
+5,2,0,6,"object[].sortBy(string, string)"
+5,2,0,7,T[].forEach(function): void
+5,2,0,8,sort(typeof compare)
+5,2,0,9,reverse()
+5,4,0,0,Intl.NumberFormat.format(number | bigint): string
+5,4,0,1,Number.toFixed(number): string
+5,4,0,2,"String.replace(object, string): string"
+5,4,0,3,"Number.toLocaleString(Intl.LocalesArgument, Intl.NumberFormatOptions): string"
+5,4,0,4,toFixed(number)
+5,4,0,5,"String.replace(string | RegExp, string): string"
+5,4,0,6,"replace(regex, string)"
+5,4,0,7,formatMoney(number)
+5,4,0,8,format(string)
+5,4,0,9,Number.toLocaleString(): string
+5,6,0,0,"T[].reduce(function, U): U"
+5,6,0,1,static(unknown)
+5,6,0,2,"use(string, unknown)"
+5,6,0,3,"join(unknown, string)"
+5,6,0,4,use(unknown)
+5,6,0,5,"get(string, function)"
+5,6,0,6,static(string)
+5,6,0,7,"get(string, unknown)"
+5,6,0,8,"use(string, function)"
+5,6,0,9,listen(number)
+6,4,0,0,Intl.NumberFormat.format(number | bigint): string
+6,4,0,1,Number.toFixed(number): string
+6,4,0,2,"String.replace(object, string): string"
+6,4,0,3,"Number.toLocaleString(Intl.LocalesArgument, Intl.NumberFormatOptions): string"
+6,4,0,4,toFixed(number)
+6,4,0,5,"String.replace(string | RegExp, string): string"
+6,4,0,6,"replace(regex, string)"
+6,4,0,7,formatMoney(number)
+6,4,0,8,format(string)
+6,4,0,9,Number.toLocaleString(): string
+6,3,0,0,"T[].reduce(function, U): U"
+6,3,0,1,T[].find(function): T
+6,3,0,2,T[].includes(T): boolean
+6,3,0,3,T[].filter(function): T[]
+6,3,0,4,T[].indexOf(T): number
+6,3,0,5,filter(function)
+6,3,0,6,T[].some(function): boolean
+6,3,0,7,find(function)
+6,3,0,8,T[].findIndex(function): number
+6,3,0,9,"grep(unknown, function)"
+6,5,0,0,"subtract(number, string)"
+6,5,0,1,format(string)
+6,5,0,2,moment()
+6,5,0,3,"add(number, string)"
+6,5,0,4,moment(number)
+6,5,0,5,toDate()
+6,5,0,6,moment(Date)
+6,5,0,7,"subtract(string, number)"
+6,5,0,8,duration(object)
+6,5,0,9,subtract(unknown)
+7,2,0,0,T[].sort(function): this
+7,2,0,1,sort(function)
+7,2,0,2,ObjectConstructor.keys(object): string[]
+7,2,0,3,"sortBy(unknown, string)"
+7,2,0,4,T[].sort(): this
+7,2,0,5,T[].reverse(): T[]
+7,2,0,6,"object[].sortBy(string, string)"
+7,2,0,7,T[].forEach(function): void
+7,2,0,8,sort(typeof compare)
+7,2,0,9,reverse()
+7,1,0,0,JSON.parse(string)
+7,1,0,1,JSON.stringify(unknown): string
+7,1,0,2,map(function)
+7,1,0,3,T[].map(function): U[]
+7,1,0,4,T[].slice(): T[]
+7,1,0,5,JSON.stringify(function): string
+7,1,0,6,slice()
+7,1,0,7,slice(number)
+7,1,0,8,T[].push(T[]): number
+7,1,0,9,T[].forEach(function): void
+7,6,0,0,use(unknown)
+7,6,0,1,static(string)
+7,6,0,2,static(unknown)
+7,6,0,3,"join(unknown, string)"
+7,6,0,4,"use(string, unknown)"
+7,6,0,5,express()
+7,6,0,6,"use(string, function)"
+7,6,0,7,"get(string, function)"
+7,6,0,8,listen(number)
+7,6,0,9,"set(string, unknown)"
+8,4,0,0,Intl.NumberFormat.format(number | bigint): string
+8,4,0,1,Number.toFixed(number): string
+8,4,0,2,"String.replace(object, string): string"
+8,4,0,3,"Number.toLocaleString(Intl.LocalesArgument, Intl.NumberFormatOptions): string"
+8,4,0,4,toFixed(number)
+8,4,0,5,"String.replace(string | RegExp, string): string"
+8,4,0,6,"replace(regex, string)"
+8,4,0,7,formatMoney(number)
+8,4,0,8,format(string)
+8,4,0,9,Number.toLocaleString(): string
+8,3,0,0,"T[].reduce(function, U): U"
+8,3,0,1,T[].find(function): T
+8,3,0,2,T[].includes(T): boolean
+8,3,0,3,T[].filter(function): T[]
+8,3,0,4,T[].indexOf(T): number
+8,3,0,5,filter(function)
+8,3,0,6,T[].some(function): boolean
+8,3,0,7,find(function)
+8,3,0,8,T[].findIndex(function): number
+8,3,0,9,"grep(unknown, function)"
+8,5,0,0,format(string)
+8,5,0,1,moment()
+8,5,0,2,"moment(string, string)"
+8,5,0,3,moment(unknown)
+8,5,0,4,endOf(string)
+8,5,0,5,moment(string)
+8,5,0,6,dateFormatwithSec(string)
+8,5,0,7,utc()
+8,5,0,8,format()
+8,5,0,9,T[].map(function): U[]
+8,5,1,0,moment()
+8,5,1,1,"add(number, string)"
+8,5,1,2,format(string)
+8,5,1,3,"moment(string, string)"
+8,5,1,4,Date.getMonth(): number
+8,5,1,5,Date.setMonth(number): number
+8,5,1,6,"addMonths(Date, number)"
+8,5,1,7,"diff(unknown, string)"
+8,5,1,8,diff(unknown)
+8,5,1,9,endOf(string)
+9,3,0,0,"T[].reduce(function, U): U"
+9,3,0,1,T[].filter(function): T[]
+9,3,0,2,T[].find(function): T
+9,3,0,3,T[].includes(T): boolean
+9,3,0,4,filter(function)
+9,3,0,5,T[].indexOf(T): number
+9,3,0,6,T[].findIndex(function): number
+9,3,0,7,T[].some(function): boolean
+9,3,0,8,find(function)
+9,3,0,9,T[].map(function): U[]
+9,1,0,0,JSON.parse(string)
+9,1,0,1,JSON.stringify(unknown): string
+9,1,0,2,map(function)
+9,1,0,3,T[].map(function): U[]
+9,1,0,4,T[].slice(): T[]
+9,1,0,5,JSON.stringify(function): string
+9,1,0,6,slice()
+9,1,0,7,slice(number)
+9,1,0,8,T[].push(T[]): number
+9,1,0,9,T[].forEach(function): void
+9,5,0,0,duration(unknown)
+9,5,0,1,diff(unknown)
+9,5,0,2,format(string)
+9,5,0,3,"subtract(number, string)"
+9,5,0,4,moment()
+9,5,0,5,Date.getDate(): number
+9,5,0,6,moment(unknown)
+9,5,0,7,Date.getTime(): number
+9,5,0,8,Date.setDate(number): number
+9,5,0,9,moment(string)
+10,3,0,0,"T[].reduce(function, U): U"
+10,3,0,1,T[].find(function): T
+10,3,0,2,T[].filter(function): T[]
+10,3,0,3,T[].includes(T): boolean
+10,3,0,4,T[].indexOf(T): number
+10,3,0,5,filter(function)
+10,3,0,6,T[].findIndex(function): number
+10,3,0,7,T[].some(function): boolean
+10,3,0,8,find(function)
+10,3,0,9,T[].map(function): U[]
+10,1,0,0,JSON.parse(string)
+10,1,0,1,JSON.stringify(unknown): string
+10,1,0,2,map(function)
+10,1,0,3,T[].map(function): U[]
+10,1,0,4,T[].slice(): T[]
+10,1,0,5,JSON.stringify(function): string
+10,1,0,6,slice()
+10,1,0,7,slice(number)
+10,1,0,8,T[].push(T[]): number
+10,1,0,9,T[].forEach(function): void
+10,1,1,0,map(function)
+10,1,1,1,JSON.stringify(unknown): string
+10,1,1,2,JSON.parse(string)
+10,1,1,3,State(unknown)
+10,1,1,4,T[].map(function): U[]
+10,1,1,5,clone()
+10,1,1,6,slice()
+10,1,1,7,T[].slice(): T[]
+10,1,1,8,Param(object)
+10,1,1,9,Fork(number)
+10,5,0,0,"subtract(number, string)"
+10,5,0,1,format(string)
+10,5,0,2,moment()
+10,5,0,3,"add(number, string)"
+10,5,0,4,diff(unknown)
+10,5,0,5,moment(string)
+10,5,0,6,moment(number)
+10,5,0,7,Number.toString(): string
+10,5,0,8,unix()
+10,5,0,9,duration(unknown)
+11,2,0,0,T[].sort(function): this
+11,2,0,1,sort(function)
+11,2,0,2,ObjectConstructor.keys(object): string[]
+11,2,0,3,"sortBy(unknown, string)"
+11,2,0,4,T[].sort(): this
+11,2,0,5,T[].reverse(): T[]
+11,2,0,6,"object[].sortBy(string, string)"
+11,2,0,7,T[].forEach(function): void
+11,2,0,8,sort(typeof compare)
+11,2,0,9,reverse()
+11,6,0,0,use(unknown)
+11,6,0,1,static(unknown)
+11,6,0,2,"join(unknown, string)"
+11,6,0,3,static(string)
+11,6,0,4,"use(string, unknown)"
+11,6,0,5,use(function)
+11,6,0,6,"use(string, function)"
+11,6,0,7,"get(string, unknown)"
+11,6,0,8,"join(unknown, string, string)"
+11,6,0,9,"get(string, function)"
+12,2,0,0,T[].sort(function): this
+12,2,0,1,sort(function)
+12,2,0,2,ObjectConstructor.keys(object): string[]
+12,2,0,3,"sortBy(unknown, string)"
+12,2,0,4,T[].sort(): this
+12,2,0,5,T[].reverse(): T[]
+12,2,0,6,"object[].sortBy(string, string)"
+12,2,0,7,T[].forEach(function): void
+12,2,0,8,sort(typeof compare)
+12,2,0,9,reverse()
+12,1,0,0,JSON.parse(string)
+12,1,0,1,JSON.stringify(unknown): string
+12,1,0,2,map(function)
+12,1,0,3,T[].map(function): U[]
+12,1,0,4,T[].slice(): T[]
+12,1,0,5,JSON.stringify(function): string
+12,1,0,6,slice()
+12,1,0,7,slice(number)
+12,1,0,8,T[].push(T[]): number
+12,1,0,9,T[].forEach(function): void
+12,1,1,0,"T[].reduce(function, U): U"
+12,1,1,1,JSON.parse(string)
+12,1,1,2,JSON.stringify(object): string
+12,1,1,3,JSON.stringify(unknown): string
+12,1,1,4,"ObjectConstructor.assign(T, U): T & U"
+12,1,1,5,clone(object)
+12,1,1,6,"extend(boolean, object, object)"
+12,1,1,7,structuredClone(object)
+12,1,1,8,cloneDeep(function)
+12,1,1,9,cloneDeep(object)
+12,6,0,0,use(unknown)
+12,6,0,1,static(unknown)
+12,6,0,2,"join(unknown, string)"
+12,6,0,3,"use(string, unknown)"
+12,6,0,4,"get(string, unknown)"
+12,6,0,5,"get(string, function)"
+12,6,0,6,static(string)
+12,6,0,7,"get(string, function, unknown)"
+12,6,0,8,express()
+12,6,0,9,()
+13,2,0,0,T[].sort(function): this
+13,2,0,1,sort(function)
+13,2,0,2,ObjectConstructor.keys(object): string[]
+13,2,0,3,"sortBy(unknown, string)"
+13,2,0,4,T[].sort(): this
+13,2,0,5,T[].reverse(): T[]
+13,2,0,6,"object[].sortBy(string, string)"
+13,2,0,7,T[].forEach(function): void
+13,2,0,8,sort(typeof compare)
+13,2,0,9,reverse()
+13,4,0,0,Intl.NumberFormat.format(number | bigint): string
+13,4,0,1,Number.toFixed(number): string
+13,4,0,2,"String.replace(object, string): string"
+13,4,0,3,"Number.toLocaleString(Intl.LocalesArgument, Intl.NumberFormatOptions): string"
+13,4,0,4,toFixed(number)
+13,4,0,5,"String.replace(string | RegExp, string): string"
+13,4,0,6,"replace(regex, string)"
+13,4,0,7,formatMoney(number)
+13,4,0,8,format(string)
+13,4,0,9,Number.toLocaleString(): string
+13,6,0,0,"get(string, function)"
+13,6,0,1,"use(string, unknown)"
+13,6,0,2,Router()
+13,6,0,3,express()
+13,6,0,4,use(function)
+13,6,0,5,T[].forEach(function): void
+13,6,0,6,()
+13,6,0,7,"get(string, unknown)"
+13,6,0,8,use(unknown)
+13,6,0,9,"join(unknown, string)"
+13,6,1,0,"get(string, function)"
+13,6,1,1,get(string)
+13,6,1,2,express()
+13,6,1,3,use(function)
+13,6,1,4,"use(string, function)"
+13,6,1,5,"use(regex, function)"
+13,6,1,6,"post(string, function)"
+13,6,1,7,format(object)
+13,6,1,8,parse(unknown)
+13,6,1,9,format(unknown)
+13,6,2,0,dirname(unknown)
+13,6,2,1,"resolve(unknown, string)"
+13,6,2,2,basename(string)
+13,6,2,3,"get(string, function)"
+13,6,2,4,"listen(number, function)"
+13,6,2,5,express()
+13,6,2,6,"get(string, typeof getDirectoryContent, function)"
+13,6,2,7,"join(unknown, string)"
+13,6,2,8,Router()
+13,6,2,9,"join(string, string, string)"
+13,6,3,0,split(string)
+13,6,3,1,Document.getElementById(string): HTMLElement
+13,6,3,2,pop()
+13,6,3,3,lastIndexOf(string)
+13,6,3,4,"replace(regex, string)"
+13,6,3,5,$(string)
+13,6,3,6,String.split(string | RegExp): string[]
+13,6,3,7,"HTMLElement.addEventListener(K, function): void"
+13,6,3,8,array()
+13,6,3,9,regex.exec(string): RegExpExecArray
+13,6,4,0,use(unknown)
+13,6,4,1,static(string)
+13,6,4,2,listen(number)
+13,6,4,3,createServer(function)
+13,6,4,4,static(unknown)
+13,6,4,5,express()
+13,6,4,6,"use(string, unknown)"
+13,6,4,7,"listen(number, function)"
+13,6,4,8,"join(unknown, string)"
+13,6,4,9,"on(string, function)"
+13,6,5,0,"get(string, function)"
+13,6,5,1,Router()
+13,6,5,2,"use(string, unknown)"
+13,6,5,3,(unknown)
+13,6,5,4,"addEventListener(string, function)"
+13,6,5,5,"post(string, unknown, function)"
+13,6,5,6,serialize()
+13,6,5,7,$(string)
+13,6,5,8,use(function)
+13,6,5,9,withBase(function)
+14,2,0,0,T[].sort(function): this
+14,2,0,1,sort(function)
+14,2,0,2,ObjectConstructor.keys(object): string[]
+14,2,0,3,"sortBy(unknown, string)"
+14,2,0,4,T[].sort(): this
+14,2,0,5,T[].reverse(): T[]
+14,2,0,6,"object[].sortBy(string, string)"
+14,2,0,7,T[].forEach(function): void
+14,2,0,8,sort(typeof compare)
+14,2,0,9,reverse()
+14,1,0,0,JSON.parse(string)
+14,1,0,1,JSON.stringify(unknown): string
+14,1,0,2,map(function)
+14,1,0,3,T[].map(function): U[]
+14,1,0,4,T[].slice(): T[]
+14,1,0,5,JSON.stringify(function): string
+14,1,0,6,slice()
+14,1,0,7,slice(number)
+14,1,0,8,T[].push(T[]): number
+14,1,0,9,T[].forEach(function): void
+14,6,0,0,use(unknown)
+14,6,0,1,static(string)
+14,6,0,2,static(unknown)
+14,6,0,3,"join(unknown, string)"
+14,6,0,4,"use(string, unknown)"
+14,6,0,5,express()
+14,6,0,6,"get(string, function)"
+14,6,0,7,listen(number)
+14,6,0,8,"listen(number, function)"
+14,6,0,9,"use(string, function)"
+15,3,1,0,"T[].reduce(function, U): U"
+15,3,1,1,T[].find(function): T
+15,3,1,2,filter(function)
+15,3,1,3,T[].filter(function): T[]
+15,3,1,4,find(function)
+15,3,1,5,T[].indexOf(T): number
+15,3,1,6,T[].some(function): boolean
+15,3,1,7,T[].includes(T): boolean
+15,3,1,8,"grep(unknown, function)"
+15,3,1,9,map(function)
+15,1,0,0,JSON.parse(string)
+15,1,0,1,JSON.stringify(unknown): string
+15,1,0,2,map(function)
+15,1,0,3,T[].map(function): U[]
+15,1,0,4,T[].slice(): T[]
+15,1,0,5,JSON.stringify(function): string
+15,1,0,6,slice()
+15,1,0,7,slice(number)
+15,1,0,8,T[].push(T[]): number
+15,1,0,9,T[].forEach(function): void
+15,5,0,0,"subtract(number, string)"
+15,5,0,1,format(string)
+15,5,0,2,moment()
+15,5,0,3,"add(number, string)"
+15,5,0,4,moment(string)
+15,5,0,5,moment(number)
+15,5,0,6,Number.toString(): string
+15,5,0,7,unix()
+15,5,0,8,"subtract(string, number)"
+15,5,0,9,toString()
+16,2,0,0,T[].sort(function): this
+16,2,0,1,sort(function)
+16,2,0,2,ObjectConstructor.keys(object): string[]
+16,2,0,3,"sortBy(unknown, string)"
+16,2,0,4,T[].sort(): this
+16,2,0,5,T[].reverse(): T[]
+16,2,0,6,"object[].sortBy(string, string)"
+16,2,0,7,T[].forEach(function): void
+16,2,0,8,sort(typeof compare)
+16,2,0,9,reverse()
+16,1,0,0,JSON.parse(string)
+16,1,0,1,JSON.stringify(unknown): string
+16,1,0,2,map(function)
+16,1,0,3,T[].map(function): U[]
+16,1,0,4,T[].slice(): T[]
+16,1,0,5,JSON.stringify(function): string
+16,1,0,6,slice()
+16,1,0,7,slice(number)
+16,1,0,8,T[].push(T[]): number
+16,1,0,9,T[].forEach(function): void
+16,6,0,0,use(unknown)
+16,6,0,1,static(unknown)
+16,6,0,2,"join(unknown, string)"
+16,6,0,3,"get(string, function)"
+16,6,0,4,listen(number)
+16,6,0,5,static(string)
+16,6,0,6,express()
+16,6,0,7,status(number)
+16,6,0,8,json(object)
+16,6,0,9,"render(string, object)"
+16,6,1,0,"use(string, unknown)"
+16,6,1,1,static(string)
+16,6,1,2,use(unknown)
+16,6,1,3,static(unknown)
+16,6,1,4,"join(unknown, string)"
+16,6,1,5,express()
+16,6,1,6,"get(string, function)"
+16,6,1,7,listen(number)
+16,6,1,8,"use(string, function)"
+16,6,1,9,"join(unknown, string, string, string)"
+16,6,2,0,"use(string, unknown)"
+16,6,2,1,static(string)
+16,6,2,2,use(unknown)
+16,6,2,3,static(unknown)
+16,6,2,4,"join(unknown, string)"
+16,6,2,5,express()
+16,6,2,6,"get(string, function)"
+16,6,2,7,listen(number)
+16,6,2,8,"use(string, function)"
+16,6,2,9,"join(unknown, string, string, string)"
+17,3,0,0,"T[].reduce(function, U): U"
+17,3,0,1,T[].find(function): T
+17,3,0,2,T[].includes(T): boolean
+17,3,0,3,T[].filter(function): T[]
+17,3,0,4,T[].indexOf(T): number
+17,3,0,5,filter(function)
+17,3,0,6,T[].some(function): boolean
+17,3,0,7,find(function)
+17,3,0,8,T[].findIndex(function): number
+17,3,0,9,"grep(unknown, function)"
+17,1,0,0,JSON.parse(string)
+17,1,0,1,JSON.stringify(unknown): string
+17,1,0,2,map(function)
+17,1,0,3,T[].map(function): U[]
+17,1,0,4,T[].slice(): T[]
+17,1,0,5,JSON.stringify(function): string
+17,1,0,6,slice()
+17,1,0,7,slice(number)
+17,1,0,8,T[].push(T[]): number
+17,1,0,9,T[].forEach(function): void
+17,5,0,0,"subtract(number, string)"
+17,5,0,1,format(string)
+17,5,0,2,moment()
+17,5,0,3,"add(number, string)"
+17,5,0,4,diff(unknown)
+17,5,0,5,moment(number)
+17,5,0,6,"tz(Date, string, string)"
+17,5,0,7,local()
+17,5,0,8,"subtract(string, number)"
+17,5,0,9,duration(unknown)
+18,2,0,0,T[].sort(function): this
+18,2,0,1,sort(function)
+18,2,0,2,ObjectConstructor.keys(object): string[]
+18,2,0,3,"sortBy(unknown, string)"
+18,2,0,4,T[].sort(): this
+18,2,0,5,T[].reverse(): T[]
+18,2,0,6,"object[].sortBy(string, string)"
+18,2,0,7,T[].forEach(function): void
+18,2,0,8,sort(typeof compare)
+18,2,0,9,reverse()
+18,1,0,0,JSON.parse(string)
+18,1,0,1,JSON.stringify(unknown): string
+18,1,0,2,map(function)
+18,1,0,3,T[].map(function): U[]
+18,1,0,4,T[].slice(): T[]
+18,1,0,5,JSON.stringify(function): string
+18,1,0,6,slice()
+18,1,0,7,slice(number)
+18,1,0,8,T[].push(T[]): number
+18,1,0,9,T[].forEach(function): void
+18,6,0,0,static(unknown)
+18,6,0,1,static(string)
+18,6,0,2,use(unknown)
+18,6,0,3,"use(string, unknown)"
+18,6,0,4,"join(unknown, string)"
+18,6,0,5,"get(string, function)"
+18,6,0,6,"use(string, function, unknown)"
+18,6,0,7,"use(string, function)"
+18,6,0,8,use(function)
+18,6,0,9,"get(string, unknown)"
+19,4,0,0,Intl.NumberFormat.format(number | bigint): string
+19,4,0,1,Number.toFixed(number): string
+19,4,0,2,"String.replace(object, string): string"
+19,4,0,3,"Number.toLocaleString(Intl.LocalesArgument, Intl.NumberFormatOptions): string"
+19,4,0,4,toFixed(number)
+19,4,0,5,"String.replace(string | RegExp, string): string"
+19,4,0,6,"replace(regex, string)"
+19,4,0,7,formatMoney(number)
+19,4,0,8,format(string)
+19,4,0,9,Number.toLocaleString(): string
+19,3,0,0,"T[].reduce(function, U): U"
+19,3,0,1,T[].find(function): T
+19,3,0,2,T[].includes(T): boolean
+19,3,0,3,T[].filter(function): T[]
+19,3,0,4,T[].indexOf(T): number
+19,3,0,5,filter(function)
+19,3,0,6,T[].some(function): boolean
+19,3,0,7,find(function)
+19,3,0,8,T[].findIndex(function): number
+19,3,0,9,"grep(unknown, function)"
+19,5,0,0,"subtract(number, string)"
+19,5,0,1,format(string)
+19,5,0,2,moment()
+19,5,0,3,"add(number, string)"
+19,5,0,4,"moment(string, string)"
+19,5,0,5,moment(number)
+19,5,0,6,"moment(unknown, string)"
+19,5,0,7,"subtract(string, number)"
+19,5,0,8,moment(unknown)
+19,5,0,9,diff(unknown)
+20,3,0,0,"T[].reduce(function, U): U"
+20,3,0,1,T[].find(function): T
+20,3,0,2,T[].filter(function): T[]
+20,3,0,3,T[].includes(T): boolean
+20,3,0,4,T[].indexOf(T): number
+20,3,0,5,filter(function)
+20,3,0,6,T[].findIndex(function): number
+20,3,0,7,T[].some(function): boolean
+20,3,0,8,find(function)
+20,3,0,9,T[].map(function): U[]
+20,1,0,0,JSON.parse(string)
+20,1,0,1,JSON.stringify(unknown): string
+20,1,0,2,map(function)
+20,1,0,3,T[].map(function): U[]
+20,1,0,4,T[].slice(): T[]
+20,1,0,5,JSON.stringify(function): string
+20,1,0,6,slice()
+20,1,0,7,slice(number)
+20,1,0,8,T[].push(T[]): number
+20,1,0,9,T[].forEach(function): void
+20,5,0,0,"subtract(number, string)"
+20,5,0,1,Date.getDate(): number
+20,5,0,2,Date.getTime(): number
+20,5,0,3,Date.setDate(number): number
+20,5,0,4,moment()
+20,5,0,5,format(string)
+20,5,0,6,"add(number, string)"
+20,5,0,7,Date.setTime(number): number
+20,5,0,8,Date.toLocaleString(): string
+20,5,0,9,Document.write(string[]): void
+21,3,0,0,"T[].reduce(function, U): U"
+21,3,0,1,T[].find(function): T
+21,3,0,2,T[].includes(T): boolean
+21,3,0,3,T[].filter(function): T[]
+21,3,0,4,T[].indexOf(T): number
+21,3,0,5,filter(function)
+21,3,0,6,T[].some(function): boolean
+21,3,0,7,find(function)
+21,3,0,8,T[].findIndex(function): number
+21,3,0,9,"grep(unknown, function)"
+21,1,0,0,JSON.parse(string)
+21,1,0,1,JSON.stringify(unknown): string
+21,1,0,2,map(function)
+21,1,0,3,T[].map(function): U[]
+21,1,0,4,T[].slice(): T[]
+21,1,0,5,JSON.stringify(function): string
+21,1,0,6,slice()
+21,1,0,7,slice(number)
+21,1,0,8,T[].push(T[]): number
+21,1,0,9,T[].forEach(function): void
+21,5,0,0,moment(string)
+21,5,0,1,format(string)
+21,5,0,2,"subtract(number, string)"
+21,5,0,3,subtract(unknown)
+21,5,0,4,moment()
+21,5,0,5,diff(unknown)
+21,5,0,6,toString()
+21,5,0,7,subtract(object)
+21,5,0,8,moment(unknown)
+21,5,0,9,Number.toString(): string
+22,2,0,0,T[].sort(function): this
+22,2,0,1,sort(function)
+22,2,0,2,ObjectConstructor.keys(object): string[]
+22,2,0,3,"sortBy(unknown, string)"
+22,2,0,4,T[].sort(): this
+22,2,0,5,T[].reverse(): T[]
+22,2,0,6,"object[].sortBy(string, string)"
+22,2,0,7,T[].forEach(function): void
+22,2,0,8,sort(typeof compare)
+22,2,0,9,reverse()
+22,1,0,0,JSON.parse(string)
+22,1,0,1,JSON.stringify(unknown): string
+22,1,0,2,map(function)
+22,1,0,3,T[].map(function): U[]
+22,1,0,4,T[].slice(): T[]
+22,1,0,5,JSON.stringify(function): string
+22,1,0,6,slice()
+22,1,0,7,slice(number)
+22,1,0,8,T[].push(T[]): number
+22,1,0,9,T[].forEach(function): void
+22,6,0,0,use(unknown)
+22,6,0,1,static(string)
+22,6,0,2,static(unknown)
+22,6,0,3,"use(string, unknown)"
+22,6,0,4,"join(unknown, string)"
+22,6,0,5,"get(string, function)"
+22,6,0,6,use(function)
+22,6,0,7,"get(string, function, unknown)"
+22,6,0,8,express()
+22,6,0,9,()
+23,2,0,0,T[].sort(function): this
+23,2,0,1,sort(function)
+23,2,0,2,ObjectConstructor.keys(object): string[]
+23,2,0,3,"sortBy(unknown, string)"
+23,2,0,4,T[].sort(): this
+23,2,0,5,T[].reverse(): T[]
+23,2,0,6,"object[].sortBy(string, string)"
+23,2,0,7,T[].forEach(function): void
+23,2,0,8,sort(typeof compare)
+23,2,0,9,reverse()
+23,1,0,0,JSON.parse(string)
+23,1,0,1,JSON.stringify(unknown): string
+23,1,0,2,map(function)
+23,1,0,3,T[].map(function): U[]
+23,1,0,4,T[].slice(): T[]
+23,1,0,5,JSON.stringify(function): string
+23,1,0,6,slice()
+23,1,0,7,slice(number)
+23,1,0,8,T[].push(T[]): number
+23,1,0,9,T[].forEach(function): void
+23,1,1,0,JSON.parse(string)
+23,1,1,1,T[].map(function): U[]
+23,1,1,2,slice()
+23,1,1,3,JSON.stringify(unknown): string
+23,1,1,4,T[].slice(): T[]
+23,1,1,5,slice(number)
+23,1,1,6,JSON.stringify(function): string
+23,1,1,7,map(function)
+23,1,1,8,forEach(function)
+23,1,1,9,T[].push(T[]): number
+23,6,0,0,static(string)
+23,6,0,1,"get(string, function)"
+23,6,0,2,use(unknown)
+23,6,0,3,static(unknown)
+23,6,0,4,"use(string, unknown)"
+23,6,0,5,"use(string, function)"
+23,6,0,6,"use(string, function, unknown)"
+23,6,0,7,express()
+23,6,0,8,"join(unknown, string)"
+23,6,0,9,"get(string, unknown)"
+23,6,1,0,static(string)
+23,6,1,1,"use(string, unknown)"
+23,6,1,2,"use(string, function)"
+23,6,1,3,static(unknown)
+23,6,1,4,use(unknown)
+23,6,1,5,"get(string, function)"
+23,6,1,6,"use(string, function, unknown)"
+23,6,1,7,"join(unknown, string)"
+23,6,1,8,use(function)
+23,6,1,9,"sendfile(unknown, object)"
+24,3,0,0,"T[].reduce(function, U): U"
+24,3,0,1,T[].find(function): T
+24,3,0,2,T[].includes(T): boolean
+24,3,0,3,T[].filter(function): T[]
+24,3,0,4,T[].indexOf(T): number
+24,3,0,5,filter(function)
+24,3,0,6,T[].some(function): boolean
+24,3,0,7,find(function)
+24,3,0,8,T[].findIndex(function): number
+24,3,0,9,"grep(unknown, function)"
+24,1,0,0,JSON.parse(string)
+24,1,0,1,JSON.stringify(unknown): string
+24,1,0,2,map(function)
+24,1,0,3,T[].map(function): U[]
+24,1,0,4,T[].slice(): T[]
+24,1,0,5,JSON.stringify(function): string
+24,1,0,6,slice()
+24,1,0,7,slice(number)
+24,1,0,8,T[].push(T[]): number
+24,1,0,9,T[].forEach(function): void
+24,5,0,0,format(string)
+24,5,0,1,moment()
+24,5,0,2,moment(string)
+24,5,0,3,"add(number, string)"
+24,5,0,4,"subtract(number, string)"
+24,5,0,5,diff(unknown)
+24,5,0,6,"diff(unknown, string)"
+24,5,0,7,duration(unknown)
+24,5,0,8,moment(unknown)
+24,5,0,9,"moment(unknown, string)"
+25,4,0,0,Intl.NumberFormat.format(number | bigint): string
+25,4,0,1,Number.toFixed(number): string
+25,4,0,2,"String.replace(object, string): string"
+25,4,0,3,"Number.toLocaleString(Intl.LocalesArgument, Intl.NumberFormatOptions): string"
+25,4,0,4,toFixed(number)
+25,4,0,5,"String.replace(string | RegExp, string): string"
+25,4,0,6,"replace(regex, string)"
+25,4,0,7,formatMoney(number)
+25,4,0,8,format(string)
+25,4,0,9,Number.toLocaleString(): string
+25,3,0,0,"T[].reduce(function, U): U"
+25,3,0,1,T[].find(function): T
+25,3,0,2,T[].includes(T): boolean
+25,3,0,3,T[].filter(function): T[]
+25,3,0,4,T[].indexOf(T): number
+25,3,0,5,filter(function)
+25,3,0,6,T[].some(function): boolean
+25,3,0,7,find(function)
+25,3,0,8,T[].findIndex(function): number
+25,3,0,9,"grep(unknown, function)"
+25,5,0,0,getTime()
+25,5,0,1,parse(string)
+25,5,0,2,println(string)
+25,5,0,3,subtract(object)
+25,5,0,4,moment(string)
+25,5,0,5,toString()
+25,5,0,6,String.split(string | RegExp): string[]
+25,5,0,7,subtract(unknown)
+25,5,0,8,ToString(string)
+25,5,0,9,main()
+25,5,1,0,subtract(object)
+25,5,1,1,format()
+25,5,1,2,"subtract(number, string)"
+25,5,1,3,moment(string)
+25,5,1,4,String.split(string | RegExp): string[]
+25,5,1,5,subtract(unknown)
+25,5,1,6,astype(unknown)
+25,5,1,7,moment(unknown)
+25,5,1,8,ofPattern(string)
+25,5,1,9,of(string)
+25,5,2,0,moment()
+25,5,2,1,format(string)
+25,5,2,2,"moment(string, string)"
+25,5,2,3,"add(number, string)"
+25,5,2,4,endOf(string)
+25,5,2,5,startOf(string)
+25,5,2,6,toString()
+25,5,2,7,format()
+25,5,2,8,moment(string)
+25,5,2,9,Date.toString(): string
+25,5,3,0,format(string)
+25,5,3,1,moment(string)
+25,5,3,2,subtract(unknown)
+25,5,3,3,"moment(string, string)"
+25,5,3,4,moment(unknown)
+25,5,3,5,diff(unknown)
+25,5,3,6,"subtract(number, string)"
+25,5,3,7,toString()
+25,5,3,8,subtract(object)
+25,5,3,9,moment()
+26,2,0,0,T[].sort(function): this
+26,2,0,1,sort(function)
+26,2,0,2,ObjectConstructor.keys(object): string[]
+26,2,0,3,"sortBy(unknown, string)"
+26,2,0,4,T[].sort(): this
+26,2,0,5,T[].reverse(): T[]
+26,2,0,6,"object[].sortBy(string, string)"
+26,2,0,7,T[].forEach(function): void
+26,2,0,8,sort(typeof compare)
+26,2,0,9,reverse()
+26,1,0,0,JSON.parse(string)
+26,1,0,1,JSON.stringify(unknown): string
+26,1,0,2,map(function)
+26,1,0,3,T[].map(function): U[]
+26,1,0,4,T[].slice(): T[]
+26,1,0,5,JSON.stringify(function): string
+26,1,0,6,slice()
+26,1,0,7,slice(number)
+26,1,0,8,T[].push(T[]): number
+26,1,0,9,T[].forEach(function): void
+26,1,1,0,JSON.parse(string)
+26,1,1,1,JSON.stringify(unknown): string
+26,1,1,2,JSON.stringify(object[]): string
+26,1,1,3,map(function)
+26,1,1,4,T[].map(function): U[]
+26,1,1,5,JSON.stringify(function): string
+26,1,1,6,slice(number)
+26,1,1,7,T[].slice(number): T[]
+26,1,1,8,structuredClone(unknown)
+26,1,1,9,JSON.stringify(number[][]): string
+26,6,0,0,use(unknown)
+26,6,0,1,static(string)
+26,6,0,2,"use(string, unknown)"
+26,6,0,3,static(unknown)
+26,6,0,4,"join(unknown, string)"
+26,6,0,5,express()
+26,6,0,6,"get(string, function)"
+26,6,0,7,listen(number)
+26,6,0,8,"use(string, function)"
+26,6,0,9,"join(unknown, string, string, string)"
+26,6,1,0,use(unknown)
+26,6,1,1,static(string)
+26,6,1,2,"use(string, unknown)"
+26,6,1,3,static(unknown)
+26,6,1,4,"join(unknown, string)"
+26,6,1,5,express()
+26,6,1,6,"get(string, function)"
+26,6,1,7,listen(number)
+26,6,1,8,"use(string, function)"
+26,6,1,9,"join(unknown, string, string, string)"
+26,6,2,0,static(string)
+26,6,2,1,use(unknown)
+26,6,2,2,"use(string, unknown)"
+26,6,2,3,"join(unknown, string)"
+26,6,2,4,express()
+26,6,2,5,static(unknown)
+26,6,2,6,"get(string, function)"
+26,6,2,7,listen(number)
+26,6,2,8,"post(string, function)"
+26,6,2,9,"resolve(unknown, string)"
+27,4,0,0,Intl.NumberFormat.format(number | bigint): string
+27,4,0,1,Number.toFixed(number): string
+27,4,0,2,"String.replace(object, string): string"
+27,4,0,3,"Number.toLocaleString(Intl.LocalesArgument, Intl.NumberFormatOptions): string"
+27,4,0,4,toFixed(number)
+27,4,0,5,"String.replace(string | RegExp, string): string"
+27,4,0,6,"replace(regex, string)"
+27,4,0,7,formatMoney(number)
+27,4,0,8,format(string)
+27,4,0,9,Number.toLocaleString(): string
+27,3,0,0,"T[].reduce(function, U): U"
+27,3,0,1,T[].find(function): T
+27,3,0,2,T[].includes(T): boolean
+27,3,0,3,T[].filter(function): T[]
+27,3,0,4,T[].indexOf(T): number
+27,3,0,5,filter(function)
+27,3,0,6,T[].some(function): boolean
+27,3,0,7,find(function)
+27,3,0,8,T[].findIndex(function): number
+27,3,0,9,"grep(unknown, function)"
+27,5,0,0,format(string)
+27,5,0,1,utc(unknown)
+27,5,0,2,duration(unknown)
+27,5,0,3,diff(unknown)
+27,5,0,4,"duration(number, string)"
+27,5,0,5,asHours()
+27,5,0,6,moment(string)
+27,5,0,7,"diff(unknown, string)"
+27,5,0,8,asMilliseconds()
+27,5,0,9,moment(unknown)
+27,5,1,0,"subtract(number, string)"
+27,5,1,1,format(string)
+27,5,1,2,moment()
+27,5,1,3,"add(number, string)"
+27,5,1,4,moment(string)
+27,5,1,5,moment(number)
+27,5,1,6,diff(unknown)
+27,5,1,7,subtract(unknown)
+27,5,1,8,Number.toString(): string
+27,5,1,9,unix()
+28,2,0,0,T[].sort(function): this
+28,2,0,1,sort(function)
+28,2,0,2,ObjectConstructor.keys(object): string[]
+28,2,0,3,"sortBy(unknown, string)"
+28,2,0,4,T[].sort(): this
+28,2,0,5,T[].reverse(): T[]
+28,2,0,6,"object[].sortBy(string, string)"
+28,2,0,7,T[].forEach(function): void
+28,2,0,8,sort(typeof compare)
+28,2,0,9,reverse()
+28,2,1,0,T[].sort(function): this
+28,2,1,1,sort(function)
+28,2,1,2,T[].sort(): this
+28,2,1,3,reverse()
+28,2,1,4,T[].forEach(function): void
+28,2,1,5,"sortBy(unknown, string)"
+28,2,1,6,"object[].sortBy(string, string)"
+28,2,1,7,function.(): void
+28,2,1,8,object[].sortBy(string)
+28,2,1,9,sortBy(string)
+28,4,0,0,Intl.NumberFormat.format(number | bigint): string
+28,4,0,1,Number.toFixed(number): string
+28,4,0,2,"String.replace(object, string): string"
+28,4,0,3,"Number.toLocaleString(Intl.LocalesArgument, Intl.NumberFormatOptions): string"
+28,4,0,4,toFixed(number)
+28,4,0,5,"String.replace(string | RegExp, string): string"
+28,4,0,6,"replace(regex, string)"
+28,4,0,7,formatMoney(number)
+28,4,0,8,format(string)
+28,4,0,9,Number.toLocaleString(): string
+28,6,0,0,static(unknown)
+28,6,0,1,use(unknown)
+28,6,0,2,"join(unknown, string)"
+28,6,0,3,"use(string, unknown)"
+28,6,0,4,static(string)
+28,6,0,5,"use(string, function)"
+28,6,0,6,express()
+28,6,0,7,"get(string, function)"
+28,6,0,8,"listen(number, function)"
+28,6,0,9,"use(string, function, unknown)"
+28,6,1,0,"T[].reduce(function, U): U"
+28,6,1,1,static(string)
+28,6,1,2,use(unknown)
+28,6,1,3,"use(string, unknown)"
+28,6,1,4,express()
+28,6,1,5,"get(string, function)"
+28,6,1,6,static(unknown)
+28,6,1,7,"join(unknown, string)"
+28,6,1,8,"listen(number, function)"
+28,6,1,9,"use(string, function)"
+28,6,2,0,static(string)
+28,6,2,1,use(unknown)
+28,6,2,2,"get(string, function)"
+28,6,2,3,static(unknown)
+28,6,2,4,"use(string, unknown)"
+28,6,2,5,"join(unknown, string)"
+28,6,2,6,"use(string, function, unknown)"
+28,6,2,7,express()
+28,6,2,8,"use(string, function)"
+28,6,2,9,use(function)
+29,2,0,0,T[].sort(function): this
+29,2,0,1,sort(function)
+29,2,0,2,ObjectConstructor.keys(object): string[]
+29,2,0,3,"sortBy(unknown, string)"
+29,2,0,4,T[].sort(): this
+29,2,0,5,T[].reverse(): T[]
+29,2,0,6,"object[].sortBy(string, string)"
+29,2,0,7,T[].forEach(function): void
+29,2,0,8,sort(typeof compare)
+29,2,0,9,reverse()
+29,4,0,0,Intl.NumberFormat.format(number | bigint): string
+29,4,0,1,Number.toFixed(number): string
+29,4,0,2,"String.replace(object, string): string"
+29,4,0,3,"Number.toLocaleString(Intl.LocalesArgument, Intl.NumberFormatOptions): string"
+29,4,0,4,toFixed(number)
+29,4,0,5,"String.replace(string | RegExp, string): string"
+29,4,0,6,"replace(regex, string)"
+29,4,0,7,formatMoney(number)
+29,4,0,8,format(string)
+29,4,0,9,Number.toLocaleString(): string
+29,6,0,0,"get(string, function)"
+29,6,0,1,use(unknown)
+29,6,0,2,"use(string, unknown)"
+29,6,0,3,Router()
+29,6,0,4,"join(unknown, string)"
+29,6,0,5,"use(string, function)"
+29,6,0,6,express()
+29,6,0,7,use(function)
+29,6,0,8,T[].forEach(function): void
+29,6,0,9,()
+29,6,1,0,use(unknown)
+29,6,1,1,static(unknown)
+29,6,1,2,static(string)
+29,6,1,3,"use(string, unknown)"
+29,6,1,4,"join(unknown, string)"
+29,6,1,5,"use(string, function)"
+29,6,1,6,use(function)
+29,6,1,7,"get(string, unknown)"
+29,6,1,8,"join(unknown, string, string)"
+29,6,1,9,cwd()
+30,4,0,0,Intl.NumberFormat.format(number | bigint): string
+30,4,0,1,Number.toFixed(number): string
+30,4,0,2,"String.replace(object, string): string"
+30,4,0,3,"Number.toLocaleString(Intl.LocalesArgument, Intl.NumberFormatOptions): string"
+30,4,0,4,toFixed(number)
+30,4,0,5,"String.replace(string | RegExp, string): string"
+30,4,0,6,"replace(regex, string)"
+30,4,0,7,formatMoney(number)
+30,4,0,8,format(string)
+30,4,0,9,Number.toLocaleString(): string
+30,3,0,0,"T[].reduce(function, U): U"
+30,3,0,1,T[].find(function): T
+30,3,0,2,filter(function)
+30,3,0,3,T[].filter(function): T[]
+30,3,0,4,find(function)
+30,3,0,5,T[].indexOf(T): number
+30,3,0,6,T[].some(function): boolean
+30,3,0,7,T[].includes(T): boolean
+30,3,0,8,"grep(unknown, function)"
+30,3,0,9,map(function)
+30,5,0,0,diff(unknown)
+30,5,0,1,format(string)
+30,5,0,2,moment(string)
+30,5,0,3,moment()
+30,5,0,4,"subtract(number, string)"
+30,5,0,5,subtract(unknown)
+30,5,0,6,duration(unknown)
+30,5,0,7,moment(unknown)
+30,5,0,8,toString()
+30,5,0,9,subtract(object)
+31,4,0,0,Intl.NumberFormat.format(number | bigint): string
+31,4,0,1,Number.toFixed(number): string
+31,4,0,2,"String.replace(object, string): string"
+31,4,0,3,"Number.toLocaleString(Intl.LocalesArgument, Intl.NumberFormatOptions): string"
+31,4,0,4,toFixed(number)
+31,4,0,5,"String.replace(string | RegExp, string): string"
+31,4,0,6,"replace(regex, string)"
+31,4,0,7,formatMoney(number)
+31,4,0,8,format(string)
+31,4,0,9,Number.toLocaleString(): string
+31,3,0,0,"T[].reduce(function, U): U"
+31,3,0,1,T[].filter(function): T[]
+31,3,0,2,T[].find(function): T
+31,3,0,3,T[].includes(T): boolean
+31,3,0,4,filter(function)
+31,3,0,5,T[].indexOf(T): number
+31,3,0,6,T[].findIndex(function): number
+31,3,0,7,T[].some(function): boolean
+31,3,0,8,find(function)
+31,3,0,9,T[].map(function): U[]
+31,5,0,0,"subtract(number, string)"
+31,5,0,1,format(string)
+31,5,0,2,moment()
+31,5,0,3,"add(number, string)"
+31,5,0,4,diff(unknown)
+31,5,0,5,moment(number)
+31,5,0,6,"tz(Date, string, string)"
+31,5,0,7,local()
+31,5,0,8,"subtract(string, number)"
+31,5,0,9,moment(string)
+32,2,0,0,T[].sort(function): this
+32,2,0,1,sort(function)
+32,2,0,2,ObjectConstructor.keys(object): string[]
+32,2,0,3,"sortBy(unknown, string)"
+32,2,0,4,T[].sort(): this
+32,2,0,5,T[].reverse(): T[]
+32,2,0,6,"object[].sortBy(string, string)"
+32,2,0,7,T[].forEach(function): void
+32,2,0,8,sort(typeof compare)
+32,2,0,9,reverse()
+32,1,0,0,JSON.parse(string)
+32,1,0,1,JSON.stringify(unknown): string
+32,1,0,2,map(function)
+32,1,0,3,T[].map(function): U[]
+32,1,0,4,T[].slice(): T[]
+32,1,0,5,JSON.stringify(function): string
+32,1,0,6,slice()
+32,1,0,7,slice(number)
+32,1,0,8,T[].push(T[]): number
+32,1,0,9,T[].forEach(function): void
+32,6,0,0,use(unknown)
+32,6,0,1,static(string)
+32,6,0,2,static(unknown)
+32,6,0,3,"use(string, unknown)"
+32,6,0,4,"join(unknown, string)"
+32,6,0,5,"use(string, function)"
+32,6,0,6,express()
+32,6,0,7,"get(string, function)"
+32,6,0,8,listen(number)
+32,6,0,9,"join(unknown, string, string, string)"
+33,2,0,0,T[].sort(function): this
+33,2,0,1,sort(function)
+33,2,0,2,ObjectConstructor.keys(object): string[]
+33,2,0,3,"sortBy(unknown, string)"
+33,2,0,4,T[].sort(): this
+33,2,0,5,T[].reverse(): T[]
+33,2,0,6,"object[].sortBy(string, string)"
+33,2,0,7,T[].forEach(function): void
+33,2,0,8,sort(typeof compare)
+33,2,0,9,reverse()
+33,4,0,0,Intl.NumberFormat.format(number | bigint): string
+33,4,0,1,Number.toFixed(number): string
+33,4,0,2,"String.replace(object, string): string"
+33,4,0,3,"Number.toLocaleString(Intl.LocalesArgument, Intl.NumberFormatOptions): string"
+33,4,0,4,toFixed(number)
+33,4,0,5,"String.replace(string | RegExp, string): string"
+33,4,0,6,"replace(regex, string)"
+33,4,0,7,formatMoney(number)
+33,4,0,8,format(string)
+33,4,0,9,Number.toLocaleString(): string
+33,6,0,0,static(string)
+33,6,0,1,use(unknown)
+33,6,0,2,"use(string, unknown)"
+33,6,0,3,"get(string, function)"
+33,6,0,4,"use(string, function)"
+33,6,0,5,static(unknown)
+33,6,0,6,"use(string, function, unknown)"
+33,6,0,7,use(function)
+33,6,0,8,"join(unknown, string)"
+33,6,0,9,"get(string, unknown)"
+34,2,0,0,T[].sort(function): this
+34,2,0,1,sort(function)
+34,2,0,2,ObjectConstructor.keys(object): string[]
+34,2,0,3,"sortBy(unknown, string)"
+34,2,0,4,T[].sort(): this
+34,2,0,5,T[].reverse(): T[]
+34,2,0,6,"object[].sortBy(string, string)"
+34,2,0,7,T[].forEach(function): void
+34,2,0,8,sort(typeof compare)
+34,2,0,9,reverse()
+34,1,0,0,JSON.parse(string)
+34,1,0,1,JSON.stringify(unknown): string
+34,1,0,2,map(function)
+34,1,0,3,T[].map(function): U[]
+34,1,0,4,T[].slice(): T[]
+34,1,0,5,JSON.stringify(function): string
+34,1,0,6,slice()
+34,1,0,7,slice(number)
+34,1,0,8,T[].push(T[]): number
+34,1,0,9,T[].forEach(function): void
+34,6,0,0,"get(string, function)"
+34,6,0,1,use(unknown)
+34,6,0,2,()
+34,6,0,3,"join(unknown, string)"
+34,6,0,4,"use(string, unknown)"
+34,6,0,5,listen(number)
+34,6,0,6,T[].forEach(function): void
+34,6,0,7,Router()
+34,6,0,8,express()
+34,6,0,9,"put(string, function)"
+34,6,1,0,static(string)
+34,6,1,1,use(unknown)
+34,6,1,2,"use(string, unknown)"
+34,6,1,3,express()
+34,6,1,4,static(unknown)
+34,6,1,5,listen(number)
+34,6,1,6,"join(unknown, string)"
+34,6,1,7,createServer(function)
+34,6,1,8,"get(string, function)"
+34,6,1,9,"listen(number, function)"
+35,2,0,0,T[].sort(function): this
+35,2,0,1,sort(function)
+35,2,0,2,ObjectConstructor.keys(object): string[]
+35,2,0,3,"sortBy(unknown, string)"
+35,2,0,4,T[].sort(): this
+35,2,0,5,T[].reverse(): T[]
+35,2,0,6,"object[].sortBy(string, string)"
+35,2,0,7,T[].forEach(function): void
+35,2,0,8,sort(typeof compare)
+35,2,0,9,reverse()
+35,4,0,0,Intl.NumberFormat.format(number | bigint): string
+35,4,0,1,Number.toFixed(number): string
+35,4,0,2,"String.replace(object, string): string"
+35,4,0,3,"Number.toLocaleString(Intl.LocalesArgument, Intl.NumberFormatOptions): string"
+35,4,0,4,toFixed(number)
+35,4,0,5,"String.replace(string | RegExp, string): string"
+35,4,0,6,"replace(regex, string)"
+35,4,0,7,formatMoney(number)
+35,4,0,8,format(string)
+35,4,0,9,Number.toLocaleString(): string
+35,6,0,0,"T[].reduce(function, U): U"
+35,6,0,1,static(unknown)
+35,6,0,2,use(unknown)
+35,6,0,3,"use(string, unknown)"
+35,6,0,4,"join(unknown, string)"
+35,6,0,5,static(string)
+35,6,0,6,"use(string, function)"
+35,6,0,7,"get(string, function)"
+35,6,0,8,"get(string, unknown)"
+35,6,0,9,express()
+36,3,0,0,"T[].reduce(function, U): U"
+36,3,0,1,T[].filter(function): T[]
+36,3,0,2,T[].find(function): T
+36,3,0,3,T[].includes(T): boolean
+36,3,0,4,filter(function)
+36,3,0,5,T[].indexOf(T): number
+36,3,0,6,T[].findIndex(function): number
+36,3,0,7,T[].some(function): boolean
+36,3,0,8,find(function)
+36,3,0,9,T[].map(function): U[]
+36,5,0,0,format(string)
+36,5,0,1,subtract(unknown)
+36,5,0,2,"moment(string, string)"
+36,5,0,3,moment(unknown)
+36,5,0,4,diff(unknown)
+36,5,0,5,moment()
+36,5,0,6,"subtract(number, string)"
+36,5,0,7,subtract(object)
+36,5,0,8,moment(string)
+36,5,0,9,"subtract(unknown, string)"
+37,2,0,0,T[].sort(function): this
+37,2,0,1,sort(function)
+37,2,0,2,ObjectConstructor.keys(object): string[]
+37,2,0,3,"sortBy(unknown, string)"
+37,2,0,4,T[].sort(): this
+37,2,0,5,T[].reverse(): T[]
+37,2,0,6,"object[].sortBy(string, string)"
+37,2,0,7,T[].forEach(function): void
+37,2,0,8,sort(typeof compare)
+37,2,0,9,reverse()
+37,4,0,0,Intl.NumberFormat.format(number | bigint): string
+37,4,0,1,Number.toFixed(number): string
+37,4,0,2,"String.replace(object, string): string"
+37,4,0,3,"Number.toLocaleString(Intl.LocalesArgument, Intl.NumberFormatOptions): string"
+37,4,0,4,toFixed(number)
+37,4,0,5,"String.replace(string | RegExp, string): string"
+37,4,0,6,"replace(regex, string)"
+37,4,0,7,formatMoney(number)
+37,4,0,8,format(string)
+37,4,0,9,Number.toLocaleString(): string
+37,6,0,0,"get(string, function)"
+37,6,0,1,"use(string, unknown)"
+37,6,0,2,Router()
+37,6,0,3,express()
+37,6,0,4,use(function)
+37,6,0,5,T[].forEach(function): void
+37,6,0,6,()
+37,6,0,7,"get(string, unknown)"
+37,6,0,8,use(unknown)
+37,6,0,9,"join(unknown, string)"
+37,6,1,0,"get(string, function)"
+37,6,1,1,"use(string, function)"
+37,6,1,2,"use(string, unknown)"
+37,6,1,3,express()
+37,6,1,4,"listen(number, function)"
+37,6,1,5,listen(number)
+37,6,1,6,Router()
+37,6,1,7,()
+37,6,1,8,createServer(unknown)
+37,6,1,9,"use(string, typeof sendGreeting)"
+37,6,2,0,"get(string, function)"
+37,6,2,1,Schema(object)
+37,6,2,2,DateConstructor.now(): number
+37,6,2,3,use(unknown)
+37,6,2,4,T[].forEach(function): void
+37,6,2,5,"model(string, unknown)"
+37,6,2,6,express()
+37,6,2,7,()
+37,6,2,8,"join(unknown, string)"
+37,6,2,9,"get(string, typeof validate, function)"
+37,6,3,0,"get(string, function)"
+37,6,3,1,"use(string, unknown)"
+37,6,3,2,Router()
+37,6,3,3,express()
+37,6,3,4,use(function)
+37,6,3,5,T[].forEach(function): void
+37,6,3,6,()
+37,6,3,7,"get(string, unknown)"
+37,6,3,8,use(unknown)
+37,6,3,9,"join(unknown, string)"
+37,6,4,0,"get(string, function)"
+37,6,4,1,"use(string, unknown)"
+37,6,4,2,"get(string, unknown)"
+37,6,4,3,express()
+37,6,4,4,Router()
+37,6,4,5,route(string)
+37,6,4,6,"join(unknown, string)"
+37,6,4,7,static(unknown)
+37,6,4,8,use(unknown)
+37,6,4,9,"get(string, typeof validate, function)"
+37,6,5,0,"get(string, function)"
+37,6,5,1,use(unknown)
+37,6,5,2,static(string)
+37,6,5,3,express()
+37,6,5,4,dirname(unknown)
+37,6,5,5,"use(string, unknown)"
+37,6,5,6,use(function)
+37,6,5,7,"resolve(unknown, string)"
+37,6,5,8,listen(number)
+37,6,5,9,static(unknown)
+37,6,6,0,"get(string, function)"
+37,6,6,1,"param(string, function)"
+37,6,6,2,param(string)
+37,6,6,3,"get(string, function, unknown, unknown, unknown, unknown, unknown)"
+37,6,6,4,express()
+37,6,6,5,"set(string, string)"
+37,6,6,6,use(unknown)
+37,6,6,7,static(string)
+37,6,6,8,urlencoded(object)
+37,6,6,9,json()
+37,6,7,0,"get(string, function)"
+37,6,7,1,"use(string, function)"
+37,6,7,2,Router()
+37,6,7,3,get(string)
+37,6,7,4,parse(unknown)
+37,6,7,5,"use(string, unknown)"
+37,6,7,6,"listen(number, function)"
+37,6,7,7,use(function)
+37,6,7,8,"get(string, unknown)"
+37,6,7,9,test(unknown)
+37,6,8,0,"get(string, function)"
+37,6,8,1,use(unknown)
+37,6,8,2,static(string)
+37,6,8,3,express()
+37,6,8,4,dirname(unknown)
+37,6,8,5,"use(string, unknown)"
+37,6,8,6,use(function)
+37,6,8,7,"resolve(unknown, string)"
+37,6,8,8,listen(number)
+37,6,8,9,static(unknown)
+38,5,0,0,format(string)
+38,5,0,1,moment(string)
+38,5,0,2,moment(unknown)
+38,5,0,3,diff(unknown)
+38,5,0,4,subtract(unknown)
+38,5,0,5,"moment(string, string)"
+38,5,0,6,toString()
+38,5,0,7,subtract(object)
+38,5,0,8,moment()
+38,5,0,9,Number.toString(): string
+39,2,0,0,T[].sort(function): this
+39,2,0,1,sort(function)
+39,2,0,2,ObjectConstructor.keys(object): string[]
+39,2,0,3,"sortBy(unknown, string)"
+39,2,0,4,T[].sort(): this
+39,2,0,5,T[].reverse(): T[]
+39,2,0,6,"object[].sortBy(string, string)"
+39,2,0,7,T[].forEach(function): void
+39,2,0,8,sort(typeof compare)
+39,2,0,9,reverse()
+39,4,0,0,Intl.NumberFormat.format(number | bigint): string
+39,4,0,1,Number.toFixed(number): string
+39,4,0,2,"String.replace(object, string): string"
+39,4,0,3,"Number.toLocaleString(Intl.LocalesArgument, Intl.NumberFormatOptions): string"
+39,4,0,4,toFixed(number)
+39,4,0,5,"String.replace(string | RegExp, string): string"
+39,4,0,6,"replace(regex, string)"
+39,4,0,7,formatMoney(number)
+39,4,0,8,format(string)
+39,4,0,9,Number.toLocaleString(): string
+39,6,0,0,use(unknown)
+39,6,0,1,static(string)
+39,6,0,2,static(unknown)
+39,6,0,3,"join(unknown, string)"
+39,6,0,4,"use(string, unknown)"
+39,6,0,5,express()
+39,6,0,6,listen(number)
+39,6,0,7,"get(string, function)"
+39,6,0,8,"use(string, function)"
+39,6,0,9,configure(function)
+40,4,0,0,Intl.NumberFormat.format(number | bigint): string
+40,4,0,1,Number.toFixed(number): string
+40,4,0,2,"String.replace(object, string): string"
+40,4,0,3,"Number.toLocaleString(Intl.LocalesArgument, Intl.NumberFormatOptions): string"
+40,4,0,4,toFixed(number)
+40,4,0,5,"String.replace(string | RegExp, string): string"
+40,4,0,6,"replace(regex, string)"
+40,4,0,7,formatMoney(number)
+40,4,0,8,format(string)
+40,4,0,9,Number.toLocaleString(): string
+40,3,0,0,"T[].reduce(function, U): U"
+40,3,0,1,T[].find(function): T
+40,3,0,2,filter(function)
+40,3,0,3,T[].filter(function): T[]
+40,3,0,4,find(function)
+40,3,0,5,T[].indexOf(T): number
+40,3,0,6,T[].some(function): boolean
+40,3,0,7,T[].includes(T): boolean
+40,3,0,8,"grep(unknown, function)"
+40,3,0,9,map(function)
+40,5,0,0,format(string)
+40,5,0,1,moment()
+40,5,0,2,moment(unknown)
+40,5,0,3,"moment(string, string)"
+40,5,0,4,endOf(string)
+40,5,0,5,moment(string)
+40,5,0,6,dateFormatwithSec(string)
+40,5,0,7,utc()
+40,5,0,8,format()
+40,5,0,9,T[].map(function): U[]
+40,5,1,0,"subtract(number, string)"
+40,5,1,1,format(string)
+40,5,1,2,moment(string)
+40,5,1,3,moment()
+40,5,1,4,diff(unknown)
+40,5,1,5,subtract(unknown)
+40,5,1,6,Number.toString(): string
+40,5,1,7,unix()
+40,5,1,8,duration(unknown)
+40,5,1,9,toString()

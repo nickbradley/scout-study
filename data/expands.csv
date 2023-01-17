@@ -1,0 +1,226 @@
+pid,tid,expandSeq,searchSeq,resultSeq,signature
+1,2,0,1,0,T[].sort(function): this
+2,4,0,0,1,formatMoney(number)
+2,4,1,0,3,formatTime(string)
+2,4,2,0,4,"Number.toLocaleString(Intl.LocalesArgument, Intl.NumberFormatOptions): string"
+2,3,0,0,0,T[].filter(function): T[]
+2,3,1,0,0,"search(string, object[])"
+2,3,2,0,1,T[].indexOf(T): number
+2,3,3,0,2,T[].some(function): boolean
+2,3,4,0,2,T[].filter(function): T[]
+2,3,5,0,2,T[].findIndex(function): number
+2,5,0,0,0,endOf(string)
+2,5,1,0,1,"subtract(number, string)"
+3,5,0,0,0,"diff(unknown, string)"
+3,5,1,0,0,diff(unknown)
+3,5,2,0,0,diff(unknown)
+3,5,3,0,0,"diff(unknown, string)"
+3,5,4,0,0,moment(string)
+3,5,5,0,1,"subtract(number, string)"
+3,5,6,0,0,moment(string)
+3,5,7,0,0,diff(unknown)
+4,3,0,0,0,T[].filter(function): T[]
+4,1,0,0,1,T[].slice(number): T[]
+5,4,0,0,1,formatMoney(number)
+5,6,0,0,0,static(string)
+6,3,0,0,0,T[].filter(function): T[]
+6,5,0,0,0,"subtract(number, string)"
+7,2,0,0,0,T[].sort(function): this
+7,1,0,0,0,JSON.parse(string)
+7,6,0,0,0,"use(string, unknown)"
+9,3,0,0,0,T[].filter(function): T[]
+9,5,0,0,1,"subtract(number, string)"
+10,3,0,0,0,T[].filter(function): T[]
+10,1,0,0,0,JSON.parse(string)
+10,1,0,1,0,JSON.parse(string)
+10,1,1,1,1,clone()
+10,1,2,1,2,map(function)
+10,1,3,1,2,T[].forEach(function): void
+10,5,0,0,0,moment(string)
+10,5,1,0,1,"subtract(number, string)"
+12,1,0,1,2,JSON.stringify(object): string
+12,1,1,1,2,JSON.parse(string)
+12,1,2,1,3,JSON.stringify(object): string
+12,1,3,1,4,JSON.parse(string)
+12,1,4,1,4,deepClone(object)
+12,1,5,1,0,"T[].reduce(function, U): U"
+13,2,0,0,0,T[].sort(function): this
+13,4,0,0,1,formatMoney(number)
+13,4,1,0,0,Number.toFixed(number): string
+13,4,2,0,0,Intl.NumberFormat.format(number | bigint): string
+13,6,0,0,0,"get(string, function)"
+13,6,1,0,1,Router()
+13,6,0,1,3,"get(string, function)"
+13,6,0,3,0,Document.getElementById(string): HTMLElement
+13,6,1,3,0,readTextFile(string): void
+13,6,2,3,1,jQuery(string)
+13,6,3,3,1,jQuery(string)
+13,6,4,3,1,val(unknown)
+13,6,5,3,1,read(File): Promise<void>
+13,6,0,4,0,"load(string, function)"
+13,6,1,4,2,listen(number)
+13,6,2,4,3,"get(string, function)"
+13,6,0,5,3,$(string)
+13,6,1,5,3,serialize()
+13,6,2,5,4,"use(string, unknown)"
+13,6,3,5,4,"get(string, function)"
+15,3,0,1,-1,filter(function)
+15,1,0,0,-1,T[].map(function): U[]
+15,1,1,0,-1,JSON.parse(string)
+15,1,2,0,-1,JSON.stringify(unknown): string
+15,5,0,0,-1,"subtract(number, string)"
+15,5,1,0,-1,format(string)
+15,5,2,0,-1,"subtract(number, string)"
+15,5,3,0,-1,"subtract(number, string)"
+16,2,0,0,0,T[].sort(function): this
+16,1,0,0,0,JSON.parse(string)
+16,6,0,1,0,static(unknown)
+17,3,0,0,0,T[].filter(function): T[]
+17,1,0,0,0,JSON.parse(string)
+17,5,0,0,0,"diff(unknown, string)"
+17,5,1,0,0,moment(string)
+17,5,2,0,0,"diff(unknown, string)"
+17,5,3,0,0,moment(string)
+17,5,4,0,1,"subtract(number, string)"
+17,5,5,0,1,moment()
+17,5,6,0,1,"subtract(number, string)"
+18,2,0,0,-1,T[].sort(function): this
+18,1,0,0,-1,JSON.parse(string)
+18,6,0,0,-1,static(unknown)
+18,6,1,0,-1,static(string)
+19,4,0,0,0,Number.toFixed(number): string
+19,4,1,0,0,Intl.NumberFormat.format(number | bigint): string
+19,4,2,0,2,"Number.toLocaleString(Intl.LocalesArgument, Intl.NumberFormatOptions): string"
+19,3,0,0,0,T[].filter(function): T[]
+19,5,0,0,0,"subtract(number, string)"
+20,3,0,0,0,T[].find(function): T
+20,1,0,0,0,T[].slice(): T[]
+20,5,0,0,0,moment()
+20,5,1,0,0,"subtract(string, number)"
+21,3,0,0,0,T[].filter(function): T[]
+21,1,0,0,0,JSON.stringify(unknown): string
+23,2,0,0,0,T[].sort(function): this
+23,6,0,0,0,"use(string, function)"
+23,6,0,1,1,static(string)
+24,5,0,0,1,format(string)
+25,4,0,0,1,formatMoney(number)
+25,5,0,1,2,"subtract(number, string)"
+25,5,1,1,2,"sub(Date, object)"
+25,5,2,1,1,Date.toLocaleString(): string
+25,5,3,1,1,Document.getElementById(string): HTMLElement
+25,5,4,1,1,Date.getHours(): number
+25,5,0,3,0,subtract(object)
+26,2,0,0,1,"function[].sortBy(object[], string, number): any[]"
+26,2,1,0,0,sort(function)
+26,2,2,0,0,T[].sort(function): this
+26,2,3,0,2,sort(function)
+26,1,0,1,0,JSON.stringify(number[][]): string
+26,1,1,1,1,map(function)
+26,6,0,0,0,static(string)
+26,6,0,1,5,static(string)
+26,6,0,2,8,"post(string, function)"
+26,6,1,2,8,"post(string, function)"
+26,6,2,2,0,static(string)
+28,2,0,0,7,T[].sort(function): this
+28,2,1,0,9,sort(function)
+28,2,0,1,2,sort(function)
+28,2,1,1,2,T[].sort(function): this
+28,4,0,0,3,formatTime(string)
+28,4,1,0,4,"Number.toLocaleString(Intl.LocalesArgument, Intl.NumberFormatOptions): string"
+28,4,2,0,3,formatTime(string)
+28,4,3,0,8,"format(string, string, number): string"
+28,6,0,0,1,static(unknown)
+28,6,1,0,1,"use(string, unknown)"
+28,6,2,0,1,"use(string, function)"
+28,6,0,2,2,static(string)
+28,6,1,2,2,"use(string, unknown)"
+28,6,2,2,2,"join(unknown, string)"
+28,6,3,2,2,"use(string, unknown)"
+29,2,0,0,0,T[].sort(function): this
+29,4,0,0,2,"Number.toLocaleString(Intl.LocalesArgument, Intl.NumberFormatOptions): string"
+29,6,0,1,0,static(unknown)
+29,6,1,1,0,use(unknown)
+30,4,0,0,0,Number.toFixed(number): string
+30,4,1,0,2,"Number.toLocaleString(Intl.LocalesArgument, Intl.NumberFormatOptions): string"
+30,4,2,0,1,formatMoney(number)
+30,3,0,0,0,T[].filter(function): T[]
+30,5,0,0,0,subtract(object)
+31,4,0,0,1,formatMoney(number)
+31,3,0,0,0,T[].filter(function): T[]
+31,3,1,0,0,T[].find(function): T
+31,5,0,0,0,"diff(unknown, string)"
+31,5,1,0,1,"subtract(number, string)"
+32,2,0,0,0,T[].sort(function): this
+32,1,0,0,0,T[].slice(): T[]
+32,1,1,0,0,JSON.parse(string)
+32,6,0,0,1,"use(string, function)"
+32,6,1,0,1,static(unknown)
+32,6,2,0,1,"use(string, unknown)"
+33,2,0,0,0,T[].sort(function): this
+33,4,0,0,0,Number.toFixed(number): string
+33,4,1,0,1,formatMoney(number)
+33,6,0,0,0,static(string)
+34,2,0,0,1,"function[].sortBy(object[], string): any[]"
+34,2,1,0,0,sort(function)
+34,2,2,0,0,T[].sort(function): this
+34,1,0,0,0,JSON.parse(string)
+34,1,1,0,0,JSON.stringify(unknown): string
+34,1,2,0,0,T[].slice(): T[]
+34,1,3,0,0,JSON.parse(string)
+34,6,0,0,1,"get(string, function)"
+34,6,1,0,0,static(unknown)
+34,6,2,0,1,"get(string, function)"
+35,2,0,0,1,"function[].sortBy(object[], string): any[]"
+35,2,1,0,4,T[].reverse(): T[]
+35,2,2,0,7,T[].sort(function): this
+35,2,3,0,0,T[].sort(function): this
+35,2,4,0,2,sort(function)
+35,4,0,0,0,Number.toFixed(number): string
+35,4,1,0,2,"Number.toLocaleString(Intl.LocalesArgument, Intl.NumberFormatOptions): string"
+35,4,2,0,4,"Number.toLocaleString(Intl.LocalesArgument, Intl.NumberFormatOptions): string"
+35,4,3,0,6,formatMoney(number)
+35,6,0,0,1,use(unknown)
+35,6,1,0,1,static(unknown)
+35,6,2,0,2,"use(string, unknown)"
+36,3,0,0,0,T[].filter(function): T[]
+37,2,0,0,5,sort(function)
+37,2,1,0,0,T[].sort(function): this
+37,4,0,0,1,formatMoney(number)
+37,4,1,0,0,Number.toFixed(number): string
+37,6,0,0,0,"get(string, function)"
+37,6,1,0,1,express()
+37,6,2,0,1,"post(string, unknown)"
+37,6,0,1,1,"post(string, function)"
+37,6,1,1,0,"get(string, function)"
+37,6,2,1,3,"get(string, function)"
+37,6,0,2,1,"get(string, typeof validate, function)"
+37,6,0,5,2,static(string)
+37,6,1,5,5,"get(string, function)"
+37,6,2,5,5,json(object)
+37,6,3,5,6,static(string)
+37,6,0,6,0,"get(string, function)"
+38,5,0,0,4,from(unknown)
+38,5,1,0,8,"moment(string, string)"
+38,5,2,0,0,subtract(object)
+38,5,3,0,1,"subtract(unknown, string)"
+38,5,4,0,0,moment(string)
+39,2,0,0,0,sort(function)
+39,4,0,0,0,Number.toFixed(number): string
+39,4,1,0,0,Intl.NumberFormat.format(number | bigint): string
+39,4,2,0,0,Intl.NumberFormat.format(number | bigint): string
+39,4,3,0,0,"String.replace(object, string): string"
+39,6,0,0,0,static(unknown)
+39,6,1,0,0,"use(string, unknown)"
+39,6,2,0,1,static(string)
+39,6,3,0,1,use(unknown)
+39,6,4,0,3,static(string)
+39,6,5,0,0,static(unknown)
+39,6,6,0,0,"use(string, unknown)"
+40,4,0,0,1,formatMoney(number)
+40,3,0,0,0,"search(string, object[])"
+40,3,1,0,0,T[].filter(function): T[]
+40,5,0,0,0,moment()
+40,5,0,1,1,Number.toString(): string
+40,5,1,1,1,moment(string)
+40,5,2,1,1,unix()
+40,5,3,1,2,"subtract(string, number)"

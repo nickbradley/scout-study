@@ -1,0 +1,560 @@
+pid,tid,query,resRank,sigPos,sigRank,listRank,signature,solution,notSigSoln,resRankTop,sigRankTop,signatureTop
+10,clone,clone array,2,2,8,,T[].forEach(function): void,"const myClonedArray = [];
+trades.forEach(val => myClonedArray.push(Object.assign({}, val)));
+return Object.assign([], myClonedArray);",,,,
+39,clone,clone array,,,,,,return trades.slice(0);,,0,4,slice(number)
+31,clone,clone array shallow,,,,,,return trades.map(e => e);,,,,
+27,clone,clone array shallow copy,,,,,,"return trades.slice();
+;",,,,
+15,clone,javascript clone array,0,0,0,0,JSON.parse(string),return JSON.parse(JSON.stringify(trades));,,,,
+16,clone,javascript clone array,0,0,0,0,JSON.parse(string),"var dup_array = JSON.parse(JSON.stringify(trades))
+return dup_array;",,,,
+17,clone,javascript clone array,0,0,0,0,JSON.parse(string),"var dup_array = JSON.parse(JSON.stringify(trades))
+return dup_array;",,,,
+18,clone,javascript clone array,0,0,0,0,JSON.parse(string),"const tradesCopy = JSON.parse(JSON.stringify(trades));
+return tradesCopy;",,,,
+21,clone,javascript clone array,0,0,0,0,JSON.parse(string),"var dup_array = JSON.parse(JSON.stringify(trades))
+return dup_array;",,,,
+22,clone,javascript clone array,0,0,0,0,JSON.parse(string),var trades = JSON.parse(JSON.stringify(trades)),,,,
+24,clone,javascript clone array,3,1,10,9,T[].forEach(function): void,"var copyTrades = [];
+copyTrades.forEach(val => copyTrades.push())",,,,
+33,clone,javascript clone array,3,0,9,3,T[].map(function): U[],return trades.map(function(e){return e;});,,0,6,map(function)
+3,clone,javascript clone array,0,2,2,4,T[].slice(): T[],"var trades1 = trades.slice();
+return trades1;",,,,
+5,clone,javascript clone array,0,2,2,4,T[].slice(): T[],return trades.slice();,,,,
+6,clone,javascript clone array,0,2,2,4,T[].slice(): T[],return trades.slice();,,,,
+9,clone,javascript clone array,0,2,2,4,T[].slice(): T[],return trades.slice();,,,,
+14,clone,javascript clone array,0,2,2,4,T[].slice(): T[],return trades.slice();,,,,
+19,clone,javascript clone array,0,2,2,4,T[].slice(): T[],"var dup_trades = trades.slice();
+return dup_trades;",,,,
+30,clone,javascript clone array,0,2,2,4,T[].slice(): T[],return trades.slice();,,,,
+32,clone,javascript clone array,0,2,2,4,T[].slice(): T[],return trades.slice();,,,,
+37,clone,javascript clone array,0,2,2,4,T[].slice(): T[],return trades.slice();,,,,
+1,clone,javascript clone array,1,2,5,7,T[].slice(number): T[],return trades.slice(0);,,0,4,slice(number)
+4,clone,javascript clone array,1,2,5,7,T[].slice(number): T[],return trades.slice(0);,,0,4,slice(number)
+13,clone,javascript clone array,1,2,5,7,T[].slice(number): T[],return trades.slice(0);,,0,4,slice(number)
+25,clone,javascript clone array,1,2,5,7,T[].slice(number): T[],trades = trades.slice(0);,,0,4,slice(number)
+28,clone,javascript clone array,1,2,5,7,T[].slice(number): T[],trades = trades.slice(0),,0,4,slice(number)
+35,clone,javascript clone array,1,2,5,7,T[].slice(number): T[],"let clone = trades.slice(0);
+return clone;",,0,4,slice(number)
+2,clone,javascript clone array,,,,,,"for(var i = 0, len = trades.length; i < len; ++i)
+dup_array[i] = trades[i];
+return dup_array;",1,,,
+7,clone,javascript clone array,,,,,,trades = [...trades];,1,,,
+8,clone,javascript clone array,,,,,,"let tradesCopy = [...trades];
+return tradesCopy;",1,,,
+11,clone,javascript clone array,,,,,,"let copy = [...trades];
+return copy;",1,,,
+20,clone,javascript clone array,,,,,,return [...trades];,1,,,
+34,clone,javascript clone array,0,0,0,0,JSON.parse(string),return JSON.parse(JSON.stringify(trades));,,,,
+40,clone,javascript clone array,,,,,,return [...trades];,1,,,
+26,clone,javascript clone array of objects,1,2,4,3,map(function),"return trades.map(a => Object.assign({}, a));",,,,
+12,clone,javascript deep copy,1,2,5,4,ObjectConstructor.assign(object),"return Object.assign([], trades);",,0,4,"ObjectConstructor.assign(T, U): T & U"
+23,clone,javascript shallow clone array,0,2,2,4,T[].slice(): T[],return trades.slice(),,,,
+29,clone,shallow copy,,,,,,return [...trades];,1,,,
+15,currency,format currency,,,,,,"const formatter = new Intl.NumberFormat(locale, {
+style: 'currency',
+currency: currency,
+// These options are needed to round to whole numbers if that's what you want.
+//minimumFractionDigits: 0, // (this suffices for whole numbers, but will print 2500.10 as $2,500.1)
+//maximumFractionDigits: 0, // (causes 2500.99 to be printed as $2,501)
+});
+return formatter.format(amount);",,,,
+32,currency,format currency,,,,,,"return amount.toLocaleString(locale, {
+style: 'currency',
+currency,
+});",,0,4,"Number.toLocaleString(Intl.LocalesArgument, Intl.NumberFormatOptions): string"
+16,currency,format currency,,,,,,"function formatMoney(number) {
+return number.toLocaleString('en-US', { style: 'currency', currency: 'USD' });
+}
+//this is really tedious, and the help thing isnt helpful at all :(
+//I could do it but it would take a while and is functionally just grunt work code :(
+//also I couldnt finish it in 5 minutes so I gave up :(
+// Create our number formatter.
+const formatter = new Intl.NumberFormat('en-US', {
+style: 'currency',
+currency: 'USD',
+// These options are needed to round to whole numbers if that's what you want.
+//minimumFractionDigits: 0, // (this suffices for whole numbers, but will print 2500.10 as $2,500.1)
+//maximumFractionDigits: 0, // (causes 2500.99 to be printed as $2,501)
+});
+return formatter;",,0,4,"Number.toLocaleString(Intl.LocalesArgument, Intl.NumberFormatOptions): string"
+14,currency,format currency given locale,,,,,,"const formatter = new Intl.NumberFormat(locale, {
+style: 'currency',
+currency: currency,
+//minimumFractionDigits: 0, // (this suffices for whole numbers, but will print 2500.10 as $2,500.1)
+//maximumFractionDigits: 0, // (causes 2500.99 to be printed as $2,501)
+});
+return formatter.format(amount);",,,,
+23,currency,format currency in user's locale,,,,,,"const formatter = new Intl.NumberFormat(locale, {
+style: 'currency',
+currency: currency,
+});
+console.log(formatter.format(2500)); /* $2,500.00 */
+return formatter.format(amount);",,,,
+10,currency,format currency locale,,,,,,"return amount.toLocaleString(locale, { style: 'currency', currency: currency });",,,,
+1,currency,javascript format currency,0,1,1,0,Intl.NumberFormat.format(number | bigint): string,"let cur = new Intl.NumberFormat(locale, {
+style: 'currency',
+currency: currency,
+// These options are needed to round to whole numbers if that's what you want.
+//minimumFractionDigits: 0, // (this suffices for whole numbers, but will print 2500.10 as $2,500.1)
+//maximumFractionDigits: 0, // (causes 2500.99 to be printed as $2,501)
+});
+return cur;",,,,
+4,currency,javascript format currency,0,1,1,0,Intl.NumberFormat.format(number | bigint): string,"// Create our number formatter.
+const formatter = new Intl.NumberFormat(locale, {
+style: 'currency',
+currency: currency,
+// These options are needed to round to whole numbers if that's what you want.
+//minimumFractionDigits: 0, // (this suffices for whole numbers, but will print 2500.10 as $2,500.1)
+//maximumFractionDigits: 0, // (causes 2500.99 to be printed as $2,501)
+});
+return formatter.format(amount);",,,,
+6,currency,javascript format currency,0,1,1,0,Intl.NumberFormat.format(number | bigint): string,"const formatter = new Intl.NumberFormat(locale, {
+style: 'currency',
+currency: currency,
+// These options are needed to round to whole numbers if that's what you want.
+//minimumFractionDigits: 0, // (this suffices for whole numbers, but will print 2500.10 as $2,500.1)
+//maximumFractionDigits: 0, // (causes 2500.99 to be printed as $2,501)
+});
+return formatter.format(amount);",,,,
+7,currency,javascript format currency,0,1,1,0,Intl.NumberFormat.format(number | bigint): string,"const formatter = new Intl.NumberFormat(locale, {
+style: 'currency',
+currency: currency,
+// These options are needed to round to whole numbers if that's what you want.
+//minimumFractionDigits: 0, // (this suffices for whole numbers, but will print 2500.10 as $2,500.1)
+//maximumFractionDigits: 0, // (causes 2500.99 to be printed as $2,501)
+});
+return formatter.format(amount);",,,,
+8,currency,javascript format currency,0,1,1,0,Intl.NumberFormat.format(number | bigint): string,"return new Intl.NumberFormat(locale, { style: 'currency', currency: currency }).format(amount)",,,,
+9,currency,javascript format currency,0,1,1,0,Intl.NumberFormat.format(number | bigint): string,"const formatter = new Intl.NumberFormat(locale, {
+style: 'currency',
+currency: currency,
+});
+return formatter.format(amount);",,,,
+12,currency,javascript format currency,0,1,1,0,Intl.NumberFormat.format(number | bigint): string,"// Create our number formatter.
+var formatter = new Intl.NumberFormat(locale, {
+style: 'currency',
+currency: currency,
+});
+return formatter.format(amount);",,,,
+19,currency,javascript format currency,0,1,1,0,Intl.NumberFormat.format(number | bigint): string,"const formatter = new Intl.NumberFormat('en-US', {
+style: 'currency',
+currency: 'USD',
+// These options are needed to round to whole numbers if that's what you want.
+//minimumFractionDigits: 0, // (this suffices for whole numbers, but will print 2500.10 as $2,500.1)
+//maximumFractionDigits: 0, // (causes 2500.99 to be printed as $2,501)
+});
+formatter.format(2500)
+return formatter;",,,,
+26,currency,javascript format currency,0,1,1,0,Intl.NumberFormat.format(number | bigint): string,"const formatter = new Intl.NumberFormat(locale, {
+style: 'currency',
+currency: currency,
+});
+return formatter.format(amount);",,,,
+27,currency,javascript format currency,0,1,1,0,Intl.NumberFormat.format(number | bigint): string,"// Create our number formatter.
+const formatter = new Intl.NumberFormat(locale, {
+style: 'currency',
+currency: currency,
+// These options are needed to round to whole numbers if that's what you want.
+//minimumFractionDigits: 0, // (this suffices for whole numbers, but will print 2500.10 as $2,500.1)
+//maximumFractionDigits: 0, // (causes 2500.99 to be printed as $2,501)
+});
+return formatter.format(amount);",,,,
+28,currency,javascript format currency,0,1,1,0,Intl.NumberFormat.format(number | bigint): string,"var formattedCurrency = Intl.NumberFormat(locale, {
+style: 'currency',
+currency
+currencyDisplay: ""code""
+}).format(amount)
+return formattedCurrency;",,,,
+34,currency,javascript format currency,0,1,1,0,Intl.NumberFormat.format(number | bigint): string,"// Create our number formatter.
+const formatter = new Intl.NumberFormat(locale, {
+style: 'currency',
+currency: currency,
+// These options are needed to round to whole numbers if that's what you want.
+//minimumFractionDigits: 0, // (this suffices for whole numbers, but will print 2500.10 as $2,500.1)
+//maximumFractionDigits: 0, // (causes 2500.99 to be printed as $2,501)
+});
+return formatter.format(amount,);",,,,
+36,currency,javascript format currency,0,1,1,0,Intl.NumberFormat.format(number | bigint): string,"const formatter = new Intl.NumberFormat(locale, {
+style: 'currency',
+currency,
+});
+return formatter.format(amount);",,,,
+39,currency,javascript format currency,0,1,1,0,Intl.NumberFormat.format(number | bigint): string,"var formatter = new Intl.NumberFormat(locale, {
+style: 'currency',
+currency
+});
+return formatter.format(amount);",,,,
+2,currency,javascript format currency,2,0,4,3,"Number.toLocaleString(Intl.LocalesArgument, Intl.NumberFormatOptions): string","return amount.toLocaleString(locale, { style: 'currency', currency: currency });",,0,4,"Number.toLocaleString(Intl.LocalesArgument, Intl.NumberFormatOptions): string"
+5,currency,javascript format currency,2,0,4,3,"Number.toLocaleString(Intl.LocalesArgument, Intl.NumberFormatOptions): string","const x = amount.toLocaleString(locale, { style: 'currency', currency: currency });
+return x;",,0,4,"Number.toLocaleString(Intl.LocalesArgument, Intl.NumberFormatOptions): string"
+13,currency,javascript format currency,2,0,4,3,"Number.toLocaleString(Intl.LocalesArgument, Intl.NumberFormatOptions): string","return amount.toLocaleString(locale, { style: 'currency', currency: currency});",,0,4,"Number.toLocaleString(Intl.LocalesArgument, Intl.NumberFormatOptions): string"
+17,currency,javascript format currency,2,0,4,3,"Number.toLocaleString(Intl.LocalesArgument, Intl.NumberFormatOptions): string","return amount.toLocaleString(locale, { style: 'currency', currency: currency});",,0,4,"Number.toLocaleString(Intl.LocalesArgument, Intl.NumberFormatOptions): string"
+18,currency,javascript format currency,2,0,4,3,"Number.toLocaleString(Intl.LocalesArgument, Intl.NumberFormatOptions): string","amount.toLocaleString(locale, {style: 'currency', currency: currency})
+return amount;",,0,4,"Number.toLocaleString(Intl.LocalesArgument, Intl.NumberFormatOptions): string"
+20,currency,javascript format currency,2,0,4,3,"Number.toLocaleString(Intl.LocalesArgument, Intl.NumberFormatOptions): string","return amount.toLocaleString(locale, {
+style: 'currency',
+currency: currency
+});",,0,4,"Number.toLocaleString(Intl.LocalesArgument, Intl.NumberFormatOptions): string"
+22,currency,javascript format currency,2,0,4,3,"Number.toLocaleString(Intl.LocalesArgument, Intl.NumberFormatOptions): string","* @param {number}
+* amount - The quantity of currency to print
+amount = trades.amount;
+locale = trades.locale;
+return amount.toLocaleString(locale, currency);",,0,4,"Number.toLocaleString(Intl.LocalesArgument, Intl.NumberFormatOptions): string"
+24,currency,javascript format currency,2,0,4,3,"Number.toLocaleString(Intl.LocalesArgument, Intl.NumberFormatOptions): string","return amount.toLocaleString(locale, { style: 'currency', currency: currency});",,0,4,"Number.toLocaleString(Intl.LocalesArgument, Intl.NumberFormatOptions): string"
+25,currency,javascript format currency,2,0,4,3,"Number.toLocaleString(Intl.LocalesArgument, Intl.NumberFormatOptions): string","var formattedString = amount.toLocaleString(locale, {style: 'currency', currency: currency});
+return formattedString;
+}",,0,4,"Number.toLocaleString(Intl.LocalesArgument, Intl.NumberFormatOptions): string"
+29,currency,javascript format currency,2,0,4,3,"Number.toLocaleString(Intl.LocalesArgument, Intl.NumberFormatOptions): string","return amount.toLocaleString(locale, {style: ""currency"", currency: currency});",,0,4,"Number.toLocaleString(Intl.LocalesArgument, Intl.NumberFormatOptions): string"
+30,currency,javascript format currency,2,0,4,3,"Number.toLocaleString(Intl.LocalesArgument, Intl.NumberFormatOptions): string","return amount.toLocaleString(locale, { style: 'currency', currency: currency });",,0,4,"Number.toLocaleString(Intl.LocalesArgument, Intl.NumberFormatOptions): string"
+31,currency,javascript format currency,2,0,4,3,"Number.toLocaleString(Intl.LocalesArgument, Intl.NumberFormatOptions): string","return amount.toLocaleString(locale, { style: 'currency', currency: currency });",,0,4,"Number.toLocaleString(Intl.LocalesArgument, Intl.NumberFormatOptions): string"
+33,currency,javascript format currency,2,0,4,3,"Number.toLocaleString(Intl.LocalesArgument, Intl.NumberFormatOptions): string","return amount.toLocaleString(locale, { style: 'currencty', currency:  currency});",,0,4,"Number.toLocaleString(Intl.LocalesArgument, Intl.NumberFormatOptions): string"
+35,currency,javascript format currency,2,0,4,3,"Number.toLocaleString(Intl.LocalesArgument, Intl.NumberFormatOptions): string","let result = amount.toLocaleString(locale, { style: 'currency', currency: currency })
+return result;",,0,4,"Number.toLocaleString(Intl.LocalesArgument, Intl.NumberFormatOptions): string"
+37,currency,javascript format currency,2,0,4,3,"Number.toLocaleString(Intl.LocalesArgument, Intl.NumberFormatOptions): string","return amount.toLocaleString(locale, { style: 'currency', currency: currency });",,0,4,"Number.toLocaleString(Intl.LocalesArgument, Intl.NumberFormatOptions): string"
+40,currency,javascript format currency,2,0,4,3,"Number.toLocaleString(Intl.LocalesArgument, Intl.NumberFormatOptions): string","return amount.toLocaleString(locale, { style: 'currency', currency: currency });",,0,4,"Number.toLocaleString(Intl.LocalesArgument, Intl.NumberFormatOptions): string"
+3,currency,javascript format currency,,,,,,"string = amount + "" "" + locale + "" "" + currency",1,,,
+21,currency,javascript format currency,,,,,,// of currency formatted according to the locale.,1,,,
+38,currency,locale format currency,,,,,,"return new Intl.NumberFormat(locale, {
+style: 'currency',
+currency,
+// minimumFractionDigits: 2
+}).format(amount);",,,,
+23,find,find item in array by value,,,,,,return trades.find(i => i.id === id);,,,,
+32,find,find item in array by value,,,,,,"const tradeList = trades.find(o => o.id === id);
+return tradeList ?? [];",,,,
+34,find,find item in array by value,,,,,,return trades.find(o => o.id === id);,,,,
+26,find,javascript array find value,,,,,,return trades.find(x => x.id == id);,,,,
+6,find,javascript find item in array by value,0,0,0,1,T[].filter(function): T[],return trades.filter(obj=>obj.id===id);;,,,,
+9,find,javascript find item in array by value,0,0,0,1,T[].filter(function): T[],return trades.filter(trade=>trade.id === id);,,,,
+10,find,javascript find item in array by value,0,0,0,1,T[].filter(function): T[],"var foundValue = trades.filter(obj=>obj.id===id);
+return foundValue;",,,,
+15,find,javascript find item in array by value,0,0,0,1,T[].filter(function): T[],"return trades.filter(function (obj) {
+return obj.id === id;
+})",,,,
+17,find,javascript find item in array by value,0,0,0,1,T[].filter(function): T[],"var found = trades.filter(obj=>obj.id===id);
+return found;",,,,
+19,find,javascript find item in array by value,0,0,0,1,T[].filter(function): T[],"var foundValue = trades.filter(obj => obj.id === id);
+return foundValue;",,,,
+21,find,javascript find item in array by value,0,0,0,1,T[].filter(function): T[],"var foundValue = -1;
+foundValue = trades.filter(obj=>obj.id==id);
+if (foundValue == -1) foundValue = undefined;
+return foundValue;",,,,
+30,find,javascript find item in array by value,0,0,0,1,T[].filter(function): T[],return trades.filter(function(arr){return arr.id === id });,,,,
+36,find,javascript find item in array by value,0,0,0,1,T[].filter(function): T[],return trades.filter(obj => obj.id === id);,,,,
+40,find,javascript find item in array by value,0,0,0,1,T[].filter(function): T[],return trades.filter(obj=>obj.id===id);,,,,
+1,find,javascript find item in array by value,0,2,2,2,T[].find(function): T,return array.find(trades => trades.id === id) || [],,,,
+2,find,javascript find item in array by value,0,2,2,2,T[].find(function): T,"let obj = arr.find(o => o.id === trades.id);
+return obj;",,,,
+4,find,javascript find item in array by value,0,2,2,2,T[].find(function): T,return trades.find(o => o.id === id);,,,,
+5,find,javascript find item in array by value,0,2,2,2,T[].find(function): T,"let x = trades.find(o => o.id === id);
+return x;",,,,
+7,find,javascript find item in array by value,0,2,2,2,T[].find(function): T,"let trade = trades.find(o => o.id === id);
+return trade;",,,,
+8,find,javascript find item in array by value,0,2,2,2,T[].find(function): T,"const found = trades.find(trade => trade.id === id);
+return found;",,,,
+12,find,javascript find item in array by value,0,2,2,2,T[].find(function): T,"let obj = trades.find(o => o.id === id);
+if (obj) {
+return obj;
+}
+return [];",,,,
+13,find,javascript find item in array by value,0,2,2,2,T[].find(function): T,return trades.find(t => t.id === id);,,,,
+20,find,javascript find item in array by value,0,2,2,2,T[].find(function): T,"return trades.find(trade =>
+trade.id == id);",,,,
+24,find,javascript find item in array by value,0,2,2,2,T[].find(function): T,"var trade = trades.find(x => x.id === id);
+return trade;",,,,
+25,find,javascript find item in array by value,0,2,2,2,T[].find(function): T,"let tradeFromID = trades.find(tr => tr.id === id);
+return tradeFromID;",,,,
+27,find,javascript find item in array by value,0,2,2,2,T[].find(function): T,"let obj = [];
+obj = trades.find(o => o.id === id);
+return obj;",,,,
+28,find,javascript find item in array by value,0,2,2,2,T[].find(function): T,return trades.find(item => item.id === id);;,,,,
+29,find,javascript find item in array by value,0,2,2,2,T[].find(function): T,return trades.find(trade => trade.id === id);,,,,
+31,find,javascript find item in array by value,0,2,2,2,T[].find(function): T,return trades.find(t => t.id == id);,,,,
+33,find,javascript find item in array by value,0,2,2,2,T[].find(function): T,return trades.find(v => v.id === id);,,,,
+35,find,javascript find item in array by value,0,2,2,2,T[].find(function): T,"let result = trades.find(o => o.id === id);
+return result;",,,,
+39,find,javascript find item in array by value,0,2,2,2,T[].find(function): T,return trades.find(trade => trade.id === id);,,,,
+14,find,javascript find item in array by value,,,,,,"let match;
+trades.forEach(trade => {
+if (trade.id === id) {
+match = trade;
+}
+});
+return match;",,0,8,forEach(function)
+16,find,javascript find item in array by value,,,,,,"for (var x = 0; x < trades.length; x++){
+if(trades[x].id == id){
+return trades[x];
+}
+}
+return undefined;",1,,,
+18,find,javascript find item in array by value,,,,,,"for (var i = 0; i < trades.length; i++) {
+if (trades[i].id === id) {
+return trades[i].id;
+}else
+return undefined
+}",1,,,
+22,find,javascript find item in array by value,,,,,,"var found = ""Undefined"";
+for (var i = 0; i < trades.length && !found; i++) {
+if (trades[i] === 1) {
+found = trades.id;
+break;
+}
+}",1,,,
+35,recent,convert moment time to days,,,,,,const startDate = moment(interval),1,,,
+39,recent,create Date from,,,,,,"const startDate = moment(endDate).toDate();
+if (unit === ""days"") {
+startDate.setDate(startDate.getDate() - interval);
+} else if (unit === ""months"") {
+startDate.setMonth(startDate.getMonth() - interval)
+} else if (unit === ""years"") {
+startDate.setFullYear(startDate.getFullYear() - interval)
+}",1,,,
+28,recent,date minus interval js,,,,,,"const startDate = moment(endDate).subtract(interval, unit);",,,,
+23,recent,javascript date arithmetic with specified units,,,,,,"if (unit == ""days"")
+var granularity = 1000 * 60 * 60 * 24;
+if (unit == ""months"")
+var granularity = 1000 * 60 * 60 * 24 * 30;
+const startDate = moment(new Date(endDate.getTime() - interval * granularity));",1,,,
+13,recent,javascript date decrement,,,,,,"const startDate = moment().subtract(interval, unit)",,,,
+4,recent,javascript moment (,,,,,,"if (unit == ""months"") {
+startDate = subtractMonths(endDate,interval);
+}
+else if (unit == ""years"") {
+startDate = subtractYears(endDate,interval);
+}
+else if (unit == ""days"") {
+startDate.setDate(endDate-interval);
+}
+let yest = ""Yesterday :: "" + moment(selectedDate, ""America/Chicago"").subtract(1, 'days').format('DD-MM-YYYY') + "" "" + ""00:00:00""; // getting invalid date
+}
+function subtractMonths(date, months) {
+date.setMonth(date.getMonth() - months);
+return date;
+}
+function subtractYears(date, years) {
+date.setFullYear(date.getFullYear() - years);
+return date;
+}",1,,,
+8,recent,javascript moment create a one month in the future,0,0,0,1,"add(number, string)","const startDate = moment(endDate).add(interval, unit);",,,,
+15,recent,javascript moment date subtract,1,0,3,0,"subtract(number, string)","const startDate = moment(endDate).subtract(interval, unit);",,,,
+9,recent,javascript moment java subtract duration from date,1,0,3,3,"subtract(number, string)","// date.subtract({ hours: hourDelta, minutes: minuteDelta})
+// var duration = moment.duration(1422, 'minutes');
+const startDate = moment(endDate).subtract(interval, unit);",,,,
+38,recent,javascript moment js subtract time,0,0,0,7,subtract(object),"const startDate = moment(endDate).subtract({
+days: unit == ""days"" ? interval : 0,
+months: unit == ""months"" ? interval : 0,
+years: unit == ""years"" ? interval : 0,
+});",,,,
+2,recent,javascript moment startDate so that it subtracts the specified number of days/months/years from endDate,,,,,,const startDate = moment(endDate).,1,,,
+19,recent,javascript moment substract amount in array parameters,0,0,0,0,"subtract(number, string)","const startDate = moment(endDate).subtract(interval, unit);
+// startDate = startDate.format(""DD-MM-YYYY"");",,,,
+21,recent,javascript moment substract amount of time,2,2,8,2,"subtract(number, string)","startDate.subtract(interval, unit);",,,,
+20,recent,javascript moment subtrack days months from given date,0,0,0,,"subtract(string, number)","const startDate = moment(endDate).subtract(unit, interval)",,,,
+27,recent,javascript moment subtract,6,0,18,,"subtract(string, number)","startDate.subtract(unit,interval);",,1,7,"subtract(string, number)"
+17,recent,javascript moment subtract date,0,0,0,4,"diff(unknown, string)","var startDate = moment(endDate);
+startDate = startDate.diff(interval, unit);",,,,
+10,recent,javascript moment subtract date,0,0,0,0,"subtract(number, string)","const startDate = moment(endDate).subtract(interval, unit)",,,,
+31,recent,javascript moment subtract date,1,1,4,0,"subtract(number, string)","const startDate = moment(endDate).subtract(interval, unit)",,,,
+3,recent,javascript moment subtract dates,0,0,0,,"diff(unknown, string)","startDate = startDate.diff(interval, unit)",,,,
+6,recent,javascript moment subtract days,0,0,0,0,"subtract(number, string)","startDate.subtract(interval, unit)",,,,
+24,recent,javascript moment subtract interval unit date,0,0,0,,subtract(object),const startDate = startDate.subtract(moment(endDate)),,,,
+36,recent,javascript moment subtract time,2,2,8,6,"subtract(number, string)","const startDate = moment(Date.now()).subtract(interval, unit)
+console.log(interval, unit)",,0,9,"subtract(NumberConstructor, StringConstructor)"
+30,recent,javascript moment subtracting amount of time,0,0,0,9,subtract(object),"moment(startDate.subtract({ days: unit, hours: interval})), moment(endDate), undefined, ""[]""",,,,
+40,recent,javascript subtracting moments,2,0,6,,"subtract(string, number)","const startDate = moment(endDate).subtract(unit, interval)",,,,
+14,recent,js moment get start date given interval and end,,,,,,const startDate = moment(),1,,,
+37,recent,moment subtract by days,,,,,,"const startDate = moment(endDate);
+startDate.subtract(interval, unit);",,,,
+34,recent,moment subtract days from date,,,,,,"const startDate = moment(endDate).subtract(interval, unit);",,,,
+12,recent,moment subtract time from date,,,,,,"const startDate = endDate.subtract(from, unit);",,,,
+11,recent,momentjs define date by units,,,,,,"const startDate = null;
+if (unit === 'days') {
+startDate = moment().subtract(interval,""days"");
+}
+moment(startDate), moment(endDate), unit, ""[]""",,,,
+5,recent,momentjs dubtract days months years,,,,,,"// const startDate = moment(endDate)
+const startDate = moment(endDate).subtract(interval, unit)",,,,
+32,recent,momnet subtract time,,,,,,"const startDate = moment(endDate).subtract(interval, unit);",,,,
+29,recent,sub,,,,,,"startDate.subtract(interval, unit)",,,,
+18,recent,subtract amount of time by the interval from date,,,,,,"const startDate = moment(endDate).subtract(interval, unit).format()",,,,
+7,recent,subtract date by interval unit javascript moment.js,,,,,,"const startDate = moment(endDate).subtract(interval, unit);",,,,
+1,recent,subtract days from moment,,,,,,"const startDate = moment(endDate).subtract(interval, unit)",,,,
+26,recent,subtract interval from date,,,,,,"var startDate = moment(endDate)
+startDate = startDate.subtract(interval, unit);",,,,
+16,recent,subtract time from a date using an interval js,,,,,,"var startDate = moment(endDate)
+startDate = startDate.subtract(interval, unit);
+startDate = startDate.format(""DD-MM-YYYY"");",,,,
+25,recent,subtract time from moment,,,,,,NA,1,,,
+33,recent,subtract time javascript,,,,,,"const startDate = moment(endDate).subtract(unit, interval)",,,,
+22,recent,update date using interval and unit,,,,,,"// of time specified by the ""interval"" and ""unit"" parameters.
+const startDate = moment(startDate).startOf('isoweek').add(4, 'days').startOf('day');
+moment.duration(1, 'd').toISOString()",,,,
+21,serve,/static route js,,,,,,"function setup(dirname) {
+app.use(express.static((path.resolve(dirname, 'src/public/'))));",,,,
+24,serve,add static route serve files,,,,,,app.use(),,,,
+2,serve,add static route using path,,,,,,app.use(express.static(__dirname + '/public'));,,,,
+3,serve,add static to express,,,,,,"app.get('/src/public', express.static(process.cwd() + '/static'));",,,,
+38,serve,express serve file js,,,,,,"app.use(express.static(path.join(__dirname, '/../scr/public')));",,,,
+8,serve,express serve pdf file,,,,,,"app.use(""/static"", express.static(__dirname + '/public'));",,,,
+31,serve,express web server add route,,,,,,"app.use('/static', express.static('src/public'))",,,,
+6,serve,expressjs static route,,,,,,"app.use(""/static"", express.static(""src/public/""));",,,,
+10,serve,javascript add /static route to serve,,,,,,"app.get('/static/src/public', authApi.user);
+app.use('/static',Express.static(path.join(__dirname,'src/public')));",,,,
+28,serve,javascript express add path to static route,1,1,5,8,"use(string, function)","import exp from ""constants"";
+app.use('/static', express.static('src/public/'))",,,,
+22,serve,javascript express path /static' route,0,1,1,0,use(unknown),"app.use(express.static(path.join(__dirname, 'public')));",,,,
+1,serve,javascript express path add /static route to web server,1,1,4,1,"use(string, unknown)","app.use('src/public', express.static(__dirname + '/static'))",,0,3,"use(string, unknown)"
+5,serve,javascript express path add a route to serve files,0,1,1,2,"use(string, unknown)","app.use('/static', express.static(path.join(__dirname, 'public')))",,,,
+35,serve,javascript express path add route to serve static files,1,1,4,3,"use(string, unknown)","app.use(""/static"", express.static('src/public'))}",,,,
+11,serve,javascript express path add static route,0,2,2,2,"use(string, unknown)","let router = require('../src/public');
+//let router = require('../src/public');
+app.use('/static', __dirname + '../src/public');
+//app.use(express.static(__dirname + router));",,,,
+12,serve,javascript express path add static route,0,2,2,2,"use(string, unknown)","app.use('/static', express.static(__dirname + '/public'))",,,,
+18,serve,javascript express path add static route,0,2,2,2,"use(string, unknown)","app.use('/static', express.static('src/public'))",,,,
+33,serve,javascript express path add static route,,,,2,,NA,,,,
+23,serve,javascript express path configure static route from directory,0,1,1,1,"use(string, unknown)","app.use('/static', express.static('src/public'))",,,,
+37,serve,javascript express path return file,0,0,0,0,"get(string, function)","app.get(""/static/:f"", (req, res) => {
+fs.readFile(""src/public/"" + req.params.f + "".pdf"", (err, data) => {
+if (err) {
+res.status(400);
+} else {
+res.status(200);
+res.send(data);
+res.end(data);
+}
+})
+});",,,,
+26,serve,javascript express path return static files filename,0,1,1,0,use(unknown),"app.use(express.static('/public'));
+app.get('/', (req, res) => {
+res.sendFile(path.resolve(__dirname, '/public', req));
+});
+}",,,,
+34,serve,javascript express path serve local files,3,2,8,2,"use(string, unknown)","async function setup() {
+app.use(""/static"",express.static('src/public'))",,0,6,"use(string, unknown)"
+7,serve,javascript express path serve static file,0,1,1,4,"use(string, unknown)","app.use('src/public/',express.static(path.join(__dirname,'static')))",,,,
+39,serve,javascript express path serve static files webserver,0,1,1,4,"use(string, unknown)","app.use('/static', express.static('src/public'));",,,,
+29,serve,javascript express path static route,2,2,5,3,"use(string, unknown)","app.use(""/static"", express.static(path.join(__dirname, ""public"")));",,,,
+16,serve,javascript express path static route to serve files,0,1,1,0,"use(string, unknown)","// Define `/files` route first
+app.use(""/files"", function (req, res) {
+return res.send(""I will be served instead of a files directory"");
+});
+// Static
+app.use(""/"", express.static('src/public'));
+// My js experience is in webdev and minor so I just dont really know what the question is asking sorry :(",,,,
+32,serve,javascript express path static serve,1,1,1,3,"use(string, unknown)","app.use('/static',express.static('src/public/'))",,,,
+14,serve,javascript express path static serve public,0,1,1,4,"use(string, unknown)","app.use(""/static"", express.static(""src/public/""));",,,,
+27,serve,javascript serve files,,,,,,"app.use(express.static(path.join(__dirname, 'src/public/')));
+// Static
+app.use(""/"", express.static(__dirname));",,,,
+9,serve,javascript serve static file,,,,,,"app.use(""/static"", express.static('src/public'));",,,,
+13,serve,javascript setup route,8,0,7,0,"get(string, function)","app.get(""/static/:filename"", (req, res) =>
+res.sendFile(path.join(""src/public"", filename))
+)",,4,3,"get(string, function)"
+20,serve,js send response file via get route,,,,,,"app.get('/static/:filePath', async (req, res) => {
+console.log(__dirname);
+const filePath =
+path.join(__dirname,
+'/public',
+req.params.filePath);
+console.log(filePath);
+await res.status(200).sendFile(filePath);
+});
+app.get('/static', (req, res) => {
+res.status(200).send(""route exist"");
+})",,,,
+19,serve,serve /static route,,,,,,"app.use('/static', express.static('src/public/'));",,,,
+25,serve,serve file from static route,,,,,,"app.use(express.static(path.join(__dirname,'src/public')))",,,,
+17,serve,serve static files,,,,,,"app.use('/', 'src/public', express.static(__dirname));",,,,
+40,serve,setting up a route in node,,,,,,"app.use('/static/*', express.static(__dirname + '/src/public/'));",,,,
+15,serve,static route,,,,,,NA,1,,,
+30,serve,static route,,,,,,"const path = require('path');
+app.use(express.static(path.join(__dirname, '/public')));",,,,
+4,serve,static route javascript,,,,,,"app.use(express.static(path.join(__dirname, 'src/public')));",,,,
+8,sort,javascript sort array big to small,,,,,,"return trades.sort(function(a, b) {
+return a.shareCount - b.shareCount;
+}).reverse();",,,,
+26,sort,javascript sort array of objects descending,1,0,3,,"function[].sortBy(object[], string, number): any[]","let sortBy = (trades, p, o=1) => [...trades].sort((a,b) => a[p].localeCompare(b[p]) * o)
+sortBy(trades, shareCount, -1);",,,,
+2,sort,javascript sort array of objects descending,0,0,0,0,T[].sort(function): this,"const x = trades.sort(function(a, b) {
+return parseFloat(a.shareCount) - parseFloat(b.shareCount);
+}",,,,
+3,sort,javascript sort array of objects descending,0,0,0,0,T[].sort(function): this,"return trades.sort((a, b) => (a.shareCount > b.shareCount) ? -1 : 1);",,,,
+4,sort,javascript sort array of objects descending,0,0,0,0,T[].sort(function): this,"return trades.sort((a, b) => parseFloat(b.shareCount) - parseFloat(a.shareCount));",,,,
+5,sort,javascript sort array of objects descending,0,0,0,0,T[].sort(function): this,"return trades.sort((a, b)=> b.shareCount - a.shareCount);",,,,
+6,sort,javascript sort array of objects descending,0,0,0,0,T[].sort(function): this,"return trades.sort((a, b) => parseFloat(b.shareCount) - parseFloat(a.shareCount));",,,,
+7,sort,javascript sort array of objects descending,0,0,0,0,T[].sort(function): this,"console.log(trades);
+return trades.sort((a, b) => parseFloat(b.shareCount) - parseFloat(a.shareCount));",,,,
+9,sort,javascript sort array of objects descending,0,0,0,0,T[].sort(function): this,"return trades.sort((a, b) => b.shareCount - a.shareCount);",,,,
+10,sort,javascript sort array of objects descending,0,0,0,0,T[].sort(function): this,"return trades.sort(({shareCount:a}, {shareCount:b}) => b-a);",,,,
+11,sort,javascript sort array of objects descending,0,0,0,0,T[].sort(function): this,"return trades.sort((a,b) => b.shareCount - a.shareCount);",,,,
+12,sort,javascript sort array of objects descending,0,0,0,0,T[].sort(function): this,"return trades.sort((a, b) => parseFloat(b.shareCount) - parseFloat(a.shareCount));",,,,
+13,sort,javascript sort array of objects descending,0,0,0,0,T[].sort(function): this,"return trades.sort((a, b) => {
+if (a.shareCount <= b.shareCount) return 1
+else return -1
+});",,,,
+14,sort,javascript sort array of objects descending,0,0,0,0,T[].sort(function): this,"return trades.sort((a, b) => parseFloat(b.shareCount) - parseFloat(a.shareCount));",,,,
+15,sort,javascript sort array of objects descending,0,0,0,0,T[].sort(function): this,"return trades.sort(function(a, b) {
+return parseFloat(b.shareCount) - parseFloat(a.shareCount);
+});",,,,
+16,sort,javascript sort array of objects descending,0,0,0,0,T[].sort(function): this,"const sort_by = (field, reverse, primer) => {
+const key = primer ?
+function(x) {
+return primer(x[field])
+} :
+function(x) {
+return x[field]
+};
+reverse = !reverse ? 1 : -1;
+return function(a, b) {
+return a = key(a), b = key(b), reverse * ((a > b) - (b > a));
+}
+}
+trades.sort(sort_by('shareCount', true, parseInt))",,,,
+17,sort,javascript sort array of objects descending,0,0,0,0,T[].sort(function): this,"return trades.sort((a,b) => parseFloat(b.shareCount) - parseFloat(a.shareCount));",,,,
+18,sort,javascript sort array of objects descending,0,0,0,0,T[].sort(function): this,"return trades.sort((a, b) => parseFloat(b.shareCount) - parseFloat(a.shareCount));",,,,
+19,sort,javascript sort array of objects descending,0,0,0,0,T[].sort(function): this,"return trades.sort((a, b) =>
+parseFloat(b.shareCount) - parseFloat(a.shareCount)
+);",,,,
+21,sort,javascript sort array of objects descending,0,0,0,0,T[].sort(function): this,"return trades.sort((a, b) => parseFloat(b.shareCount) - parseFloat(a.shareCount));",,,,
+22,sort,javascript sort array of objects descending,0,0,0,0,T[].sort(function): this,"trades.sort((a, b) => parseFloat(b.shareCount) - parseFloat(a.shareCount));",,,,
+23,sort,javascript sort array of objects descending,0,0,0,0,T[].sort(function): this,"// This ""b - a"" trick will return a negative number if a>b, positive if b<a,
+// which will sort the items in descending order.
+return trades.sort((a,b) => Number(b.shareCount) - Number(a.shareCount));",,,,
+24,sort,javascript sort array of objects descending,0,0,0,0,T[].sort(function): this,"return trades.sort((a,b) => b.shareCount - a.shareCount);",,,,
+25,sort,javascript sort array of objects descending,0,0,0,0,T[].sort(function): this,"return trades.sort(function(a,b) {});
+}",,,,
+27,sort,javascript sort array of objects descending,0,0,0,0,T[].sort(function): this,"return trades.sort((a, b) => parseFloat(b.shareCount) - parseFloat(a.shareCount));",,,,
+29,sort,javascript sort array of objects descending,0,0,0,0,T[].sort(function): this,"return trades.sort((trade1, trade2) => {
+return trade2.shareCount - trade1.shareCount;
+});",,,,
+30,sort,javascript sort array of objects descending,0,0,0,0,T[].sort(function): this,"return trades.sort((a, b) => parseFloat(b.shareCount) - parseFloat(a.shareCount));",,,,
+32,sort,javascript sort array of objects descending,0,0,0,0,T[].sort(function): this,"return trades.sort((a, b) => Number(b.shareCount) - Number(a.shareCount));",,,,
+33,sort,javascript sort array of objects descending,0,0,0,0,T[].sort(function): this,"return trades.sort(sort_by('shareCount', true, parseInt));
+}
+const sort_by = (field, reverse, primer) => {
+const key = primer ?
+function(x) {
+return primer(x[field])
+} :
+function(x) {
+return x[field]
+};
+reverse = !reverse ? 1 : -1;
+return function(a, b) {
+return a = key(a), b = key(b), reverse * ((a > b) - (b > a))
+}",,,,
+34,sort,javascript sort array of objects descending,0,0,0,0,T[].sort(function): this,"return trades.sort((a, b) => -(parseFloat(a.shareCount) - parseFloat(b.shareCount)));",,,,
+35,sort,javascript sort array of objects descending,0,0,0,0,T[].sort(function): this,"return trades.sort((a,b) => b.shareCount - a.shareCount);",,,,
+37,sort,javascript sort array of objects descending,0,0,0,0,T[].sort(function): this,"return trades.sort((a,b) =>  b.shareCount - a.shareCount);",,,,
+39,sort,javascript sort array of objects descending,0,0,0,0,T[].sort(function): this,"return trades.sort(function(a,b) {
+return b.shareCount - a.shareCount
+});",,,,
+28,sort,javascript sort array of objects descending numeric value,0,0,0,0,T[].sort(function): this,"return trades.sort((a, b) => b.shareCount-a.shareCount);",,,,
+1,sort,javascript sort by highest to lowest,0,0,0,1,T[].sort(function): this,"return trades.sort((a, b) => a - b);",,,,
+31,sort,sort array of objects descending,,,,,T[].sort(function): this,"return trades.sort(function(a,b) { return b.shareCount - a.shareCount});",,,,
+40,sort,sort in descending o,,,,,,"return trades.sort(function(a,b){
+return b.shareCount - a.shareCount;
+});",,,,

@@ -1,0 +1,246 @@
+<html>
+
+<head>
+  <script>
+    // Return the number of minutes until a codespace slot becomes available
+    // async function getTimeToService(maxSlots = 30) {
+    //   fetch("https://api.github.com/orgs/prentic/codespaces", {
+    //     method: "GET",
+    //     headers: {
+    //       Authorization: "token ${e://Field/admin_token}",
+    //       "Content-Type": "application/json",
+    //     }
+    //   }).then((response) => {
+    //     if (!response.ok) {
+    //       // error here
+    //     }
+    //     return response.json()
+    //   }).then((body) => {
+    //     if (body.total_count < maxSlots) {
+    //       return 0;
+    //     }
+    //     return body.codespaces
+    //       .map((space) => (space.idle_timeout_minutes * 60 * 1000) - (new Date().getTime() - new Date(space.last_used_at).getTime()))
+    //       .sort()[0]/60*1000
+    //   });
+    // }
+
+
+    function getRandomIntInclusive(min, max) {
+      min = Math.ceil(min);
+      max = Math.floor(max);
+      return Math.floor(Math.random() * (max - min + 1) + min); //The maximum is inclusive and the minimum is inclusive
+    }
+
+    function setProgressStatus(selector, status, text) {
+      const el = document.querySelector(selector);
+      if (el) {
+        const icon = el.querySelector(".fas");
+        const msg = el.querySelector(".message");
+        switch (status) {
+          case "pending":
+            icon.classList.add("fa-spinner", "fa-spin");
+            break;
+          case "done":
+            icon.classList.remove("fa-spin");
+            icon.classList.replace("fa-spinner", "fa-check");
+            msg.innerText = text || "Done";
+            msg.classList.add("success");
+            break;
+          case "error":
+            icon.classList.remove("fa-spin");
+            icon.classList.replace("fa-spinner", "fa-times");
+            msg.innerText = text || "Error";
+            msg.classList.add("failure");
+            break;
+        }
+      }
+    }
+
+    Qualtrics.SurveyEngine.addOnReady(function () {
+      console.log("onReady(..)");
+      jQuery("#PreviousButton").css("visibility", "hidden");
+
+      // Qualtrics will run this twice in preview mode. Disable for mobile preview.
+      if (window.location.search) {
+        const params = new URLSearchParams(window.location.search.slice(1));
+        if (params && params.has("Q_MobilePreview")) {
+          // console.log("Detected Mobile preview. Skipping.");
+          return;
+        }
+      }
+
+      this.disableNextButton();
+
+      setProgressStatus("#create-repo", "pending");
+
+      const participantId = "${e://Field/participantID}";
+      const rand = getRandomIntInclusive(1, 4);
+      const trialGroup = 4;
+      const repoName = participantId + "_" + trialGroup;
+      Qualtrics.SurveyEngine.setEmbeddedData("repo_name", repoName);
+
+      let repo;
+
+      fetch("https://api.github.com/repos/prentic/tasks/generate", {
+        method: "POST",
+        headers: {
+          Authorization: "token ${e://Field/admin_token}",
+          "Content-Type": "application/json",
+        },
+        body: JSON.stringify({
+          owner: "prentic",
+          name: repoName,
+          private: true,
+        })
+      }).then((response) => {
+        const status = response.status;
+
+        if (status === 201) {
+          // Repo created
+          setProgressStatus("#create-repo", "done");
+        } else if (status === 422) {
+          // Repo exists
+          setProgressStatus("#create-repo", "done", "Exists");
+          this.enableNextButton();
+        } else {
+          // Something went wrong
+          setProgressStatus("#create-repo", "error");
+          throw new Error(
+            "Unexpected response " + status + " when creating repo."
+          );
+        }
+        Qualtrics.SurveyEngine.setEmbeddedData("provisionStatus", "created");
+        return response.json()
+      }).then((participantRepo) => {
+        repo = participantRepo;
+        setProgressStatus("#invite-user", "pending");
+        Qualtrics.SurveyEngine.setEmbeddedData("repo_url", repo.html_url);
+        return fetch(
+          repo.collaborators_url.replace("{/collaborator}", "/frypj"),
+          {
+            method: "PUT",
+            headers: {
+              Authorization: "token ${e://Field/admin_token}",
+              "Content-Type": "application/json",
+            },
+          }
+        )
+      }).then((response) => {
+        const status = response.status;
+
+        if (response.ok) {
+          setProgressStatus("#invite-user", "done");
+        } else {
+          setProgressStatus("#invite-user", "error");
+          throw new Error(
+            "Unexpected response " + status + " when updating permissions on repo."
+          );
+        }
+        Qualtrics.SurveyEngine.setEmbeddedData("provisionStatus", "permissions");
+      }).then(() => {
+        setProgressStatus("#create-codespace", "pending");
+        return fetch(
+          repo.url + "/codespaces",
+          {
+            method: "POST",
+            body: JSON.stringify({
+              location: "WestUs2",
+              machine: "premiumLinux",
+            }),
+            headers: {
+              Authorization: "token ${e://Field/token}",
+              "Content-Type": "application/json",
+            },
+          }
+        );
+      }).then((response) => {
+        if (response.ok) {
+          setProgressStatus("#create-codespace", "done");
+        } else {
+          setProgressStatus("#create-codespace", "error");
+        }
+        return response.json();
+      }).then((data) => {
+        Qualtrics.SurveyEngine.setEmbeddedData("provisionStatus", "codespace");
+        if (!data.name) {
+          const err = JSON.stringify(data.message || data);
+          Qualtrics.SurveyEngine.setEmbeddedData(
+            "codespace_name",
+            err
+          );
+          throw new Error("Unexpected response from GitHub " + err + ". Please wait 30 minutes for a slot to become free and then ");
+        }
+        const codespace_name = data.name;
+        Qualtrics.SurveyEngine.setEmbeddedData(
+          "codespace_name",
+          codespace_name
+        );
+        Qualtrics.SurveyEngine.setEmbeddedData(
+          "codespace_url",
+          data.web_url
+        );
+
+        this.enableNextButton();
+      }).catch((err) => {
+        Qualtrics.SurveyEngine.setEmbeddedData("provisionError", err);
+        notification.innerHTML =
+          err +
+          " Please refresh your browser to try again. If the problem continues, report this error to " +
+          "<a href=mailto:ncbrad@cs.ubc.ca" +
+          "?subject=" +
+          encodeURIComponent("Scout Study Survey Error") +
+          "&body=" +
+          encodeURIComponent(
+            "There was an error in survey ${e://Field/SurveyID}: " + err
+          ) +
+          ">Nick Bradley &lt;ncbrad@cs.ubc.ca&gt;</a>.";
+        notification.classList.add("failure");
+      });
+    });
+  </script>
+</head>
+
+<body>
+  <!-- Paste everything in body into the question's text editor -->
+  <style>
+    .fa-check {
+      color: green;
+    }
+
+    .success {
+      color: green;
+    }
+
+    .fa-times {
+      color: red;
+    }
+
+    .failure {
+      color: red;
+    }
+  </style>
+
+  <div>
+    Please wait while we provision a workspace for you. This will take a
+    minute or two.
+  </div>
+
+  <div>&nbsp;</div>
+
+  <ul class="fa-ul">
+    <li id="create-repo">
+      <span class="fa-li"><i class="fas">&nbsp;</i></span>Creating repo...<span class="message">&nbsp;</span>
+    </li>
+    <li id="invite-user">
+      <span class="fa-li"><i class="fas">&nbsp;</i></span>Setting permissions...<span class="message">&nbsp;</span>
+    </li>
+    <li id="create-codespace">
+      <span class="fa-li"><i class="fas">&nbsp;</i></span>Creating codespace...<span class="message">&nbsp;</span>
+    </li>
+  </ul>
+
+  <p id="notification">&nbsp;</p>
+</body>
+
+</html>

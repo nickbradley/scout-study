@@ -1,0 +1,278 @@
+<htmL>
+
+<head>
+    <script>
+        Qualtrics.SurveyEngine.addOnload(function () {
+            /*Place your JavaScript here to run when the page loads*/
+            //this.disableNextButton();
+        });
+
+        Qualtrics.SurveyEngine.addOnReady(function () {
+            const since = (new Date()).toISOString();
+
+            jQuery('#PreviousButton').css('visibility', 'hidden');
+            jQuery.getScript("https://cdnjs.cloudflare.com/ajax/libs/clipboard.js/2.0.10/clipboard.min.js", function () {
+                const clipboard = new ClipboardJS('dd');
+                clipboard.on("success", (e) => {
+                    e.trigger.lastElementChild.innerText = "Copied!";
+                    e.trigger.lastElementChild.classList.remove("hidden");
+                    e.clearSelection();
+
+                });
+                clipboard.on('error', function (e) {
+                    e.trigger.lastElementChild.innerText = "Press Ctrl+C to copy";
+                    e.trigger.lastElementChild.classList.remove("hidden");
+                });
+                document.querySelectorAll("dd").forEach((el) => {
+                    el.addEventListener("mouseenter", () => { el.querySelector(".fa-copy").classList.remove("hidden") });
+                    el.addEventListener("mouseleave", () => {
+                        el.querySelector(".fa-copy").classList.add("hidden");
+                        el.querySelector(".tooltiptext").classList.add("hidden");
+                    });
+                });
+            });
+
+
+            const btn = document.querySelector("#verify-btn");
+            const spinner = document.querySelector(".fas");
+            const message = document.querySelector("#verify-code");
+            btn.addEventListener("click", event => {
+                Qualtrics.SurveyEngine.setEmbeddedData("loginAttempted", true);
+                btn.disabled = true;
+                spinner.style.display = "inline-block";
+
+                fetch("https://api.mailslurp.com/waitForMatchingFirstEmail?inboxId=db1f51eb-b9a7-4bd8-a054-cbecd1b84937&sort=DESC&since=" + since, {
+                    method: "POST",
+                    body: JSON.stringify({
+                        matches: [{ field: "SUBJECT", should: "EQUAL", value: "[GitHub] Please verify your device" }]
+                    }),
+                    headers: {
+                        "Content-Type": "application/json",
+                        "Accept": "application/json",
+                        "x-api-key": "${e://Field/mailslurp_key}"
+                    }
+                }).then(response => {
+                    response.json().then(email => {
+                        const body = email.body;
+                        const matches = body.match(/Verification code: (?<code>\d{6})/g);
+                        const code = matches[0].replace("Verification code: ", "");
+                        message.innerHTML = code;
+                        btn.disabled = false;
+                        spinner.style.display = "none";
+                        Qualtrics.SurveyEngine.setEmbeddedData("verificationCode", code);
+                    });
+                }).catch(err => {
+                    Qualtrics.SurveyEngine.setEmbeddedData("verificationCode", "error");
+                    // TODO handle no email received
+                    btn.disabled = false;
+                    spinner.style.display = "none";
+                    // Handle no code being given
+                    message.innerHTML = "Failed to receive code. Please try re-sending the code. If the problem persists, contact <a href=mailto:ncbrad@cs.ubc.ca" +
+                        "?subject=" + encodeURIComponent("Scout Study Survey Error") +
+                        "&body=" + encodeURIComponent("There was an error in survey ${e://Field/SurveyID}: Failed to receive verification code.") +
+                        ">Nick Bradley &lt;ncbrad@cs.ubc.ca&gt;</a>."
+                });
+            });
+
+            // window.setTimeout(() => this.enableNextButton(), 10000);
+        });
+
+        Qualtrics.SurveyEngine.addOnUnload(function () {
+            /*Place your JavaScript here to run when the page is unloaded*/
+
+        });
+    </script>
+</head>
+
+<body>
+    <!-- Paste everything in body into the question's text editor -->
+
+    <style type="text/css">dt:not(:first-child) {
+        padding-top: 8px;
+    }
+    dd {
+        margin: 0;
+        width: 300px;
+        background-color: #e8f5f2;
+        color: #1bc1a1;
+        font-weight: 600;
+        font-family: 'Courier New', Courier, monospace;
+        padding: 8px;
+        border-radius: 8px;
+        display: inline-block;
+    }
+
+    .fa-copy {
+        float: right;
+    }
+
+    .hidden {
+        visibility: hidden !important;
+    }
+
+    /* Tooltip container */
+    .tooltip {
+        position: relative;
+        display: inline-block;
+        /* border-bottom: 1px dotted black; */
+        /* If you want dots under the hoverable text */
+    }
+
+    /* Tooltip text */
+    .tooltip .tooltiptext {
+        visibility: hidden;
+        width: 120px;
+        background-color: black;
+        color: #fff;
+        text-align: center;
+        padding: 8px;
+        border-radius: 6px;
+
+        /* Position the tooltip text - see examples below! */
+        position: absolute;
+        z-index: 1;
+        top: 0;
+        left: 105%;
+    }
+
+    /* Show the tooltip text when you mouse over the tooltip container */
+    .tooltip:hover .tooltiptext {
+        visibility: visible;
+    }
+
+    .tooltip .tooltiptext::after {
+        content: " ";
+        position: absolute;
+        top: 50%;
+        right: 100%;
+        /* To the left of the tooltip */
+        margin-top: -5px;
+        border-width: 5px;
+        border-style: solid;
+        border-color: transparent black transparent transparent;
+    }
+
+    .fa-check {
+      color: green;
+    }
+    .partial {
+        color: #ffcc00
+    }
+    .fa-times {
+      color: red;
+    }
+    .footnote {
+        font-size: 70%;
+        line-height: initial;
+        display: inline-block;
+    }
+
+    table {
+        border-collapse: collapse;
+        margin: 25px auto 0;
+    }
+    th {
+        text-align: left;
+        padding: 15px;
+    }
+    tr:first-child {
+        border-top: 1px solid black;
+        /* border-bottom: 2px solid black; */
+    }
+    tr {
+        border-bottom: 1px solid black;
+    }
+    td {
+        text-align: center;
+        
+    }
+    td:first-child {
+        text-align: left;
+    }
+</style>
+
+<p>To complete the study tasks, you will need to use one of the <b>supported browsers</b> listed in the table below. If you are currently logged into GitHub, you will also need to sign out before continuing.</p>
+    <table>
+        <thead>
+            <tr>
+            <th>&nbsp;</th>
+            <th>Normal</th>
+            <th>Incognito</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Chrome</td>
+                <td><i class="fas fa-check"></i></td>
+                <td><i class="fas fa-check partial"></i><sup>1</sup></td>
+            </tr>
+            <tr>
+                <td>Firefox</td>
+                <td><i class="fas fa-check partial"></i><sup>2</sup></td>
+                <td><i class="fas fa-times"></i></td>
+            </tr>
+            <tr>
+                <td>Safari</td>
+                <td><i class="fas fa-check"></i></td>
+                <td><i class="fas fa-check"></i></td>
+            </tr>
+        </tbody>
+    </table>
+    <span class="footnote"><sup id="fn1">1</sup>Allow third party cookies by adding <code>[*.]github.dev</code> to <i>Sites that can always use cookies</i> at <a href="chrome://settings/cookies">chrome://settings/cookies</a></span><br>
+    <span class="footnote"><sup id="fn2">2</sup>Disable Enhanced Tracking by clicking the shield icon in the address bar.</span>
+ 
+    <div>&nbsp;</div>
+    <p>Open the workspace <a target="_blank" rel="noopener"
+        href="${e://Field/codespace_url}">${e://Field/codespace_url}</a> in your selected browser and use the following credentials to log in:</p>
+    <div>&nbsp;</div>
+
+        <dl>
+            <dt>Username</dt>
+            <dd data-clipboard-target="#username" class="tooltip">
+                <span id="username">frypj</span>
+                <i class="fas fa-copy hidden">&nbsp;</i>
+                <span class="tooltiptext hidden">&nbsp;</span>
+            </dd>
+            <dt>Password</dt>
+            <dd data-clipboard-target="#password" class="tooltip">
+                <span id="password">scout-study1</span>
+                <i class="fas fa-copy hidden">&nbsp;</i>
+                <span class="tooltiptext hidden">&nbsp;</span>
+            </dd>
+        </dl>
+
+        <div>&nbsp;</div>
+        If you are prompted for a verification code click the button below to get the code:
+
+        <div>&nbsp;</div>
+
+        <div id="verification-code"><input value="Get verification code" type="button" id="verify-btn"> <i
+                style="display: none;" class="fas fa-spinner fa-spin">&nbsp;</i>
+
+            <dd data-clipboard-target="#verify-code" class="tooltip">
+                <p style="display: inline-block;" id="verify-code">&nbsp;</p>
+                <i class="fas fa-copy hidden">&nbsp;</i>
+                <span class="tooltiptext hidden">&nbsp;</span>
+            </dd>
+        </div>
+
+        <div>&nbsp;</div>
+
+    <div>Once the codespace has started, follow the instructions shown in the <em>Study Overview.</em> <strong>Return here once you are done to complete the survey.</strong><br>
+        <br>
+        <em><strong>If the workspace link is missing</strong></em> please try clearing cookies for <i>qualtrics.com</i> and refreshing the page, or opening the survey link in a different browser.
+        <div>&nbsp;</div>
+        <em><strong>If the instructions are not shown </strong></em>and you get an "Error loading webview" notification in the bottom right of the browser window, please double check that your browser settings match the requirements listed in the table above or try an alternative browser.</div>
+        
+        <div>&nbsp;</div>
+        
+        <div style="text-align: center;"><img src="https://ubc.ca1.qualtrics.com/CP/Graphic.php?IM=IM_1HvCeMlgkHedNGK"></div>
+        
+        <!-- <div><br>
+        &nbsp;</div> -->
+
+
+
+</body>
+
+</htmL>

@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>title</title>
+    <script src="https://kit.fontawesome.com/f2bc649fd4.js" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/clipboard.js/2.0.10/clipboard.min.js"></script>
+
+    <style>
+        dt:not(:first-child) {
+            padding-top: 8px;
+        }
+        dd {
+            margin: 0;
+            width: 300px;
+            background-color: #e8f5f2;
+            color: #1bc1a1;
+            font-weight: 600;
+            font-family: 'Courier New', Courier, monospace;
+            padding: 8px;
+            border-radius: 8px;
+            display: inline-block;
+        }
+
+        .fa-copy {
+            float: right;
+        }
+
+        .hidden {
+            visibility: hidden !important;
+        }
+
+        /* Tooltip container */
+        .tooltip {
+            position: relative;
+            display: inline-block;
+            /* border-bottom: 1px dotted black; */
+            /* If you want dots under the hoverable text */
+        }
+
+        /* Tooltip text */
+        .tooltip .tooltiptext {
+            visibility: hidden;
+            width: 120px;
+            background-color: black;
+            color: #fff;
+            text-align: center;
+            padding: 8px;
+            border-radius: 6px;
+
+            /* Position the tooltip text - see examples below! */
+            position: absolute;
+            z-index: 1;
+            top: 0;
+            left: 105%;
+        }
+
+        /* Show the tooltip text when you mouse over the tooltip container */
+        .tooltip:hover .tooltiptext {
+            visibility: visible;
+        }
+
+        .tooltip .tooltiptext::after {
+            content: " ";
+            position: absolute;
+            top: 50%;
+            right: 100%;
+            /* To the left of the tooltip */
+            margin-top: -5px;
+            border-width: 5px;
+            border-style: solid;
+            border-color: transparent black transparent transparent;
+        }
+    </style>
+</head>
+
+<body>
+    <dl>
+        <dt>Username</dt>
+        <dd data-clipboard-target="#username" class="tooltip">
+            <span id="username">frypj</span>
+            <i class="fas fa-copy hidden"></i>
+            <span class="tooltiptext hidden"></span>
+        </dd>
+        <dt>Password</dt>
+        <dd data-clipboard-target="#password" class="tooltip">
+            <span id="password">scout</span>
+            <i class="fas fa-copy hidden"></i>
+            <span class="tooltiptext hidden"></span>
+        </dd>
+    </dl>
+
+    <script>
+        const clipboard = new ClipboardJS('dd');
+        clipboard.on("success", (e) => {
+            e.trigger.lastElementChild.innerText = "Copied!";
+            e.trigger.lastElementChild.classList.remove("hidden");
+            e.clearSelection();
+
+        });
+        clipboard.on('error', function (e) {
+            e.trigger.lastElementChild.innerText = "Press Ctrl+C to copy";
+            e.trigger.lastElementChild.classList.remove("hidden");
+        });
+        document.querySelectorAll("dd").forEach((el) => {
+            el.addEventListener("mouseenter", () => { el.querySelector(".fa-copy").classList.remove("hidden") });
+            el.addEventListener("mouseleave", () => { 
+                el.querySelector(".fa-copy").classList.add("hidden");
+                el.querySelector(".tooltiptext").classList.add("hidden"); 
+            });
+        });
+
+    </script>
+</body>
+
+</html>

@@ -1,328 +1,328 @@
 pid,tid,seq,timeBetween,context,keywords,query
-1,sort,0,,javascript,sort|array|of|objects|descending,javascript sort array of objects descending
-1,sort,1,,javascript,sort|by|highest|to|lowest,javascript sort by highest to lowest
-1,currency,0,,javascript,format|currency,javascript format currency
-1,find,0,,javascript,find|item|in|array|by|value,javascript find item in array by value
-1,clone,0,,javascript,clone|array,javascript clone array
-1,recent,0,,moment|javascript,subtract|days|from|moment,subtract days from moment
-1,serve,0,,express|path|javascript,add|/static|route|to|express,javascript express path add /static route to
-1,serve,1,,express|path|javascript,add|/static|route|to|express|web|server,javascript express path add /static route to web server
-2,sort,0,,javascript,sort|array|of|objects|descending,javascript sort array of objects descending
-2,currency,0,,javascript,format|currency,javascript format currency
-2,find,0,,javascript,find|item|in|array|by|value,javascript find item in array by value
-2,clone,0,,javascript,clone|array,javascript clone array
-2,recent,0,,moment|javascript,startDate|so|that|it|subtracts|the|specified|number|of|days/months/years|from|the|endDate,javascript moment startDate so that it subtracts the specified number of days/months/years from endDate
-2,serve,0,,express|path|javascript,add|static|route,add static route
-2,serve,1,25157,express|path|static|javascript,add|static|route|using|path,add static route using path
-3,sort,0,,javascript,sort|array|of|objects|descending,javascript sort array of objects descending
-3,currency,0,,javascript,format|currency,javascript format currency
-3,clone,0,,javascript,clone|array,javascript clone array
-3,recent,0,,moment|javascript,subtract|dates,javascript moment subtract dates
-3,serve,0,,express|path|javascript,ad,ad
-3,serve,1,,express|path|javascript,add|static|to|express,add static to express
-4,sort,0,,javascript,sort|array|of|objects|descending,javascript sort array of objects descending
-4,currency,0,,javascript,format|currency,javascript format currency
-4,find,0,,javascript,find|item|in|array|by|value,javascript find item in array by value
-4,clone,0,,javascript,clone|array,javascript clone array
-4,recent,0,,moment|javascript,ssubtract|date,javascript moment ssubtract date
-4,recent,1,,moment|javascript,subtract|date|given|interval|and|value,javascript moment subtract date given interval and value
-4,recent,2,249770,moment|javascript,(,javascript moment (
-4,serve,0,,javascript,add|/static|route|which|serves|files,add /static route which serves files
-4,serve,1,,javascript,add|/static|route|to|setup|javascript,add /static route to setup javascript
-4,serve,2,138605,express|path|javascript,static|route|javascript,static route javascript
-5,sort,0,,javascript,sort|array|of|objects|descending,javascript sort array of objects descending
-5,currency,0,,javascript,format|currency,javascript format currency
-5,find,0,,javascript,find|item|in|array|by|value,javascript find item in array by value
-5,clone,0,,javascript,clone|array,javascript clone array
-5,recent,0,,moment|javascript,subtract|time|from|date,subtract time from date
-5,recent,1,12156,moment|javascript,momentjs|dubtract|days|months|years,momentjs dubtract days months years
-5,serve,0,,express|path|javascript,add|a|route|to|serve|files,javascript express path add a route to serve files
-6,sort,0,,javascript,sort|array|of|objects|descending,javascript sort array of objects descending
-6,currency,0,,javascript,format|currency,javascript format currency
-6,find,0,,javascript,find|item|in|array|by|value,javascript find item in array by value
-6,clone,0,,javascript,clone|array,javascript clone array
-6,recent,0,,moment|javascript,moment|subtract|days,javascript moment subtract days
-6,serve,0,,javascript,expressjs|static|route,expressjs static route
-7,sort,0,,javascript,sort|array|of|objects|descending,javascript sort array of objects descending
-7,currency,0,,javascript,format|currency,javascript format currency
-7,find,0,,javascript,find|item|in|array|by|value,javascript find item in array by value
-7,clone,0,,javascript,clone|array,javascript clone array
-7,recent,0,,javascript,update|date|by|interval|unit|javascript|moment.js,update date by interval unit javascript moment.js
-7,recent,1,,javascript,subtract|date|by|interval|unit|javascript|moment.js,subtract date by interval unit javascript moment.js
-7,serve,0,,express|path|javascript,serve|static|file,javascript express path serve static file
-8,sort,0,,javascript,sort|array|of|objects|descending,javascript sort array of objects descending
-8,sort,1,,javascript,javascript|sort|array|big|to|small,javascript sort array big to small
-8,currency,0,,javascript,format|currency,javascript format currency
-8,find,0,,javascript,find|item|in|array|by|value,javascript find item in array by value
-8,clone,0,,javascript,clone|array,javascript clone array
-8,recent,0,,moment|javascript,javascript|moment,javascript moment
-8,recent,1,,moment|javascript,create|a|moment|one|month|in|the|future,javascript moment create a one month in the future
-8,serve,0,,express|path|javascript,express|add|a|static|file|server,express add a static file server
-8,serve,1,6354,express|path|static|javascript,express|serve|pdf|file,express serve pdf file
-9,sort,0,,javascript,sort|array|of|objects|descending,javascript sort array of objects descending
-9,currency,0,,javascript,format|currency,javascript format currency
-9,find,0,,javascript,find|item|in|array|by|value,javascript find item in array by value
-9,clone,0,,javascript,clone|array,javascript clone array
-9,recent,0,,moment|javascript,java|subtract|duration|from|date,javascript moment java subtract duration from date
-9,serve,0,,javascript,javascript|serve|static|file,javascript serve static file
-10,sort,0,,javascript,sort|array|of|objects|descending,javascript sort array of objects descending
-10,currency,0,,javascript,format|currency,javascript format currency
-10,currency,1,,javascript,format|currency|locale,format currency locale
-10,find,0,,javascript,find|item|in|array|by|value,javascript find item in array by value
-10,clone,0,,javascript,clone|array,javascript clone array
-10,clone,1,,,clone|array,clone array
-10,recent,0,,moment|javascript,subtract|date,javascript moment subtract date
-10,serve,0,,express|path|javascript,javascript|static|pdf|server,javascript static pdf server
-10,serve,1,,express|path|javascript,javascript|static|pdf|server|serve.js,javascript static pdf server serve.js
-10,serve,2,18178,javascript,javascript|add|/static|route|to|serve,javascript add /static route to serve
-11,sort,0,,javascript,sort|array|of|objects|descending,javascript sort array of objects descending
-11,clone,0,,javascript,clone|array,javascript clone array
-11,recent,0,,moment|javascript,momentjs|define|date|by|units,momentjs define date by units
-11,serve,0,,express|path|javascript,add|static|route|express,javascript express path add static route
-12,sort,0,,javascript,sort|array|of|objects|descending,javascript sort array of objects descending
-12,currency,0,,javascript,format|currency,javascript format currency
-12,find,0,,javascript,find|item|in|array|by|value,javascript find item in array by value
-12,clone,0,,javascript,clone|array,javascript clone array
-12,clone,1,,javascript,deep|copy,javascript deep copy
-12,recent,0,,moment|javascript,moment|subtract|days|from|date,moment subtract days from date
-12,recent,1,6991,moment|javascript,moment|from|date,moment from date
-12,recent,2,7876,moment|javascript,moment|subtract,moment subtract
-12,recent,3,17866,moment|javascript,moment|subtract|days,moment subtract days
-12,recent,4,7828,moment|javascript,moment|time|from|date,moment time from date
-12,recent,5,12768,moment|javascript,moment|subtract|time|from|date,moment subtract time from date
-12,serve,0,,express|path|javascript,express|add|static|route|javascript,javascript express path add static route
-13,sort,0,,javascript,sort|array|of|objects|descending,javascript sort array of objects descending
-13,currency,0,,javascript,format|currency,javascript format currency
-13,find,0,,javascript,find|item|in|array|by|value,javascript find item in array by value
-13,clone,0,,javascript,clone|array,javascript clone array
-13,recent,0,,javascript,javascript|date|subtraction,javascript date subtraction
-13,recent,1,,javascript,javascript|subtract|date,javascript subtract date
-13,recent,2,30263,javascript,javascript|date,javascript date
-13,recent,3,14973,javascript,javascript|date|decrement,javascript date decrement
-13,serve,0,,express|path|javascript,add|route,javascript express path add route
-13,serve,1,,express|path|javascript,express|uri,javascript express path uri
-13,serve,2,66555,express|path|javascript,get|file,javascript express path get file
-13,serve,3,12848,javascript,get|file,javascript get file
-13,serve,4,33463,javascript,serve|file,javascript serve file
-13,serve,5,175572,javascript,setup|route,javascript setup route
-14,sort,0,,javascript,sort|array|of|objects|descending,javascript sort array of objects descending
-14,currency,0,,javascript,format|currency,javascript format currency
-14,currency,1,,javascript,format|currency|given|locale,format currency given locale
-14,find,0,,javascript,find|item|in|array|by|value,javascript find item in array by value
-14,clone,0,,javascript,clone|array,javascript clone array
-14,recent,0,,moment|javascript,js|get|start|date|given|time|unti,js get start date given time unti
-14,recent,1,,moment|javascript,js|get|start|date|given|time|unit,js get start date given time unit
-14,recent,2,10230,moment|javascript,js|moment|interval,js moment interval
-14,recent,3,24310,moment|javascript,js|moment|get|start|date|given|interval|and|end|date,js moment get start date given interval and end
-14,serve,0,,express|path|javascript,static|serve|public,javascript express path static serve public
-15,sort,0,,javascript,sort|array|of|objects|descending,javascript sort array of objects descending
-15,currency,0,,javascript,format|currency,javascript format currency
-15,currency,1,,javascript,format|currency,format currency
-15,find,0,,javascript,find|item|in|array|by|value,javascript find item in array by value
-15,clone,0,,javascript,clone|array,javascript clone array
-15,recent,0,,moment|javascript,date|subtract,javascript moment date subtract
-15,serve,0,,javascript,static|route,static route
-16,sort,0,,javascript,sort|array|of|objects|descending,javascript sort array of objects descending
-16,currency,0,,javascript,format|currency,javascript format currency
-16,currency,1,,javascript,format|currency,format currency
-16,find,0,,javascript,find|item|in|array|by|value,javascript find item in array by value
-16,clone,0,,javascript,clone|array,javascript clone array
-16,recent,0,,javascript,subtract|time|from|a|date|js,subtract time from a date js
-16,recent,1,19434,moment|javascript,subtract|time|from|a|date|using|an|interval|js,subtract time from a date using an interval js
-16,serve,0,,express|path|javascript,static|route|to|serve|files|from|/srs/public,javascript express path static route to serve files from /srs/public
-16,serve,1,,express|path|javascript,static|route|to|serve|files,javascript express path static route to serve files
-17,sort,0,,javascript,sort|array|of|objects|descending,javascript sort array of objects descending
-17,currency,0,,javascript,format|currency,javascript format currency
-17,find,0,,javascript,find|item|in|array|by|value,javascript find item in array by value
-17,clone,0,,javascript,clone|array,javascript clone array
-17,recent,0,,moment|javascript,subtract|date,javascript moment subtract date
-17,serve,0,,express|path|javascript,download|pdf|receipts,download pdf receipts
-17,serve,1,,express|path|javascript,serve|static|files,serve static files
-18,sort,0,,javascript,sort|array|of|objects|descending,javascript sort array of objects descending
-18,currency,0,,javascript,format|currency,javascript format currency
-18,find,0,,javascript,find|item|in|array|by|value,javascript find item in array by value
-18,clone,0,,javascript,clone|array,javascript clone array
-18,recent,0,,moment|javascript,subtract|amount|of|time|by|the|interval|from|date,subtract amount of time by the interval from date
-18,serve,0,,express|path|javascript,add|static|route,javascript express path add static route
-19,sort,0,,javascript,sort|array|of|objects|descending,javascript sort array of objects descending
-19,currency,0,,javascript,format|currency,javascript format currency
-19,find,0,,javascript,find|item|in|array|by|value,javascript find item in array by value
-19,clone,0,,javascript,clone|array,javascript clone array
-19,recent,0,,moment|javascript,substract|amount|in|array|parameters,javascript moment substract amount in array parameters
-19,serve,0,,javascript,serve|/static|route,serve /static route
-20,currency,0,,javascript,format|currency,javascript format currency
-20,find,0,,javascript,find|item|in|array|by|value,javascript find item in array by value
-20,clone,0,,javascript,clone|array,javascript clone array
-20,recent,0,,moment|javascript,subtrack|days|months|from|given|date,javascript moment subtrack days months from given date
-20,serve,0,,express|path|javascript,express|get|route|send|files,express get route send files
-20,serve,1,,express|path|javascript,express|get|route|url|params,express get route url params
-20,serve,2,20391,express|path|resolve|javascript,js|send|response|file|via|get|route,js send response file via get route
-21,sort,0,,javascript,sort|array|of|objects|descending,javascript sort array of objects descending
-21,currency,0,,javascript,format|currency,javascript format currency
-21,find,0,,javascript,find|item|in|array|by|value,javascript find item in array by value
-21,clone,0,,javascript,clone|array,javascript clone array
-21,recent,0,,moment|javascript,substract|amount|of|time,javascript moment substract amount of time
-21,serve,0,,express|path|javascript,sta,sta
-21,serve,1,,express|path|javascript,static|route|js,static route js
-21,serve,2,54537,javascript,/static|route|js,/static route js
-22,sort,0,,javascript,sort|array|of|objects|descending,javascript sort array of objects descending
-22,currency,0,,javascript,format|currency,javascript format currency
-22,find,0,,javascript,find|item|in|array|by|value,javascript find item in array by value
-22,clone,0,,javascript,clone|array,javascript clone array
-22,recent,0,,moment|javascript,"update|the|startDate|by|subtracting|the|amount|//|of|time|specified|by|the|""interval""|and|""unit""|parameters.","update the startDate by subtracting amount // of time specified ""interval"" and ""unit"" parameters."
-22,recent,1,182046,moment|duration|javascript,update|date,update date
-22,recent,2,183549,moment|duration|javascript,update|date|using|interval|and|unit,update date using interval and unit
-22,serve,0,,express|path|javascript,/static'|route,javascript express path /static' route
-23,sort,0,,javascript,sort|array|of|objects|descending,javascript sort array of objects descending
-23,currency,0,,javascript,format|currency,javascript format currency
-23,currency,1,,javascript,format|currency|in|user's|locale,format currency in user's locale
-23,find,0,,javascript,find|item|in|array|by|value,javascript find item in array by value
-23,find,1,,javascript,find|item|in|array|by|value,find item in array by value
-23,clone,0,,javascript,clone|array,javascript clone array
-23,clone,1,,javascript,shallow|clone|array,javascript shallow clone array
-23,recent,0,,javascript,javascript|date|arithmetic,javascript date arithmetic
-23,recent,1,,javascript,javascript|date|arithmetic|with|specified|units,javascript date arithmetic with specified units
-23,serve,0,,express|path|javascript,configure|static|route,javascript express path configure static route
-23,serve,1,,express|path|javascript,configure|static|route|from|directory,javascript express path configure static route from directory
-24,sort,0,,javascript,sort|array|of|objects|descending,javascript sort array of objects descending
-24,currency,0,,javascript,format|currency,javascript format currency
-24,find,0,,javascript,find|item|in|array|by|value,javascript find item in array by value
-24,clone,0,,javascript,clone|array,javascript clone array
-24,recent,0,,moment|javascript,subtract|interval|unit|date,javascript moment subtract interval unit date
-24,serve,0,,express|path|javascript,add|static|route|serve|files,add static route serve files
-25,sort,0,,javascript,sort|array|of|objects|descending,javascript sort array of objects descending
-25,currency,0,,javascript,format|currency,javascript format currency
-25,find,0,,javascript,find|item|in|array|by|value,javascript find item in array by value
-25,clone,0,,javascript,clone|array,javascript clone array
-25,recent,0,,,subtract|time|in|date|format,subtract time in date format
-25,recent,1,,,subtract|time|from|a|date,subtract time from a date
-25,recent,2,77674,,moment,moment
-25,recent,3,18625,,subtract|time|from|moment,subtract time from moment
-25,serve,0,,javascript,add|static|route,add static route
-25,serve,1,,javascript,serve|static|route,serve static route
-25,serve,2,22797,express|path|javascript,serve|file|from|static|route,serve file from static route
-26,sort,0,,javascript,sort|array|of|objects|descending,javascript sort array of objects descending
-26,currency,0,,javascript,format|currency,javascript format currency
-26,find,0,,javascript,find|item|in|array|by|value,javascript find item in array by value
-26,find,1,,javascript,find|item|in|array|by|value,find item in array by value
-26,find,2,21589,javascript,javascript|array|find|value,javascript array find value
-26,clone,0,,javascript,clone|array,javascript clone array
-26,clone,1,,javascript,clone|array|of|objects,javascript clone array of objects
-26,recent,0,,moment|javascript,subtract,subtract
-26,recent,1,,moment|javascript,subtract|interval|from|date,subtract interval from date
-26,serve,0,,express|path|javascript,return|static|files|javascript,javascript express path return static files
-26,serve,1,50404,express|path|javascript,return|static|files|express|filename,javascript express path return static files filename
-27,sort,0,,javascript,sort|array|of|objects|descending,javascript sort array of objects descending
-27,currency,0,,javascript,format|currency,javascript format currency
-27,find,0,,javascript,find|item|in|array|by|value,javascript find item in array by value
-27,clone,0,,javascript,clone|array,javascript clone array
-27,clone,1,,javascript,clone|array|shallow|copy,clone array shallow copy
-27,recent,0,,moment|javascript,moment|unit,javascript moment unit
-27,recent,1,,moment|javascript,moment|subtract,javascript moment subtract
-27,serve,0,,express|path|javascript,javascript|serve|files,javascript serve files
-28,sort,0,,javascript,sort|array|of|objects|descending,javascript sort array of objects descending
-28,sort,1,,javascript,sort|array|of|objects|descending|numeric|value,javascript sort array of objects descending numeric value
-28,currency,0,,javascript,format|currency,javascript format currency
-28,find,0,,javascript,find|item|in|array|by|value,javascript find item in array by value
-28,clone,0,,javascript,clone|array,javascript clone array
-28,recent,0,,moment|javascript,date|difference|operations,date difference operations
-28,recent,1,,moment|javascript,date|minus|interval|js,date minus interval js
-28,serve,0,,express|path|javascript,request|file|from|static|route,javascript express path request file from static route
-28,serve,1,,express|javascript,request|file|from|static|route,javascript express request file from static route
-28,serve,2,56916,express|javascript,add|path|to|static|route,javascript express add path to static route
-29,sort,0,,javascript,sort|array|of|objects|descending,javascript sort array of objects descending
-29,currency,0,,javascript,format|currency,javascript format currency
-29,find,0,,javascript,find|item|in|array|by|value,javascript find item in array by value
-29,clone,0,,javascript,clone|array,javascript clone array
-29,clone,1,,javascript,shallow|copy,shallow copy
-29,recent,0,,moment|javascript,sub,sub
-29,serve,0,,express|path|javascript,set|route,javascript express path set route
-29,serve,1,,express|path|javascript,static|route,javascript express path static route
-30,sort,0,,javascript,sort|array|of|objects|descending,javascript sort array of objects descending
-30,currency,0,,javascript,format|currency,javascript format currency
-30,find,0,,javascript,find|item|in|array|by|value,javascript find item in array by value
-30,clone,0,,javascript,clone|array,javascript clone array
-30,recent,0,,moment|javascript,subtracting|amount|of|time,javascript moment subtracting amount of time
-30,serve,0,,express|path|javascript,/static|route,/static route
-30,serve,1,15656,javascript,static|route,static route
-31,sort,0,,javascript,sort|array|of|objects|descending,javascript sort array of objects descending
-31,sort,1,,javascript,sort|array|of|objects|descending,sort array of objects descending
-31,currency,0,,javascript,format|currency,javascript format currency
-31,find,0,,javascript,find|item|in|array|by|value,javascript find item in array by value
-31,clone,0,,javascript,clone|array,javascript clone array
-31,clone,1,,javascript,clone|array|shallow,clone array shallow
-31,recent,0,,moment|javascript,javascript|moment|subtract|date,javascript moment subtract date
-31,serve,0,,express|path|javascript,express|web|server|add|route,express web server add route
-32,sort,0,,javascript,sort|array|of|objects|descending,javascript sort array of objects descending
-32,currency,0,,javascript,format|currency,javascript format currency
-32,currency,1,,javascript,format|currency,format currency
-32,find,0,,javascript,find|item|in|array|by|value,javascript find item in array by value
-32,find,1,,javascript,find|item|in|array|by|value,find item in array by value
-32,clone,0,,javascript,clone|array,javascript clone array
-32,recent,0,,moment|javascript,update|objetcts|in|node|array,update objetcts in node array
-32,recent,1,,moment|javascript,momnet|subtract|time,momnet subtract time
-32,serve,0,,express|path|javascript,express|static|serve,javascript express path static serve
-33,sort,0,,javascript,sort|array|of|objects|descending,javascript sort array of objects descending
-33,currency,0,,javascript,format|currency,javascript format currency
-33,find,0,,javascript,find|item|in|array|by|value,javascript find item in array by value
-33,clone,0,,javascript,clone|array,javascript clone array
-33,recent,0,,moment|javascript,subtract|time|javascript,subtract time javascript
-33,serve,0,,express|path|javascript,add|static|route,javascript express path add static route
-34,sort,0,,javascript,sort|array|of|objects|descending,javascript sort array of objects descending
-34,currency,0,,javascript,format|currency,javascript format currency
-34,find,0,,javascript,find|item|in|array|by|value,javascript find item in array by value
-34,find,1,,javascript,find|item|in|array|by|value,find item in array by value
-34,clone,0,,javascript,clone|array,javascript clone array
-34,recent,0,,javascript,moment|subtract|date,moment subtract date
-34,recent,1,,javascript,moment|subtract|days|from|date,moment subtract days from date
-34,serve,0,,express|path|javascript,express|create|route,javascript express path create route
-34,serve,1,,express|path|javascript,express|serve|local|files,javascript express path serve local files
-35,sort,0,,javascript,sort|array|of|objects|descending,javascript sort array of objects descending
-35,currency,0,,javascript,format|currency,javascript format currency
-35,find,0,,javascript,find|item|in|array|by|value,javascript find item in array by value
-35,clone,0,,javascript,clone|array,javascript clone array
-35,recent,0,,moment|javascript,convert|date|to|days,convert date to days
-35,recent,1,,moment|javascript,convert|moment|time|to|days,convert moment time to days
-35,serve,0,,express|path|javascript,add|route|to|serve|static|files,javascript express path add route to serve static files
-36,currency,0,,javascript,format|currency,javascript format currency
-36,find,0,,javascript,find|item|in|array|by|value,javascript find item in array by value
-36,recent,0,,moment|javascript,moment|subtract|time,javascript moment subtract time
-37,sort,0,,javascript,sort|array|of|objects|descending,javascript sort array of objects descending
-37,currency,0,,javascript,format|currency,javascript format currency
-37,clone,0,,javascript,clone|array,javascript clone array
-37,recent,0,,moment|javascript,moment|interval|unit,moment interval unit
-37,recent,1,,moment|javascript,moment|subtract|by|days,moment subtract by days
-37,serve,0,,express|path|javascript,express|add|route,javascript express path add route
-37,serve,1,,express|path|javascript,express|path,javascript express path
-37,serve,2,33555,express|path|javascript,express|create|path,javascript express path create
-37,serve,3,116153,express|path|javascript,express|add|route,javascript express path add route
-37,serve,4,60990,express|path|javascript,express|add|path,javascript express path add
-37,serve,5,43349,express|path|javascript,express|return|file,javascript express path return file
-37,serve,6,341605,express|path|javascript,express|get|parameters|from|get,javascript express path get parameters from
-37,serve,7,28778,express|path|javascript,express|get|path,javascript express path get
-37,serve,8,61822,express|path|javascript,express|return|file,javascript express path return file
-38,currency,0,,javascript,format|currency,javascript format currency
-38,currency,1,,javascript,locale|format|currency,locale format currency
-38,recent,0,,moment|javascript,moment|js|subtract|time,javascript moment js subtract time
-38,serve,0,,express|path|javascript,express|serve|file|js,express serve file js
-39,sort,0,,javascript,sort|array|of|objects|descending,javascript sort array of objects descending
-39,currency,0,,javascript,format|currency,javascript format currency
-39,find,0,,javascript,find|item|in|array|by|value,javascript find item in array by value
-39,clone,0,,javascript,clone|array,javascript clone array
-39,clone,1,,javascript,clone|array,clone array
-39,recent,0,,javascript,subtract|from|date,subtract from date
-39,recent,1,,moment|javascript,create|Date|from,create Date from
-39,serve,0,,express|path|javascript,serve|static|files|webserver,javascript express path serve static files webserver
-40,sort,0,,javascript,sort|array|of|objects|descending,javascript sort array of objects descending
-40,sort,1,,javascript,sort|in|descending|o,sort in descending o
-40,currency,0,,javascript,format|currency,javascript format currency
-40,find,0,,javascript,find|item|in|array|by|value,javascript find item in array by value
-40,clone,0,,javascript,clone|array,javascript clone array
-40,recent,0,,javascript,moment|javascript,javascript moment
-40,recent,1,,javascript,subtracting|moments,javascript subtracting moments
-40,serve,0,,express|path|javascript,add|route|that|serves|files,add route that serves files
-40,serve,1,,express|path|javascript,routes|for|method|express,routes for method express
-40,serve,2,8865,express|path|javascript,set|up|routes|express,set up routes express
-40,serve,3,29631,express|path|javascript,routes|to|serve|files|express,routes to serve files express
-40,serve,4,6540,express|path|static|javascript,add|routes|express,add routes express
-40,serve,5,59083,express|path|static|javascript,setting|up|a|route|in|node,setting up a route in node
+1,2,0,,javascript,sort|array|of|objects|descending,javascript sort array of objects descending
+1,2,1,,javascript,sort|by|highest|to|lowest,javascript sort by highest to lowest
+1,4,0,,javascript,format|currency,javascript format currency
+1,3,0,,javascript,find|item|in|array|by|value,javascript find item in array by value
+1,1,0,,javascript,clone|array,javascript clone array
+1,5,0,,moment|javascript,subtract|days|from|moment,subtract days from moment
+1,6,0,,express|path|javascript,add|/static|route|to|express,javascript express path add /static route to
+1,6,1,,express|path|javascript,add|/static|route|to|express|web|server,javascript express path add /static route to web server
+2,2,0,,javascript,sort|array|of|objects|descending,javascript sort array of objects descending
+2,4,0,,javascript,format|currency,javascript format currency
+2,3,0,,javascript,find|item|in|array|by|value,javascript find item in array by value
+2,1,0,,javascript,clone|array,javascript clone array
+2,5,0,,moment|javascript,startDate|so|that|it|subtracts|the|specified|number|of|days/months/years|from|the|endDate,javascript moment startDate so that it subtracts the specified number of days/months/years from endDate
+2,6,0,,express|path|javascript,add|static|route,add static route
+2,6,1,25157,express|path|static|javascript,add|static|route|using|path,add static route using path
+3,2,0,,javascript,sort|array|of|objects|descending,javascript sort array of objects descending
+3,4,0,,javascript,format|currency,javascript format currency
+3,1,0,,javascript,clone|array,javascript clone array
+3,5,0,,moment|javascript,subtract|dates,javascript moment subtract dates
+3,6,0,,express|path|javascript,ad,ad
+3,6,1,,express|path|javascript,add|static|to|express,add static to express
+4,2,0,,javascript,sort|array|of|objects|descending,javascript sort array of objects descending
+4,4,0,,javascript,format|currency,javascript format currency
+4,3,0,,javascript,find|item|in|array|by|value,javascript find item in array by value
+4,1,0,,javascript,clone|array,javascript clone array
+4,5,0,,moment|javascript,ssubtract|date,javascript moment ssubtract date
+4,5,1,,moment|javascript,subtract|date|given|interval|and|value,javascript moment subtract date given interval and value
+4,5,2,249770,moment|javascript,(,javascript moment (
+4,6,0,,javascript,add|/static|route|which|serves|files,add /static route which serves files
+4,6,1,,javascript,add|/static|route|to|setup|javascript,add /static route to setup javascript
+4,6,2,138605,express|path|javascript,static|route|javascript,static route javascript
+5,2,0,,javascript,sort|array|of|objects|descending,javascript sort array of objects descending
+5,4,0,,javascript,format|currency,javascript format currency
+5,3,0,,javascript,find|item|in|array|by|value,javascript find item in array by value
+5,1,0,,javascript,clone|array,javascript clone array
+5,5,0,,moment|javascript,subtract|time|from|date,subtract time from date
+5,5,1,12156,moment|javascript,momentjs|dubtract|days|months|years,momentjs dubtract days months years
+5,6,0,,express|path|javascript,add|a|route|to|serve|files,javascript express path add a route to serve files
+6,2,0,,javascript,sort|array|of|objects|descending,javascript sort array of objects descending
+6,4,0,,javascript,format|currency,javascript format currency
+6,3,0,,javascript,find|item|in|array|by|value,javascript find item in array by value
+6,1,0,,javascript,clone|array,javascript clone array
+6,5,0,,moment|javascript,moment|subtract|days,javascript moment subtract days
+6,6,0,,javascript,expressjs|static|route,expressjs static route
+7,2,0,,javascript,sort|array|of|objects|descending,javascript sort array of objects descending
+7,4,0,,javascript,format|currency,javascript format currency
+7,3,0,,javascript,find|item|in|array|by|value,javascript find item in array by value
+7,1,0,,javascript,clone|array,javascript clone array
+7,5,0,,javascript,update|date|by|interval|unit|javascript|moment.js,update date by interval unit javascript moment.js
+7,5,1,,javascript,subtract|date|by|interval|unit|javascript|moment.js,subtract date by interval unit javascript moment.js
+7,6,0,,express|path|javascript,serve|static|file,javascript express path serve static file
+8,2,0,,javascript,sort|array|of|objects|descending,javascript sort array of objects descending
+8,2,1,,javascript,javascript|sort|array|big|to|small,javascript sort array big to small
+8,4,0,,javascript,format|currency,javascript format currency
+8,3,0,,javascript,find|item|in|array|by|value,javascript find item in array by value
+8,1,0,,javascript,clone|array,javascript clone array
+8,5,0,,moment|javascript,javascript|moment,javascript moment
+8,5,1,,moment|javascript,create|a|moment|one|month|in|the|future,javascript moment create a one month in the future
+8,6,0,,express|path|javascript,express|add|a|static|file|server,express add a static file server
+8,6,1,6354,express|path|static|javascript,express|serve|pdf|file,express serve pdf file
+9,2,0,,javascript,sort|array|of|objects|descending,javascript sort array of objects descending
+9,4,0,,javascript,format|currency,javascript format currency
+9,3,0,,javascript,find|item|in|array|by|value,javascript find item in array by value
+9,1,0,,javascript,clone|array,javascript clone array
+9,5,0,,moment|javascript,java|subtract|duration|from|date,javascript moment java subtract duration from date
+9,6,0,,javascript,javascript|serve|static|file,javascript serve static file
+10,2,0,,javascript,sort|array|of|objects|descending,javascript sort array of objects descending
+10,4,0,,javascript,format|currency,javascript format currency
+10,4,1,,javascript,format|currency|locale,format currency locale
+10,3,0,,javascript,find|item|in|array|by|value,javascript find item in array by value
+10,1,0,,javascript,clone|array,javascript clone array
+10,1,1,,,clone|array,clone array
+10,5,0,,moment|javascript,subtract|date,javascript moment subtract date
+10,6,0,,express|path|javascript,javascript|static|pdf|server,javascript static pdf server
+10,6,1,,express|path|javascript,javascript|static|pdf|server|serve.js,javascript static pdf server serve.js
+10,6,2,18178,javascript,javascript|add|/static|route|to|serve,javascript add /static route to serve
+11,2,0,,javascript,sort|array|of|objects|descending,javascript sort array of objects descending
+11,1,0,,javascript,clone|array,javascript clone array
+11,5,0,,moment|javascript,momentjs|define|date|by|units,momentjs define date by units
+11,6,0,,express|path|javascript,add|static|route|express,javascript express path add static route
+12,2,0,,javascript,sort|array|of|objects|descending,javascript sort array of objects descending
+12,4,0,,javascript,format|currency,javascript format currency
+12,3,0,,javascript,find|item|in|array|by|value,javascript find item in array by value
+12,1,0,,javascript,clone|array,javascript clone array
+12,1,1,,javascript,deep|copy,javascript deep copy
+12,5,0,,moment|javascript,moment|subtract|days|from|date,moment subtract days from date
+12,5,1,6991,moment|javascript,moment|from|date,moment from date
+12,5,2,7876,moment|javascript,moment|subtract,moment subtract
+12,5,3,17866,moment|javascript,moment|subtract|days,moment subtract days
+12,5,4,7828,moment|javascript,moment|time|from|date,moment time from date
+12,5,5,12768,moment|javascript,moment|subtract|time|from|date,moment subtract time from date
+12,6,0,,express|path|javascript,express|add|static|route|javascript,javascript express path add static route
+13,2,0,,javascript,sort|array|of|objects|descending,javascript sort array of objects descending
+13,4,0,,javascript,format|currency,javascript format currency
+13,3,0,,javascript,find|item|in|array|by|value,javascript find item in array by value
+13,1,0,,javascript,clone|array,javascript clone array
+13,5,0,,javascript,javascript|date|subtraction,javascript date subtraction
+13,5,1,,javascript,javascript|subtract|date,javascript subtract date
+13,5,2,30263,javascript,javascript|date,javascript date
+13,5,3,14973,javascript,javascript|date|decrement,javascript date decrement
+13,6,0,,express|path|javascript,add|route,javascript express path add route
+13,6,1,,express|path|javascript,express|uri,javascript express path uri
+13,6,2,66555,express|path|javascript,get|file,javascript express path get file
+13,6,3,12848,javascript,get|file,javascript get file
+13,6,4,33463,javascript,serve|file,javascript serve file
+13,6,5,175572,javascript,setup|route,javascript setup route
+14,2,0,,javascript,sort|array|of|objects|descending,javascript sort array of objects descending
+14,4,0,,javascript,format|currency,javascript format currency
+14,4,1,,javascript,format|currency|given|locale,format currency given locale
+14,3,0,,javascript,find|item|in|array|by|value,javascript find item in array by value
+14,1,0,,javascript,clone|array,javascript clone array
+14,5,0,,moment|javascript,js|get|start|date|given|time|unti,js get start date given time unti
+14,5,1,,moment|javascript,js|get|start|date|given|time|unit,js get start date given time unit
+14,5,2,10230,moment|javascript,js|moment|interval,js moment interval
+14,5,3,24310,moment|javascript,js|moment|get|start|date|given|interval|and|end|date,js moment get start date given interval and end
+14,6,0,,express|path|javascript,static|serve|public,javascript express path static serve public
+15,2,0,,javascript,sort|array|of|objects|descending,javascript sort array of objects descending
+15,4,0,,javascript,format|currency,javascript format currency
+15,4,1,,javascript,format|currency,format currency
+15,3,0,,javascript,find|item|in|array|by|value,javascript find item in array by value
+15,1,0,,javascript,clone|array,javascript clone array
+15,5,0,,moment|javascript,date|subtract,javascript moment date subtract
+15,6,0,,javascript,static|route,static route
+16,2,0,,javascript,sort|array|of|objects|descending,javascript sort array of objects descending
+16,4,0,,javascript,format|currency,javascript format currency
+16,4,1,,javascript,format|currency,format currency
+16,3,0,,javascript,find|item|in|array|by|value,javascript find item in array by value
+16,1,0,,javascript,clone|array,javascript clone array
+16,5,0,,javascript,subtract|time|from|a|date|js,subtract time from a date js
+16,5,1,19434,moment|javascript,subtract|time|from|a|date|using|an|interval|js,subtract time from a date using an interval js
+16,6,0,,express|path|javascript,static|route|to|serve|files|from|/srs/public,javascript express path static route to serve files from /srs/public
+16,6,1,,express|path|javascript,static|route|to|serve|files,javascript express path static route to serve files
+17,2,0,,javascript,sort|array|of|objects|descending,javascript sort array of objects descending
+17,4,0,,javascript,format|currency,javascript format currency
+17,3,0,,javascript,find|item|in|array|by|value,javascript find item in array by value
+17,1,0,,javascript,clone|array,javascript clone array
+17,5,0,,moment|javascript,subtract|date,javascript moment subtract date
+17,6,0,,express|path|javascript,download|pdf|receipts,download pdf receipts
+17,6,1,,express|path|javascript,serve|static|files,serve static files
+18,2,0,,javascript,sort|array|of|objects|descending,javascript sort array of objects descending
+18,4,0,,javascript,format|currency,javascript format currency
+18,3,0,,javascript,find|item|in|array|by|value,javascript find item in array by value
+18,1,0,,javascript,clone|array,javascript clone array
+18,5,0,,moment|javascript,subtract|amount|of|time|by|the|interval|from|date,subtract amount of time by the interval from date
+18,6,0,,express|path|javascript,add|static|route,javascript express path add static route
+19,2,0,,javascript,sort|array|of|objects|descending,javascript sort array of objects descending
+19,4,0,,javascript,format|currency,javascript format currency
+19,3,0,,javascript,find|item|in|array|by|value,javascript find item in array by value
+19,1,0,,javascript,clone|array,javascript clone array
+19,5,0,,moment|javascript,substract|amount|in|array|parameters,javascript moment substract amount in array parameters
+19,6,0,,javascript,serve|/static|route,serve /static route
+20,4,0,,javascript,format|currency,javascript format currency
+20,3,0,,javascript,find|item|in|array|by|value,javascript find item in array by value
+20,1,0,,javascript,clone|array,javascript clone array
+20,5,0,,moment|javascript,subtrack|days|months|from|given|date,javascript moment subtrack days months from given date
+20,6,0,,express|path|javascript,express|get|route|send|files,express get route send files
+20,6,1,,express|path|javascript,express|get|route|url|params,express get route url params
+20,6,2,20391,express|path|resolve|javascript,js|send|response|file|via|get|route,js send response file via get route
+21,2,0,,javascript,sort|array|of|objects|descending,javascript sort array of objects descending
+21,4,0,,javascript,format|currency,javascript format currency
+21,3,0,,javascript,find|item|in|array|by|value,javascript find item in array by value
+21,1,0,,javascript,clone|array,javascript clone array
+21,5,0,,moment|javascript,substract|amount|of|time,javascript moment substract amount of time
+21,6,0,,express|path|javascript,sta,sta
+21,6,1,,express|path|javascript,static|route|js,static route js
+21,6,2,54537,javascript,/static|route|js,/static route js
+22,2,0,,javascript,sort|array|of|objects|descending,javascript sort array of objects descending
+22,4,0,,javascript,format|currency,javascript format currency
+22,3,0,,javascript,find|item|in|array|by|value,javascript find item in array by value
+22,1,0,,javascript,clone|array,javascript clone array
+22,5,0,,moment|javascript,"update|the|startDate|by|subtracting|the|amount|//|of|time|specified|by|the|""interval""|and|""unit""|parameters.","update the startDate by subtracting amount // of time specified ""interval"" and ""unit"" parameters."
+22,5,1,182046,moment|duration|javascript,update|date,update date
+22,5,2,183549,moment|duration|javascript,update|date|using|interval|and|unit,update date using interval and unit
+22,6,0,,express|path|javascript,/static'|route,javascript express path /static' route
+23,2,0,,javascript,sort|array|of|objects|descending,javascript sort array of objects descending
+23,4,0,,javascript,format|currency,javascript format currency
+23,4,1,,javascript,format|currency|in|user's|locale,format currency in user's locale
+23,3,0,,javascript,find|item|in|array|by|value,javascript find item in array by value
+23,3,1,,javascript,find|item|in|array|by|value,find item in array by value
+23,1,0,,javascript,clone|array,javascript clone array
+23,1,1,,javascript,shallow|clone|array,javascript shallow clone array
+23,5,0,,javascript,javascript|date|arithmetic,javascript date arithmetic
+23,5,1,,javascript,javascript|date|arithmetic|with|specified|units,javascript date arithmetic with specified units
+23,6,0,,express|path|javascript,configure|static|route,javascript express path configure static route
+23,6,1,,express|path|javascript,configure|static|route|from|directory,javascript express path configure static route from directory
+24,2,0,,javascript,sort|array|of|objects|descending,javascript sort array of objects descending
+24,4,0,,javascript,format|currency,javascript format currency
+24,3,0,,javascript,find|item|in|array|by|value,javascript find item in array by value
+24,1,0,,javascript,clone|array,javascript clone array
+24,5,0,,moment|javascript,subtract|interval|unit|date,javascript moment subtract interval unit date
+24,6,0,,express|path|javascript,add|static|route|serve|files,add static route serve files
+25,2,0,,javascript,sort|array|of|objects|descending,javascript sort array of objects descending
+25,4,0,,javascript,format|currency,javascript format currency
+25,3,0,,javascript,find|item|in|array|by|value,javascript find item in array by value
+25,1,0,,javascript,clone|array,javascript clone array
+25,5,0,,,subtract|time|in|date|format,subtract time in date format
+25,5,1,,,subtract|time|from|a|date,subtract time from a date
+25,5,2,77674,,moment,moment
+25,5,3,18625,,subtract|time|from|moment,subtract time from moment
+25,6,0,,javascript,add|static|route,add static route
+25,6,1,,javascript,serve|static|route,serve static route
+25,6,2,22797,express|path|javascript,serve|file|from|static|route,serve file from static route
+26,2,0,,javascript,sort|array|of|objects|descending,javascript sort array of objects descending
+26,4,0,,javascript,format|currency,javascript format currency
+26,3,0,,javascript,find|item|in|array|by|value,javascript find item in array by value
+26,3,1,,javascript,find|item|in|array|by|value,find item in array by value
+26,3,2,21589,javascript,javascript|array|find|value,javascript array find value
+26,1,0,,javascript,clone|array,javascript clone array
+26,1,1,,javascript,clone|array|of|objects,javascript clone array of objects
+26,5,0,,moment|javascript,subtract,subtract
+26,5,1,,moment|javascript,subtract|interval|from|date,subtract interval from date
+26,6,0,,express|path|javascript,return|static|files|javascript,javascript express path return static files
+26,6,1,50404,express|path|javascript,return|static|files|express|filename,javascript express path return static files filename
+27,2,0,,javascript,sort|array|of|objects|descending,javascript sort array of objects descending
+27,4,0,,javascript,format|currency,javascript format currency
+27,3,0,,javascript,find|item|in|array|by|value,javascript find item in array by value
+27,1,0,,javascript,clone|array,javascript clone array
+27,1,1,,javascript,clone|array|shallow|copy,clone array shallow copy
+27,5,0,,moment|javascript,moment|unit,javascript moment unit
+27,5,1,,moment|javascript,moment|subtract,javascript moment subtract
+27,6,0,,express|path|javascript,javascript|serve|files,javascript serve files
+28,2,0,,javascript,sort|array|of|objects|descending,javascript sort array of objects descending
+28,2,1,,javascript,sort|array|of|objects|descending|numeric|value,javascript sort array of objects descending numeric value
+28,4,0,,javascript,format|currency,javascript format currency
+28,3,0,,javascript,find|item|in|array|by|value,javascript find item in array by value
+28,1,0,,javascript,clone|array,javascript clone array
+28,5,0,,moment|javascript,date|difference|operations,date difference operations
+28,5,1,,moment|javascript,date|minus|interval|js,date minus interval js
+28,6,0,,express|path|javascript,request|file|from|static|route,javascript express path request file from static route
+28,6,1,,express|javascript,request|file|from|static|route,javascript express request file from static route
+28,6,2,56916,express|javascript,add|path|to|static|route,javascript express add path to static route
+29,2,0,,javascript,sort|array|of|objects|descending,javascript sort array of objects descending
+29,4,0,,javascript,format|currency,javascript format currency
+29,3,0,,javascript,find|item|in|array|by|value,javascript find item in array by value
+29,1,0,,javascript,clone|array,javascript clone array
+29,1,1,,javascript,shallow|copy,shallow copy
+29,5,0,,moment|javascript,sub,sub
+29,6,0,,express|path|javascript,set|route,javascript express path set route
+29,6,1,,express|path|javascript,static|route,javascript express path static route
+30,2,0,,javascript,sort|array|of|objects|descending,javascript sort array of objects descending
+30,4,0,,javascript,format|currency,javascript format currency
+30,3,0,,javascript,find|item|in|array|by|value,javascript find item in array by value
+30,1,0,,javascript,clone|array,javascript clone array
+30,5,0,,moment|javascript,subtracting|amount|of|time,javascript moment subtracting amount of time
+30,6,0,,express|path|javascript,/static|route,/static route
+30,6,1,15656,javascript,static|route,static route
+31,2,0,,javascript,sort|array|of|objects|descending,javascript sort array of objects descending
+31,2,1,,javascript,sort|array|of|objects|descending,sort array of objects descending
+31,4,0,,javascript,format|currency,javascript format currency
+31,3,0,,javascript,find|item|in|array|by|value,javascript find item in array by value
+31,1,0,,javascript,clone|array,javascript clone array
+31,1,1,,javascript,clone|array|shallow,clone array shallow
+31,5,0,,moment|javascript,javascript|moment|subtract|date,javascript moment subtract date
+31,6,0,,express|path|javascript,express|web|server|add|route,express web server add route
+32,2,0,,javascript,sort|array|of|objects|descending,javascript sort array of objects descending
+32,4,0,,javascript,format|currency,javascript format currency
+32,4,1,,javascript,format|currency,format currency
+32,3,0,,javascript,find|item|in|array|by|value,javascript find item in array by value
+32,3,1,,javascript,find|item|in|array|by|value,find item in array by value
+32,1,0,,javascript,clone|array,javascript clone array
+32,5,0,,moment|javascript,update|objetcts|in|node|array,update objetcts in node array
+32,5,1,,moment|javascript,momnet|subtract|time,momnet subtract time
+32,6,0,,express|path|javascript,express|static|serve,javascript express path static serve
+33,2,0,,javascript,sort|array|of|objects|descending,javascript sort array of objects descending
+33,4,0,,javascript,format|currency,javascript format currency
+33,3,0,,javascript,find|item|in|array|by|value,javascript find item in array by value
+33,1,0,,javascript,clone|array,javascript clone array
+33,5,0,,moment|javascript,subtract|time|javascript,subtract time javascript
+33,6,0,,express|path|javascript,add|static|route,javascript express path add static route
+34,2,0,,javascript,sort|array|of|objects|descending,javascript sort array of objects descending
+34,4,0,,javascript,format|currency,javascript format currency
+34,3,0,,javascript,find|item|in|array|by|value,javascript find item in array by value
+34,3,1,,javascript,find|item|in|array|by|value,find item in array by value
+34,1,0,,javascript,clone|array,javascript clone array
+34,5,0,,javascript,moment|subtract|date,moment subtract date
+34,5,1,,javascript,moment|subtract|days|from|date,moment subtract days from date
+34,6,0,,express|path|javascript,express|create|route,javascript express path create route
+34,6,1,,express|path|javascript,express|serve|local|files,javascript express path serve local files
+35,2,0,,javascript,sort|array|of|objects|descending,javascript sort array of objects descending
+35,4,0,,javascript,format|currency,javascript format currency
+35,3,0,,javascript,find|item|in|array|by|value,javascript find item in array by value
+35,1,0,,javascript,clone|array,javascript clone array
+35,5,0,,moment|javascript,convert|date|to|days,convert date to days
+35,5,1,,moment|javascript,convert|moment|time|to|days,convert moment time to days
+35,6,0,,express|path|javascript,add|route|to|serve|static|files,javascript express path add route to serve static files
+36,4,0,,javascript,format|currency,javascript format currency
+36,3,0,,javascript,find|item|in|array|by|value,javascript find item in array by value
+36,5,0,,moment|javascript,moment|subtract|time,javascript moment subtract time
+37,2,0,,javascript,sort|array|of|objects|descending,javascript sort array of objects descending
+37,4,0,,javascript,format|currency,javascript format currency
+37,1,0,,javascript,clone|array,javascript clone array
+37,5,0,,moment|javascript,moment|interval|unit,moment interval unit
+37,5,1,,moment|javascript,moment|subtract|by|days,moment subtract by days
+37,6,0,,express|path|javascript,express|add|route,javascript express path add route
+37,6,1,,express|path|javascript,express|path,javascript express path
+37,6,2,33555,express|path|javascript,express|create|path,javascript express path create
+37,6,3,116153,express|path|javascript,express|add|route,javascript express path add route
+37,6,4,60990,express|path|javascript,express|add|path,javascript express path add
+37,6,5,43349,express|path|javascript,express|return|file,javascript express path return file
+37,6,6,341605,express|path|javascript,express|get|parameters|from|get,javascript express path get parameters from
+37,6,7,28778,express|path|javascript,express|get|path,javascript express path get
+37,6,8,61822,express|path|javascript,express|return|file,javascript express path return file
+38,4,0,,javascript,format|currency,javascript format currency
+38,4,1,,javascript,locale|format|currency,locale format currency
+38,5,0,,moment|javascript,moment|js|subtract|time,javascript moment js subtract time
+38,6,0,,express|path|javascript,express|serve|file|js,express serve file js
+39,2,0,,javascript,sort|array|of|objects|descending,javascript sort array of objects descending
+39,4,0,,javascript,format|currency,javascript format currency
+39,3,0,,javascript,find|item|in|array|by|value,javascript find item in array by value
+39,1,0,,javascript,clone|array,javascript clone array
+39,1,1,,javascript,clone|array,clone array
+39,5,0,,javascript,subtract|from|date,subtract from date
+39,5,1,,moment|javascript,create|Date|from,create Date from
+39,6,0,,express|path|javascript,serve|static|files|webserver,javascript express path serve static files webserver
+40,2,0,,javascript,sort|array|of|objects|descending,javascript sort array of objects descending
+40,2,1,,javascript,sort|in|descending|o,sort in descending o
+40,4,0,,javascript,format|currency,javascript format currency
+40,3,0,,javascript,find|item|in|array|by|value,javascript find item in array by value
+40,1,0,,javascript,clone|array,javascript clone array
+40,5,0,,javascript,moment|javascript,javascript moment
+40,5,1,,javascript,subtracting|moments,javascript subtracting moments
+40,6,0,,express|path|javascript,add|route|that|serves|files,add route that serves files
+40,6,1,,express|path|javascript,routes|for|method|express,routes for method express
+40,6,2,8865,express|path|javascript,set|up|routes|express,set up routes express
+40,6,3,29631,express|path|javascript,routes|to|serve|files|express,routes to serve files express
+40,6,4,6540,express|path|static|javascript,add|routes|express,add routes express
+40,6,5,59083,express|path|static|javascript,setting|up|a|route|in|node,setting up a route in node

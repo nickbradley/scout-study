@@ -1,0 +1,241 @@
+pid|tid|treated|succeeded|duration|searches|expands|examples|copies|pages|links|answers|content|q1|q2|q3|q4
+12830|recent|false|true|162347|1|0|0|0|1|0|1|0.16|5|The first search term I used gave me a great suggestion as the top result and it was easy to implement.|Nope.|
+20964|clone|false|true|28942|1|0|0|0|1|0|1|0.01|4|It didn't show me the quick usages. No signatures available: using Google results. ||
+21752|find|true|true|154109|1|0|0|0|1|0|2|0.17|5|Could you possibly sort the results by a function of date/relevancy?||I opened the Mozilla developer page for array.prototype.find to see the current return value (stackoverflow can sometimes be outdated).
+29016|recent|true|true|235100|1|2|0|0|0|0|0|null|4|the second search result had the answer with a code snippet ready to copy||
+29016|serve|false|false|424834|3|0|0|0|4|0|6|0.39|2|because of unknown several terms needed for this task, the search was not as helpful|links to explanations for specific terms|
+42904|sort|false|true|166033|1|0|0|0|1|0|2|0.06|5|The solution was pretty easy to find with the results||
+46094|currency|false|false|421843|1|0|0|0|2|0|1|null|2|The solution given above didn't match with the answers provided in Scout||When I clicked on the link to view the answers it didn't open, gave an error "For security reasons, framing is not allowed."
+48128|sort|false|true|145146|1|0|0|0|1|0|2|0.03|5|This very first task, and by using the "Scout" hyperlink you provided (with an automatic search that said "sort array of objects descending"), the tool returned a Google Search filtered by StackOverflow links only, which is very good to have besides in VS, I find it really useful. The "Code" and "Usage" feature didn't show up this time, but I can see how powerful it still is and will be. Scout will become a must-have.|I found the solution in less than 10 seconds, I think it was still very straight forward. I can see it frustrate some people who might not find very complex solutions (questions with too many layers of problems in them, not just one), but, regarding code snippets and quick solutions it's great.|I did not.
+56883|currency|false|false|468541|1|0|0|0|0|0|0|null||||
+61514|sort|false|false|367670|1|0|0|0|5|0|18|0.08|4|I was looking in the right place for information using StackOverflow via Scout, however I was just mistaken on how to use the answer I found. Had I had an extra minute, I would have wrote the above answer.|No additional Information|I did not.
+65727|sort|false|true|147171|1|0|0|0|1|0|2|0.05|5|Finding the solution using Scout was easy.|I have no further comments.|I did not search outside the IDE.
+65727|clone|false|true|126749|2|0|0|0|3|0|12|0.49|5|Scout was helpful.|No.|I did not search outside the IDE.
+73430|find|true|true|156080|1|1|0|1|0|0|0|null|4|||
+73430|clone|false|true|52725|1|0|0|0|1|0|1|null|5|||
+76613|recent|true|true|141230|1|2|0|0|0|0|0|null|4|This one was pretty easy to figure out, although I feel that the moment() call that was already given helped||
+76613|serve|false|true|337527|2|0|0|0|1|0|1|null|2|This one was very hard to find useful information about with the Scout tool. I think some of the results might have been useful, but because of the "For security reasons, framing is not allowed." error I couldn't look at them and had to search externally for answers.||I did a Google search ("express web server add static route javascript node js") and found this website with the answer: https://expressjs.com/en/starter/static-files.html
+17135|find|true|true|266065|null|null|null|null|null|null|null|null|3|||
+30065|currency|true|false|452849|null|null|null|null|null|null|null|null|3|I didn't try to search the tool with this task. |NA|NA
+30065|find|false|true|68438|null|null|null|null|null|null|null|null|3|Haven't used it in this solution, I knew this solution|NA|NA
+49394|sort|false|true|53757|null|null|null|null|null|null|null|null|4|For sorting I dont think we need to search for results anywhere.||Nope, not anywhere.
+92652|sort|false|true|null|null|null|null|null|null|null|null|null|null|null|null|null
+92652|clone|true|true|null|null|null|null|null|null|null|null|null|null|null|null|null
+93100|find|false|true|20966|null|null|null|null|null|null|null|null||||
+96947|sort|false|true|49116|null|null|null|null|null|null|null|null|3|||
+96947|find|true|true|102747|null|null|null|null|null|null|null|null|3|||
+96947|clone|true|true|65681|null|null|null|null|null|null|null|null|3|||
+12830|find|false|false|416869|1|0|0|0|2|0|3|0.20|4|I think I was really on the right track just in a time crunch. The result was right there I just didn't have the right implementation.|No.|
+12830|currency|true|false|366202|1|0|0|0|1|0|1|0.34|5|It was good, I found the exact answer I needed, just wasnt able to format it correctly in time.|Nope.|I didn't. 
+12830|serve|true|false|424257|2|0|0|0|3|0|7|0.58|5|I'm pretty sure I was on the right track, just missed out on the path.join part. There was a lot of documentation and my attempt fell short with the time limit.|No.|
+12830|clone|false|true|57425|1|0|0|0|1|0|1|0.11|5|This was super easy, I found the correct answer almost immediately and it was very easy to implement.|No.|
+14987|sort|false|false|361356|1|0|0|0|2|0|2|0.05|5|It took some time to find the scout binoculars icon as it was invisible||
+14987|currency|true|true|310062|1|3|1|1|1|0|3|0.11|5|Scout was really helpful||
+14987|clone|false|false|370447|1|0|0|0|6|0|75|0.13|5|none||
+14987|find|true|false|372991|1|6|1|2|3|0|9|0.12|5|Scout really makes it easy to search for solutions and really is accurate||
+14987|serve|false|false|429357|3|0|0|0|4|0|10|0.82|5|It was very helpful to find the solution and I almost got the solution but  lacked time to complete it ||
+17135|sort|false|true|383060|1|0|0|0|2|0|8|0.33|4|It's good ||
+17135|currency|true|false|365137|1|0|0|0|1|0|1|null|1|||
+17135|clone|false|true|164404|1|0|0|0|1|0|1|null|5|||
+17135|serve|false|false|457008|2|0|0|0|1|0|2|0.23|1|Maybe add a feature where if you use a mouse with buttons and use the back page button it doesnt leave the original page but the Scout itself||
+17380|sort|false|true|117474|1|0|0|0|1|0|2|0.06|3|The search result previews helped affirm the titles of the links as describing what I was looking for. I didn't really need them.|No.|N/A.
+17135|recent|true|false|425261|1|8|0|0|0|0|0|null|2|||
+17380|currency|false|true|124513|1|0|0|0|1|0|2|0.05|2|I found the titles of the links to be useful because they contained the question that I was looking for. The descriptions beneath the titles weren't very useful because they were not in context and not necessarily very relevant to what I was interested in.|I don't know if there is. I felt that I needed to view the full webpage.|I did not.
+17380|clone|true|true|253495|1|1|0|0|0|0|0|null|2|I didn't find the search result previews to be useful.|Text describing the code in the previews would have been useful, but I'm not sure if that would be better than simply navigating to the page. |I searched a bit outside the IDE in order to use a full-size browser window and view results more easily and quickly. 
+17380|find|true|true|125976|1|1|1|0|1|0|2|0.09|2|I did not use the search result previews because I wasn't sure about the usage and result of the code provided in them, and it seemed more reliable and quicker to look through a question and answer containing the code. |Text describing the code in the previews.|I did not.
+17380|serve|false|false|426443|4|0|0|0|7|0|14|0.67|2|I mainly viewed the full webpages based on the titles. I didn't find the search result previews to be very useful.|No.|N/A
+20014|sort|true|true|1642703|1|0|0|0|1|0|1|null|3|I needed a bit longer documentation, because the case I found with Scout was the opposite. Searching took really long each time I tried to look for something.||
+20014|find|false|true|91986|1|0|0|0|1|0|2|0.22|5|This time it worked really well, I quickly found the solution.||
+20014|clone|false|true|91471|1|0|0|0|1|0|2|0.11|4|I tried typing something and realized it typed for me something else. But in the end I found the solution.||
+20014|currency|true|true|366432|1|1|0|1|0|0|0|null|5|So far I think Scout is helpful at finding answers, but I think I need to practise using it a bit more.||
+20014|serve|true|true|180096|1|1|0|0|2|0|4|0.45|5|This was a bit harder to find because there were lots of answers different than what I needed.||
+20964|sort|false|true|114795|1|0|0|0|1|0|2|0.06|4|It was quite easy to use. I like the speed of searching in stack overflow in it.||
+20014|recent|false|true|245828|2|0|0|0|2|0|4|0.40|5|I needed some searching, but it worked very well.||
+20964|currency|true|true|56449|1|0|0|0|1|0|2|0.01|4|I used the original view from SO so I could understand the topic more||
+20964|find|true|true|50967|1|1|1|1|1|0|1|0.02|4|The code tab was easy to use I quicly found the answer.||
+20964|recent|true|true|67906|1|1|0|1|1|0|1|null|4|Quite easy to find the solution in usage tab.||
+20964|serve|false|true|87983|1|0|0|0|1|0|1|0.07|3|The window was too narrow to efficiently read the code and understand it.||
+20998|currency|false|true|316591|1|0|0|0|1|0|2|0.03|4|||
+20998|find|false|true|188796|1|0|0|0|1|0|2|0.03|5|||
+20998|sort|true|true|289693|1|1|0|0|1|0|2|0.05|5|||
+20998|clone|true|true|221649|1|1|5|1|1|0|4|0.17|4|||
+20998|recent|false|true|443524|2|0|0|0|1|0|4|0.40|4|||
+20998|serve|true|false|446467|1|1|1|1|0|0|0|null|2|||
+21752|sort|false|true|351289|2|0|0|0|1|0|2|0.09|4|I disliked the initial width of the Scout results, but I've now changed the width. It works great.|None|I didn't search outside of the IDE but I stepped back and thought about the problem after failing initially.
+21752|clone|false|true|145452|1|0|0|0|2|0|6|0.10|5|I'd like to know if Scout had an idea ahead-of-time what I would need to search for this problem, because if so, I love it.|None|I didn't
+21752|currency|true|true|224932|1|0|0|0|2|0|6|0.42|4|None|None|I opened the Mozilla developer documentation for NumberFormat to double-check my answer.
+21752|serve|false|true|255634|3|0|0|0|2|0|3|0.29|4|The searches loaded slowly but it was probably just on my end.|None|None
+27362|sort|false|true|84460|1|0|0|0|1|0|2|0.03|4|I had to click into one of the threads to. find the sort API. I think the sort API is simple enough that it should be in the preview.||I didn't search outside the IDE.
+27362|currency|false|true|160448|1|0|0|0|1|0|2|0.05|4|I wish the Intl.NumberFormat usage with currencies was in the preview. I had to click into one of the StackOverFlow links and read the thread for an answer.||I didn't search outside the IDE.
+21752|recent|true|false|512904|2|0|0|0|2|0|3|0.45|4|Nothing stuck out to me this time.|None|None
+27362|clone|true|true|98040|1|0|0|0|0|0|0|null|4|I think the slice method should be above the JSON methods. I don't immediately think of the JSON functions when I want to copy an array.||I didn't search outside the IDE.
+27362|find|true|true|60603|1|1|0|0|0|0|0|null|5|The filter function was the most intuitive way to do this task, and I was happy that it was one of the 1st results.||I didn't search outside the IDE.
+27362|serve|false|true|355546|1|0|0|0|3|0|10|0.61|2|None of the previews in Scout were very helpful here. I had to read through some of the threads, and one of them had another StackOverflow link that had the answer. I had to open the link in an external browser window.||I had to open a StackOverflow link in one of the threads in Scout, and that took me to an external browser tab.
+29016|sort|false|true|118340|1|0|0|0|2|0|6|0.06|4|Again, no prepared code snippets, but browsing stackoverflow in full page mode gave me the answer quickly.||
+27362|recent|true|true|487602|1|1|0|0|0|0|0|null|5|I searched "javascript subtract duration from date", and one of the usage previews immediately showed me the "subtract" API that took a number and a string unit that did the trick.||I didn't need to search outside the IDE.
+29016|currency|false|true|183378|2|0|0|0|3|0|14|0.15|2|The answers did not have prepared code snippets this time, I had to go onto the full website to find the answer.||
+29016|find|true|true|66007|1|1|0|1|0|0|0|null|4|I got familiar with the search, i knew what to do, finding the answer was quick. ||
+30065|sort|true|true|163599|1|0|0|0|1|0|2|0.03|5|loading looked slow but was easy to get the solution|none that I am aware|NA
+30065|clone|false|true|100199|1|0|0|0|1|0|2|0.11|5|quite easy and fast|NA|NA
+30065|recent|false|false|484757|1|0|0|0|1|0|2|0.23|2|The screen being small and takes a while to load the scout, went with tabs from browser||The screen being small and takes a while to load the scout, went with tabs from browser
+30065|serve|true|false|445436|1|0|0|0|1|0|2|0.66|2|it's a 50/50 on using it or not||
+31472|sort|true|true|245207|1|0|0|0|1|0|2|0.05|5|Code examples of array sorting.|NA|Again the top result had exactly what I needed.
+31472|currency|false|true|246319|1|0|0|0|4|0|6|0.22|4|Code examples of automatic currency formatting.|NA|Again this one was pretty simple. Found the relevant code quickly and painlessly.
+31472|find|false|true|255193|1|0|0|0|1|0|2|0.18|4|Code examples|NA|had no issues on this problem. Search result was exactly what i was looking for.
+31472|clone|true|true|296472|2|6|0|0|1|0|3|0.25|3|I searched the best way to deep copy an object and went through a few results.|NA|Initial recommendations were for a method that didn't save date formatting. 
+31472|recent|false|false|460180|6|0|0|0|6|0|5|0.70|2|Subtract time from date using moment|NA|Had no issues finding the information.
+31472|serve|true|true|135508|1|0|0|0|1|0|1|null|4|How to add a route in express.|NA|The extracted keywords were not super useful in coming up with the best search term to find an answer.
+32156|sort|true|true|239598|1|1|1|0|0|0|0|null|4|This one's slightly harder to navigate had I never used sort because the output of the sort callback could be confusing.|Again, maybe showing the official documentation/W3schools/tutorial could be helpul.|
+32156|currency|true|true|139353|1|3|2|0|0|0|0|null|5|It is very helpful and easy to use. I liked the idea of being able to see function signatures of answers and the ability to expand them without clicking into the webpage. Is the default search prompt generated based on question descriptions or hard-coded as a part of the practice?| It would be cool to perhaps include number of upvotes/how many answers suggested the same solution for each option to help us make the decision of which method to use. Maybe also pulling up the official documentation for each function being used could also be useful?|
+32156|clone|false|true|1146522|1|0|0|0|2|0|3|0.16|5|||
+32156|find|false|true|69390|1|0|0|0|2|0|1|0.08|4|function signatures preview are gone ||
+32156|recent|false|true|324214|4|0|0|0|4|0|5|0.19|3|It was a bit harder to come up with the right search terms, and since soo is very particular about looking up an exact functionality (instead of general Date documentation) it was a bit extra difficult.|Intelligently generated search based on problem spec|
+32919|sort|true|true|79344|1|0|0|0|1|0|1|0.05|5|Very relevant first result||
+32919|find|false|true|179162|1|0|0|0|0|0|0|null|3|No need to use Scout, but results seem very relevant.|N/A|
+32919|currency|false|true|216013|2|0|0|0|8|0|15|0.06|5|Clear, concise, and relevant.|No|
+32919|clone|true|true|70513|1|0|0|0|1|0|1|null|5|Very relevant first result||
+32919|recent|false|false|424843|4|0|0|0|3|0|5|null|3|Issue was finding the right search terms, not the results|No|
+32919|serve|true|true|203800|1|0|0|0|1|0|1|0.41|5|Perfect first search result||
+36615|sort|false|true|192194|1|0|0|0|1|0|2|0.02|4|It said that it didn't have any results and was just going to show google search results, which ended up being from stack overflow anyway and I was able to just use the first one to find the answer, so I was basically just using Scout as a web browser|n/a|n/a
+36615|currency|false|true|242666|2|0|0|0|1|0|2|0.04|3|For some reason it said that it couldn't find any links and it was going to show google search results, but the first results were for stack overflow...but the first one was helpful and I was able to get the answer that way.|Being able to use the google search results from the IDE seemed fine|n/a
+36615|find|true|true|109882|1|1|0|1|0|0|0|null|5|There was only one result with the checkmark by it, so I went with that one and the usage was clear so it seemed easy to use. The first time I opened Scout it said it couldn't find any results, but the second time it worked fine and had the results.|I can't really think of anything|n/a
+36615|clone|true|true|184607|1|3|0|2|0|0|0|null|4|I liked that I didn't have to leave my IDE and my code to see the results. It was a little tough to know which result was the best to use just based on the initial view.|maybe the exact number of upvotes?? or if there are lots of comments?|n/a
+36615|recent|true|true|182028|1|4|0|0|1|1|1|null|5|It was really easy to find the result, with the checkmark and top answers at the top of the view. The first one I tried was relevant and helpful.|not really|n/a
+36615|serve|false|false|426589|1|0|0|0|1|0|2|0.58|3|It didn't show any search result previews as it just showed links from google again, so it wasn't quite as fast as an experience|n/a|n/a
+39681|sort|true|true|224354|1|1|1|2|0|0|0|null|5|It gave exactly what I needed at a glance, amazing actually|Not really|
+39681|find|false|true|272285|1|0|0|0|1|0|1|0.03|1|The feedback was pretty useless, maybe because it was a simple problem, but I felt that way with the tutorial as well|I didn't get the quick view code snippets that *may* have helped|Did not
+39681|currency|false|false|369239|2|0|0|0|3|0|8|0.28|2|It didnt show me the code either and it was also kind of a smal window, I think the view should be more optimized|the code snippets on the main page|
+39681|clone|true|true|79526|1|1|1|1|0|0|0|null|5|Again, gave me the exact code I needed.|Maybe have it highlight or otheriwise say what is a variable and what is a default function, so it is swifter to replace the example on stack overflow|
+39681|recent|false|false|490343|2|0|0|0|4|0|10|0.15|4|Code was actually helpful im just dumb||
+42904|currency|false|true|234499|1|0|0|0|2|0|6|0.05|4|It gave me stackoverflow search results, I had to find my answer, but it was pretty easy||
+39681|serve|true|false|442926|2|1|2|1|0|0|0|null|3|I cant really comment the question was very confusing to me|Not really, maybe if it knew what I was supposed to do hahahaha|
+42904|find|true|true|130370|1|1|1|0|0|0|0|null|5|It was very easy to find the solution||
+42904|clone|true|true|108470|1|1|1|0|0|0|0|null|5|I got the results quickly and it was exactly what I was looking for|no|no
+42904|serve|false|false|418288|3|0|0|0|6|0|26|0.35|2|I could not find the answer I was looking for|Maybe help with keywords|I did not
+42904|recent|true|true|462105|1|7|4|0|0|0|0|null|2|I got various results but it was hard to find the correct solution||
+46094|find|false|false|408890|1|0|0|0|1|0|1|null|2|the solutions or answers were not opening in Safari. The search was working which is cool. It seems like a helpful feature but the space is very limited to view the code, there should be an option to expand the window or open it in a new tab or something.||
+46094|clone|true|true|323007|1|1|0|1|1|1|1|null|4|Since this was just a one liner code in the answer it was easier to find.||
+46094|recent|false|true|464377|1|0|0|0|1|0|1|null|2|The links didn't open after the search||The links didn't open in Scout after the search
+46094|serve|true|true|290961|1|2|0|1|0|0|0|null|2|I had to search outside to find the solution||The examples in the search results didn't had enough information to proceed
+46094|sort|true|true|227618|1|1|0|0|1|1|1|null|2|same as my previous answers||same as my previous answer
+48128|currency|true|false|366601|1|3|6|2|2|0|6|0.48|5|Felt close, I blame my inexperience with Javascript as I was sending some parameters as strings instead of the variables, but I was close, I just take a little longer to grasp these concepts and slowly find out how the function works, and then I rarely forget or repeat the same mistake.|All good.|I did not.
+48128|find|true|true|120959|1|1|1|0|0|0|0|null|5|Everything was great. I would like to add that (and might mention this again in a last Feedback box if there's any), personally, I really have like 0 experience with Javascript, I am about to graduate as a Software Engineer, I learned C++, SQL, Python, R and a few others; I have used Javascript, but barely scrapped its surface, I have never really built any software project as a hobby or by myself, nor worked in the field properly yet. I was intimitated by this Prolific task, but right now I am dealing with React (Javascript, HTML and CSS) for a project I have with some teammates whoa re actually using pure Javascript, creating APIs, connecting their back-end with front-end with lines of code and words I've never seen before. However, this tool and pretty much this whole study is doing God's work for me, by giving me a brief introduction to some array functions I've seen them use like filter() and the reducer; I feel like this tool would help me so much to learn as much as they do regarding Back-end, the juice of the project. I feel like a god using this tool, I have learned plenty so far and I know this is pretty basic and a very, very brief introduction to the actual language, but I can feel its inmense potential and future spot as a must-have VS extension. Sorry for my english.|It was perfect and smooth.|I did not.
+48128|clone|false|true|102123|1|0|0|0|1|0|1|null|5|I love that I don't have to switch tabs/windows probably ever again. So far it has been great, probably the best cheat-code sheet ever.|Maybe the "Usage" and "Code" feature being able to grab the first 3 Stack Overflow solutions and present them as "Non-Signature Possible Solutions", only because it could save an extra click. By this I mean there would be 6 of those in total, the original 3 with Signatures Found, and 3 Extra Suggestions of possible answers.|I did not.
+48128|recent|true|true|271693|1|1|1|0|0|0|0|null|5|It was all good, these are the kind of problems I usually get lost badly, but I managed to solve it in time, as a fresh beginner in the language.|All good.|I did not.
+48128|serve|false|true|123687|1|0|0|0|1|0|1|null|5|I've seen my teammates/coworkers use these routes before, but this one was the first one I have written myself and managed to pass it in the first try without being 100% sure it's correct. I am a little familiarized with routes thanks to HTML and the browser's navigation bar, but personally with JS, no. This tool is great.|All good, maybe suggestions like Google's "Did you mean...?" in case inexperienced users like me don't know some of the technical words (e.x. saying "local variables" instead of "cookies" if clearly talking about web development or the proper context...).|I did not.
+49394|currency|false|true|206215|1|0|0|0|1|0|2|0.06|5|At first I wasnt too sure of the approach, but after searching via scout, i thought to give it a try and it worked. Usually if I had to switch between browser and IDE, my interest would have been lost a bit.|Had to resize the scout window, as it was kinda opening direct stackoverflow links in its designated region, which inturn cramps up entire text. But thats just a css thing.|Nope dint search.
+49394|find|true|true|60810|1|1|0|0|0|0|0|null|5|All positive feedback, sometimes if I am not aware of correct syntax, checking it in scout really helps.|All is well for this question's answers|Nope, dint need to search outside of IDE
+49394|clone|true|true|72048|1|1|0|0|0|0|0|null|5|this is pretty cool. Honestly everytime I am stuck with some logic i tend to switch back to stackoverflow and checkout their answers. But with scout I dont need to leave the IDE.|in the first few results I wasn't able to find ES6 implementation. Not sure if it was particular to js. Since I knew the logic, I straightaway was able to provide an answer|Nope, the search and code usage example in scout are totally fine.
+55264|sort|false|true|235098|1|0|0|0|2|0|2|0.06|4|||
+49394|serve|false|true|588989|3|0|0|0|2|0|4|0.10|4|We need to know correct keywords to search for the best possible answer.||Nope, everything was available within scout.
+49394|recent|true|true|200281|1|2|0|0|0|0|0|null|5|This was easy to find the result, since I knew the exact search phrase. And the first result was sufficient to handle the task||Nope, dint search outside IDE.
+55264|currency|false|false|365997|1|0|0|0|5|0|20|0.11|2|||
+55264|find|true|true|136047|1|1|1|1|1|1|2|0.36|5|||
+55264|clone|true|true|141981|1|1|1|2|0|0|0|null|5|||
+55264|recent|true|true|264560|1|0|0|0|1|0|4|0.26|4|||
+55264|serve|false|false|426331|3|0|0|0|8|0|18|0.44|2|||
+56883|sort|true|true|518723|1|0|0|0|6|0|54|0.14|3|||
+56883|find|false|false|396939|1|0|0|0|2|0|18|0.42|3|||
+56883|clone|true|true|163206|1|0|0|0|1|0|3|0.07|3|||
+56883|recent|false|false|1052764|3|0|0|0|4|0|13|0.54|3|||
+56883|serve|true|false|475147|1|0|0|0|3|0|18|0.86|3|||
+57414|sort|true|true|288956|1|1|3|0|1|1|1|0.02|4|This one pulled out the code, which made things a little quicker, but still cramped on my screen. Is there a copy feature somewhere that will drop the code into my source file? I can't remember. I just selected and copied.|I don't think so, just hard to read the code when it's in a narrow panel.|I just used the tool.
+57414|find|false|true|191672|2|0|0|0|1|0|2|0.05|4|For this particular task I searched for "find item in array by value" (which was pre-filled for whatever reason), and it just gave me a Google result. So basically the experience for this one was like searching in another tab, except more cramped in a small panel.|Instead of presenting the results as plain Google search results vs. fancy parsing and pulling out code signatures, could you pull out text that "looks like" code? Kind of like a mode in between the two modes. That would help me scan the results. But it was pretty quick regardless.|I just used the tool.
+57414|currency|false|true|222796|2|0|0|0|1|0|2|0.04|4|Again, cramped version of a regular Google search, not seeing the point of the tool.|No, it was the first result, found it fast.|I did not.
+57414|recent|false|false|425408|2|0|0|0|1|0|2|0.44|1|I couldn't find anything that would accept a unit string ("days", "months" etc) to do this properly. I was torn between using Google in another tab, and hacking something together to pass the tests, I went for choice #2 since time was running out. In a real world task, I would spend more time searching for the right way to do it.|Well, I didn't see the answer I needed, so that would be the information I would've liked to see.|not this time
+57414|clone|true|true|163611|2|0|0|0|1|0|2|0.62|4|I didn't find a clear result on how to do a shallow copy, seems most people were asking about deep copies, but there were some mentions of using slice() so I went with that and it worked. Again, not really feeling that different from a Google search.|see previous answers|did not
+57414|serve|true|true|399935|2|2|1|0|1|0|5|0.54|2|I wasn't able to find a solution using the tool, because I didn't know enough about the web server to figure out what I was looking at and how to reduce it to your desired solution.|None of the results seemed to be basic enough. For this one I only needed reference materials for the server code.|I searched in Google, and the first hit from expressjs.com had the answer. I guess this is too basic of a question for stackexchange .
+59191|sort|false|true|272247|1|0|0|0|1|0|2|0.05|4|I believe that this is a simple and common enough problem that it was easy to find multiple solutions that would work. I liked how Scout was smart enough to jump to the best search result in the previews which ended up providing a working solution.|I don't believe that any additional information would have made the search result previews more helpful in this case.|I did not search outside the IDE for this task.
+59191|currency|false|true|325342|1|0|0|0|2|0|8|0.13|3|I had to go through a few results before I found one that matched the problem.|Having a tooltip show and expand with the full text being hovered over within the search result preview would be useful for smaller displays.  Ordering the search results based on date to get the most recent answer and making the date bold or otherwise more prominent would be helpful.|I did not search outside the IDE.
+59191|clone|true|false|371066|1|0|0|0|3|0|24|0.70|3|Most of the results provided were for performing a deep copy however the task stated that a shallow copy was acceptable.|Seeing the number of votes for the accepted answer in the search result previews might have made finding an answer easier as that might be an indicator of how much visibility the question had.|I did not search outside the IDE.
+59191|find|true|true|264846|1|0|0|0|1|0|2|0.05|4|A good solution was easy to find, however the best answer was a little confusing as it had additional syntax that was unnecessary.|I don't feel that there was any additional information that would have made the result previews more helpful in this instance.|I did not search outside of the IDE for this task.
+59191|recent|true|false|429370|1|1|1|0|2|0|12|0.41|4|I believe that given more time I would have found the solution with the provided search results. I believe that I should have made more use of the USAGE and CODE sections in the search result previews rather than opening the search result directly.|I don't believe any additional information was necessary in the search result previews.|I did not search outside the IDE for the task.
+59191|serve|false|false|432631|1|0|0|0|3|0|6|0.35|4|It may have been due to my search query or unfamiliarity with the problem but I believe that I would have been able to find a solution with the help of Scout if given more time.|I don't think having anything else in the search result previews would have been much more helpful.|I did not search outside the IDE.
+61514|currency|true|true|315925|1|1|1|0|1|0|2|0.10|5|I was able to find the solution instantly, however me being a neat freak it took longer just finding a way I wanted to present the code. Scout did a great job presenting the information in a manner that allowed me to work efficiently on this problem. I was able to find multiple solutions to this problem that I found helpful.|Everything was fine.|
+61514|find|true|true|130954|1|0|0|0|1|0|2|0.08|5|I was able to find what was needed almost instantly, and Perform the task better than the other tasks, because I believe that the search result previews allowed me to find exactly what I needed. It is nice seeing different solutions right in the results page, and being able to look there instead of clicking into every link.|I think this was fine.|
+61514|clone|false|true|238721|1|0|0|0|1|0|3|0.14|4|I went a different direction of this originally that made it more difficult than it had to be, Scout made finding the information needed much easier.|Maybe having some solutions show in the result section like in the Tutorial, I would like to see multiple in the results page so I don't have to click and find things.|
+61514|serve|false|false|448638|3|0|0|0|8|0|18|0.46|5|After some time browsing scout, I found the above solution and was on my way to having a similar solution. Had I had an extra minute or two I would have come to this. Scout definitely helped me come to something I have not dealt with before in JS.|No|
+62905|sort|true|false|368785|1|4|3|1|0|0|0|null|3|I made some typos in the code (i.e. 'traeds' instead of 'trades') and also didn't replace the name of the array in the sample code snippet quickly. This used up most of my time. Finding a relevant code sample seemed straightforward enough using Scout. However, due to time wasted on the above I could not tell for sure if the sample I used would have worked. The sample solution you have provided was the next option which is what I would have tried if I had more time.|It might have been more useful if the simpler code snippets were at the top of the search results.|I did not search outside of the IDE.
+62905|currency|false|true|193807|1|0|0|0|1|0|2|0.03|5|I was able to find the relevant code snippet easily using the Scout tool. It saved me time compared to not using the tool.|The search results seemed optimum for this particular task|I did not search outside of the IDE.
+62905|find|false|true|157286|3|0|0|0|3|0|2|0.08|5|I was easily able to put in a search term and get a relevant answer with a code sample using the scout tool. ||
+62905|clone|true|true|155642|2|2|1|3|0|0|0|null|4|The selection of results using Scout were useful in getting a code snippet. The first one I tried (using JSON.stringify....) did not work. The second (using the map function and Object.Assign) did.  The slice option was quite a bit further done the search results.|Again, it might have been more useful to list the results on the basis of the simplest code snippet.|I did not search outside the IDE.
+62905|serve|true|false|426601|2|5|5|2|0|0|0|null|3|I liked the fact that there were a number of relevant search items returned. However, it seemed difficult to determine exactly what part of the code snippet I needed to use. I think I got close with my attempt, however I would have needed more time.|The search results were good, but I needed more time.|I did not search outside of the IDE
+62905|recent|false|true|177185|2|0|0|0|1|0|2|0.27|4|I got relevant search results using Scout. The first one returned gave me the code snippet I needed so the experience was good.|In this case, it worked well for me.|I did not search outside of the IDE.
+65727|currency|true|true|211449|1|0|0|0|1|0|2|0.05|5|Scout is helping me so much. The results are easy to use.|No|I did not search outside the IDE.
+65727|find|true|true|85763|1|0|0|0|1|0|2|0.06|5|The first search result in Scout was very useful.|No.|I did not search outside the IDE.
+65727|recent|true|true|244031|2|0|0|0|2|0|5|0.28|5|This task was harder than the previous. Still Scout was very helpful!|No|I did not search outside the IDE.
+65727|serve|false|false|428474|1|0|0|0|2|0|6|0.49|1|I wasn't so sure what search terms to use to find an answer using Scout.|It would have been helpful to rank the searches based on number of StackOverflow likes.|I did not search outside the IDE.
+69302|currency|true|false|358978|1|4|1|0|2|0|2|0.17|4|I liked that it generated a search string automatically and that it gives me several options. I didn't like that the result that I needed was third in line, I would have expected more relevant results to come up earlier. I found the interaction a bit clunky, the interface is a bit too busy|no|NA
+69302|find|false|true|143556|1|0|0|0|1|0|2|0.37|4|I would have liked to see the embedded search results rather than going directly to google search but it worked|nothing|NA
+69302|clone|false|true|446526|1|0|0|0|1|0|2|0.08|2|the signature wasn't available, it had to go through the normal Google searches. There was a network delay so it took longer than expected to load|having the code view instead of just the google search would have been helpful|NA
+69302|recent|false|true|313300|2|0|0|0|1|0|2|0.21|4|I would have liked not having to come up with my own search terms and getting the signature page rather than the google search. It felt like a more cramped version of just googling stuff myself so not super different from using my browser|no really, once I got to the solution it was straightforward enough|no
+69302|serve|true|true|405200|3|7|2|0|3|0|7|0.83|2|adding path to my search terms wasn't useful, I found it fairly confusing and had to poke at the code by trial and error. However I am not familiar with using express |a more structured suggested query|NA
+69321|sort|true|true|127963|1|1|0|0|0|0|0|null|5|This task was perfect use case for this tool. first suggestion helped me finish the task easily.||
+69321|currency|true|true|148084|1|1|1|0|0|0|0|null|5|the ranking of the suggestions could be improved. for example, the solution i was searching for was not the first result in the search.|default to code tab instead of usage in search results.|I did not
+69321|find|false|true|83508|1|0|0|0|2|0|6|0.07|2|The screen space is so small that it does not save time than searching outside ide.||window is small to keep scrolling for the solution.
+69321|clone|false|true|98825|2|0|0|0|2|0|3|0.45|2|without code preview, I prefer using the browser with more screen space to quickly search for usage results.||the search window in ide is so small that I switched to searching same in another tab.
+69321|recent|false|true|286482|1|0|0|0|0|0|0|null|3|The window is small and i cannot read the whole question on stackoverflow. resulting in many unnecessary clicks wasting time.|usage and preview code.|small window size making it hard to eliminate links by reading questions.
+69321|serve|true|true|172801|2|2|0|0|0|0|0|null|5|liked the usage and code preview.|some way to view the whole question or adding a horizontal scroll to view the whole question without clicking the link.|I did not
+73430|sort|false|true|171916|1|0|0|0|2|0|2|0.06|5|||
+73430|currency|true|true|175764|1|3|0|1|0|0|0|null|4|||
+73430|serve|false|false|426508|2|0|0|0|6|0|13|0.39|1|||
+73430|recent|true|false|432831|1|1|0|1|0|0|0|null||||
+76613|sort|false|true|316981|2|0|0|0|5|0|4|null|4|I couldn't use the actual signature feature because of an error ("For security reasons, framing is not allowed."), but even the preview (the first three lines shown for the search result) was helpful enough||
+76613|currency|true|true|183859|1|1|0|1|0|0|0|null|4|It wasn't too hard to find, although the sorting wasn't ideal (the top results were related to other kinds of number formatting)|Translating the example from the search result to the given task could have been easier if the result would e.g. match the parameters from the task.|
+76613|find|true|true|95085|1|2|0|0|0|0|0|null|5|It was really easy to find the answer, even though it wasn't the first one in the list because they were nicely collapsed. The example also helped||
+76613|clone|false|true|175651|2|0|0|0|4|0|1|null|5|It was very easy to immediately find the answer in the first line of the preview.||
+81897|sort|true|true|85263|1|1|1|1|0|0|0|null|5|I liked that the first item in the list had the answer I needed, and also that the code snippets are now showing properly.  It would be nice if in answers where there are multiple code snippets, the one that is shortest is chosen to be shown first since that is usually the simpler method. |No.|
+81897|find|false|true|103684|2|0|0|0|2|0|2|0.08|4|The code snippets didn't show up this time and it only showed me the stack overflow search results which was less intuitive.|Code snippets as part of the preview.|
+81897|currency|false|true|124791|2|0|0|0|2|0|2|0.06|5|I liked that the first result of the search had the answer that I needed. |The code snippets being visible from outside would have helped, I don't know why that is no longer working.|
+81897|clone|true|true|29246|1|2|1|0|0|0|0|null|5|I like that the first solution had the answer I needed, but it showed multiple different function signatures, and only one of them was relevant for the code that I was trying to implement. It showed json.parse, json.stringify, and .slice() but for this problem .slice() was the only relevant one. |No.|
+81897|recent|false|true|147074|2|0|0|0|2|0|4|0.26|4|Although the answer was quickly findable in the first question, the code snippets once again did not show up, and I can't figure out how to add javascript manually to that search.|Code snippets.| 
+81897|serve|true|true|144098|1|3|0|2|2|0|4|0.47|3|The first question was not what I was looking for, and there were no code snippets so I skipped over it. The second question had a few code snippets, but only one of them was relevant to serving static files on a specific route, and it took some trial and error before I could figure it out.|Highlight/direct to the answer that is most relevant to my case.|
+87190|sort|true|true|275172|1|1|1|0|0|0|0|null|5|it's hard to copy and paste from scout|No|I didn't.
+87190|currency|true|false|365064|1|2|0|0|1|0|1|0.02|4|I should have searched sooner, but I wanted to see what I could do on y own.|No, not really|I did not.
+87190|clone|false|true|76157|1|0|0|0|1|0|2|0.03|4|It was a bit weird having it go to google results, but probably easier for me to understand|No|
+87190|find|false|true|87737|1|0|0|0|1|0|2|0.06|5|Nothing beyond what I've already said|No|
+87190|recent|false|true|150197|1|0|0|0|2|0|5|0.27|4|It's just google in the sidebar. It would be easier for me to use actual google because then i could copy/paste||
+87190|serve|true|false|424812|1|1|1|0|0|0|0|null|3|I could not type in the IDE on this task.|Honestly I didn't understand any of it really because I couldn't actually try things.|
+91073|sort|true|true|343337|1|3|1|1|0|0|0|null|2|I found code that sorts ascending and other unknown code using sortBy||
+91073|currency|false|true|144284|1|0|0|0|1|0|2|0.05|4|It didn't show me the signatures. It said cannot find signatures using google results.||
+91073|clone|true|true|50497|1|4|1|1|0|0|0|null|4|The Usage tab shows only one step like JSON.parse which is hard to copy. ||
+91073|find|false|true|105678|2|0|0|0|2|0|2|0.05|4|It's nice to have stack overflow browser in IDE but for such a easy task I don't think it's more efficient to use it.||
+91073|recent|false|true|183946|2|0|0|0|2|0|4|0.07|5|It didn't show me any search suggestions but overall it was pretty easy to find the solution.||
+91073|serve|true|true|332391|2|3|2|3|1|0|1|0.11|3|||
+92307|sort|true|true|222067|1|5|5|3|0|0|0|null|3|Seems to include some useless results amongst the helpful ones||
+92307|currency|true|true|362816|1|4|4|3|0|0|0|null|2|The extension seems to work well, but the help needed was quite far down.|Less clutter|
+92307|find|false|true|85311|1|0|0|0|1|0|2|0.06|5|Didn't see the comment about undefined or [] until I clicked submit sorry||
+92307|clone|false|true|43244|1|0|0|0|1|0|2|0.09|5|Very helpful that time!||
+92307|recent|false|true|298918|2|0|0|0|1|0|2|0.17|4|Once I understood the task, then it was quick and easier to find my answer.||
+92307|serve|true|true|147415|1|3|1|2|1|0|1|0.43|5|Again another easy one, extension works fantastic and really helped||
+92652|currency|false|true|null|1|0|0|0|3|0|24|0.13|null|null|null|null
+92652|find|true|true|null|1|1|1|1|0|0|0|null|null|null|null|null
+92652|recent|true|true|327241|1|0|0|0|1|0|3|1.00|5|within the first search, i managed to find exactly what i was looking for and through practice it was easy to find what i was looking for |nope very easy to find a solution!|
+92652|serve|false|false|null|0|0|0|0|0|0|0|null|2|with minimal experience with express it was hard to understand the solution from the articles. i wish there had been small summaries to explain the basics but looking at the solution it looks like i wasnt too far off |maybe include documentation from express to make it a little easier to understand the framework being used|
+93100|sort|true|true|450135|1|2|0|0|1|0|2|0.02|4|||
+93100|clone|false|true|31717|1|0|0|0|1|0|1|0.02||||
+93100|currency|true|true|80720|1|2|0|1|0|0|0|null|4|horizontal scroll bar to see long line solutions is not really ideal|no|
+93100|recent|false|true|134322|2|0|0|0|2|0|4|0.42||||
+96947|currency|false|true|190256|2|0|0|0|1|0|2|0.33|4|||
+96947|recent|true|true|303379|1|5|1|0|0|0|0|null|2|I dislike how the red "submit" button has a fixed position in this pane, I didn't realize that this was scrollable and there were more questions below.|If the first result showed that subtract() can accept more than one parameter, like the second result does.|
+96947|serve|false|false|427701|2|0|0|0|3|0|18|0.81|2|||
+99741|sort|true|true|184308|1|1|3|0|1|1|2|0.06|5|Again, the "most upvoted" icon was very helpful to decide which answer to click first. |In this case, comments in the code would have been useful to determine how to sort descending vs. ascending. It was easy though to view the full answer with comments.|
+99741|currency|true|true|222767|1|4|0|0|0|0|0|null|5|I like the icons displaying which was the correct or most-upvoted answer. The icons helped decide where to click first. I am curious how the answers are ranked - is that Google? I may have missed that information in the introduction to the tool.||
+99741|clone|false|true|123087|2|0|0|0|8|0|5|0.28|5|Scout was missing the organized function call signatures like the previous tasks. I liked those! My results looked like Google. ||
+99741|find|false|true|125379|1|0|0|0|1|0|2|0.04|5|From the titles shown by the google search, I am able to quickly determine which link to click. |I couldn't see the function signatures from Scout, so had a list of Google search results. I was able to click the links to be directed to the original Stack Overflow site. |
+99741|recent|false|true|417754|2|0|0|0|2|0|5|0.18|5|Again, the search results didn't have the method signatures/function summaries. Instead the results looked like Google. Still helpful to have that information in the IDE. ||
+99741|serve|true|true|298901|1|7|5|0|2|2|8|0.60|4|In this case, I needed information about the question being asked, not just the answer's code. There were two functions, static() and use(), and I was unsure how they were used. I opened the full answer to see what question they were answering. ||
+99907|find|true|true|113471|1|2|3|1|0|0|0|null|5|Good that it extracts the code out, that's very handy. Confused on what the Usage vs Code does...||
+99907|sort|false|true|178069|2|0|0|0|2|0|1|0.06|4|For this task it was just stackoverflow in a window in the IDE.|No it was good|
+99907|currency|true|true|132730|1|1|0|2|0|0|0|null|5|||
+99907|clone|false|true|205973|1|0|0|0|1|0|4|0.13|5|||
+99907|serve|false|false|424305|6|0|0|0|7|0|8|0.40|2|Didn't get any search previews||
+99907|recent|true|true|428219|2|5|1|0|0|0|0|null|5|The search bar deletes some of my text the first time I use it.||
+12830|sort|true|false|367917|2|1|0|1|2|0|2|0.09|5|I got the exact documentation I needed, I just didn't add the '.shareCount' to my variables, otherwise I would've had the correct answer in 30 seconds.|Nope.|
+14987|recent|true|false|484515|1|2|3|0|0|0|0|null|5|It was difficult searching for similar problems and couldn't get the most accurate result to complete this task||
+17380|recent|true|false|541645|3|0|0|0|2|0|4|0.16|2|The search results window was too small.|No.|I searched outside the IDE in order to utilize a full-size browser window.
+29016|clone|true|true|211228|2|5|1|1|2|2|2|0.05|4|I liked the integration into the development environment. The search did include answers for languages that were not relevant here.|maybe a timestamp to show how old the solution is. especially for languages where APIs change frequently, this would be helpful.|
+32156|serve|true|false|571036|6|16|3|0|1|0|2|0.07|2|Only pulling up information from soo seems to be insufficient for certain tasks.|Suggest documentation pages based on problem spec?|
+61514|recent|true|false|429998|4|6|1|0|0|0|0|null|2|I found it was difficult to find what I needed applying my own search query into Scout, but perhaps I was looking in the wrong places. I see now looking above at the solution where I went wrong as I was making changes to the wrong area. The links I looked at were also a bit misleading or I interpreted them poorly. Given an extra few minutes I may have come to this solution.|My own judgement should have been better to apply the previews.|
+93100|serve|true|false|812669|9|12|2|0|11|0|31|0.60|3|||
+69302|sort|true|true|308065|2|4|1|0|3|0|8|0.57|4|I still think the Scout interface is a bit too busy and I had to refine the original search but it gave me what I needed|adding the type of object type directly in the autogenerated search would have been better|NA
