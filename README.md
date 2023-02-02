@@ -29,6 +29,7 @@ Download survey responses from the "Data and Analysis" tab of the [_Scout Evalua
 `./data/clean/`
 
 Data prepared for analysis.
+Refer to the analysis notebook for descriptions of the fields.
 The raw data is transformed by running `yarn make:datasets` from `./data/scripts/`. 
 
 
