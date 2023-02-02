@@ -1,0 +1,12 @@
+Q1. It was easy to find a solution to the task using the search result previews:
+  - Strongly Disagree
+  - Disagree
+  - Undecided
+  - Agree
+  - Strongly Agree
+Q2. Please share any feedback you have about the development task or your experience with Scout including aspects of the search result previews you liked/disliked.
+  - Text
+Q3. Is there any additional information that would have made the search result previews more helpful?
+  - Text
+Q4. If you searched outside the IDE for the task, please describe why.
+  - Text

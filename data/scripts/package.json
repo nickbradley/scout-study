@@ -16,7 +16,8 @@
     "@octokit/rest": "^19.0.4",
     "axios": "^0.26.0",
     "csv-stringify": "^6.2.3",
-    "fs-extra": "^10.1.0"
+    "fs-extra": "^10.1.0",
+    "node-html-parser": "^6.1.4"
   },
   "type": "module",
   "devDependencies": {

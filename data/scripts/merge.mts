@@ -6,7 +6,7 @@ import { basename, resolve } from "path";
 import { readdir, writeFile } from "fs/promises";
 import { stringify } from 'csv-stringify/sync';
 import { Repository } from "./Repository.js";
-import { Task } from "./Task2.js";
+import { Task } from "./Task.js";
 import { searches, timing, signatures, tasks as foo, rankings, expands, events, results, listSignatures, answers } from "./Transformers.js";
 
 enum Condition {

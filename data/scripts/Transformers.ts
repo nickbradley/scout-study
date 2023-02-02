@@ -1,5 +1,5 @@
 import { SimpleObject } from "./merge.mjs";
-import { Task } from "./Task2.js";
+import { Task } from "./Task.js";
 import Signature from "./Signature.js";
 
 export function events(task: Task): Array<SimpleObject> {
@@ -39,9 +39,12 @@ export function results(task: Task): Array<SimpleObject> {
     return task.searches
     .flatMap((search, searchSeq) => search.results
     .map((result, seq) => {
-        const answerLOC = result.signatures.reduce((acc, sig) => {
+        const answers = result.signatures.reduce((acc, sig) => {
             if (!acc[sig.answerId]) {
-                acc[sig.answerId] = sig.source.split("\n").length;
+                acc[sig.answerId] = {
+                    loc: sig.source.split("\n").length,
+                    words: sig.answerWordCount,
+                }
             }
             return acc;
         }, {});
@@ -51,8 +54,10 @@ export function results(task: Task): Array<SimpleObject> {
             searchSeq,
             url: result.url,
             seq,
-            answerCount: Object.keys(answerLOC).length,
-            loc: Object.values<number>(answerLOC).reduce((sum, loc) => sum += loc, 0),
+            answerCount: Object.keys(answers).length,
+            loc: Object.values<{loc: number; words: number}>(answers).reduce((loc, answer) => loc += answer.loc, 0),
+            words: Object.values<{loc: number; words: number}>(answers).reduce((words, answer) => words += answer.words, 0),
+            title: result.title,
         }
     })
     )

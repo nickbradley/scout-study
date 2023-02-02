@@ -1,0 +1,37 @@
+Q1. Do you have experience programming in JavaScript? [Prolific]
+  - No
+  - Yes
+Q2. Which of the listed websites do you most frequently use as an aid when programming? [Prolific, MTurk]
+  - Wikipedia
+  - LinkedIn
+  - StackOverflow
+  - MemoryAlpha
+  - I have not used any of the websites above for programming
+  - I don't program
+Q3. Please select the answer "Octal". This is an attention check. [Prolific]
+  - Duodecimal
+  - I don't know
+  - Octal
+  - Binary
+  - Decimal
+  - Hexadecimal
+Q4. Choose the answer that best fits the description of a compiler's function. [Prolific, MTurk]
+  - Refactoring code
+  - Connecting to the network
+  - Aggregating user data
+  - I don't know
+  - Translating code into executable instructions
+  - Collecting user data
+Q5. What is the value of x after the following code executes? [Prolific, MTurk]
+function foo(n) {
+    if (n <= 1) {
+        return n;
+    }
+    return foo(n - 2) + foo(n - 1);
+}
+const x = foo(2);
+  - 1
+  - 2
+  - 3
+  - 5
+  - I don't know

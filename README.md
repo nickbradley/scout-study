@@ -2,33 +2,40 @@
 
 This repository contains code to support running the Scout study and the resulting data that was collected.
 
-The Scout tool can be found [here](https://github.com/nickbradley/scout).
-The tool for running the study in VSCode is [here](https://github.com/nickbradley/toast).
+The Scout tool can be found [here]().
+The tool for running the study in VSCode is [here]().
 
-## Data
 
-### Gathering raw data
+## Instruments
 
-Raw study data from GitHub (`data/repos`) and Qualtrics (`data/survey-responses.tsv`) go here.
+- `post-study-questions.txt` Survey questions asked once participants completed all of the tasks.
+- `post-task-questions.txt` Questions asked in the IDE each time a participant completed each task.
+- `prescreen-questions.txt` Questions used to screen workers on the Prolific and Mechanical Turk Platforms for JavaScript experience.
 
-Add all valid repos to `data/repolist`.
-You can then download the repos by running `yarn clone:repos` from the `./scripts`.
+## Raw Data
+
+`./data/raw/`
+
+Archived participant GitHub repositories and survey responses.
+The archive name corresponds to a random study identifier.
+
+To download the repos, add their URLs to `./data/repolist` and run `yarn clone:repos` from `./data/scripts/`.
 
 Download survey responses from the "Data and Analysis" tab of the [_Scout Evaluation_](https://ubc.yul1.qualtrics.com/responses/#/surveys/SV_29vvq6zg3DIivmS) survey on qualtrics. Click the dropdown next to "Add Filter" and choose "completed-tasks" which should filter the responses to 40. Click "Export & Import > Export Data..." Under the CSV option, uncheck "Download all fields" and click "Download". Note that the fields/columns in the Data and Analysis tab have already been selected to match the data to import in the Notebook. 
+
+
+## Clean Data
+
+`./data/clean/`
+
+Data prepared for analysis.
+The raw data is transformed by running `yarn make:datasets` from `./data/scripts/`. 
+
 
 ## Resources
 
 A collection of random files and scripts to manage the study.
 
-### Managing CodeSpaces (cs-cleaner)
-
-GitHub only allows a maximum of 30 codespaces to be running at time.
-Attempting to create a new codespace once the maximum has been reached results in a client error (e.g., when the survey attempts to provision a workspace).
-
-This limit can be quickly reached as mechanical turk workers start the survey and provision a workspace only to drop out of the study.
-To control this, I have created a small package `cs-cleaner` in `./resources` that gets the active codespaces from GitHub and deletes any that have not been used recently (configurable).
-It is deployed on heroku as `enigmatic-brook-86776` and scheduled to run every 60 minutes.
-See the [README.md](./resources/cs-cleaner/README.md) for deployment instructions.
 
 ### JavaScript for Survey pages (survey-pages)
 
