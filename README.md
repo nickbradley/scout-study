@@ -5,6 +5,9 @@ This repository contains code to support running the Scout study and the resulti
 The Scout tool can be found [here]().
 The tool for running the study in VSCode is [here]().
 
+## Analysis
+
+- `scout_analysis_Rmd.ipynb` The study analysis notebook. We created it on Google Colab with an R kernel.
 
 ## Instruments
 
